@@ -309,45 +309,44 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsDefineTypeToken       &quot;define&quot;</span></div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsEnqueueTypeToken      &quot;enqueue&quot;</span></div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsElementToken          &quot;e&quot;   // used for Cluster, BitCluster, and array aggregate types for simple elements</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsAliasToken            &quot;al&quot;  // alias to another element.</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsInputParamToken       &quot;i&quot;   // input parameter</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsOutputParamToken      &quot;o&quot;   // output parameter</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsInputOutputParamToken &quot;io&quot;  // input-output parameter</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsImmediateParamToken   &quot;im&quot;  // Immediate mode (not byref), only in paramblocks. size must be &lt;= size_t</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsConstElementToken     &quot;ce&quot;  // used for Cluster elements in Locals: section to indicate immutable value</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsAliasToken            &quot;al&quot;  // alias to another element.</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsInputParamToken       &quot;i&quot;   // input parameter</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsOutputParamToken      &quot;o&quot;   // output parameter</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsInputOutputParamToken &quot;io&quot;  // input-output parameter</span></div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsStaticParamToken      &quot;s&quot;   // static not explicitly passed, allocated in param block and preserved between</span></div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsTempParamToken        &quot;t&quot;   // temp param, not passed, allocated in param block and can be thrown away</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsVolatileToken         &quot;x&quot;   // volatile parameter, not explicitly passed or allocated in the param block</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsEquivalenceTypeToken  &quot;eq&quot;  // for alternate views on the same set of bits.</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsNamedTypeToken        &quot;.&quot;</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor">#define tsParamBlockTypeToken   &quot;p&quot;   // Used for defining param blocks used by native functions.</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsPointerTypeToken      &quot;ptr&quot;</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsRefNumTypeToken       &quot;refnum&quot;</span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#define tsControlReferenceToken &quot;ControlReference&quot;</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsControlRefNumToken    &quot;ControlRefNum&quot;</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">#define tsEnumTypeToken         &quot;Enum&quot;</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsEnumTypeTokenLen      4     // strlen of above</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">#define tsDefaultValueToken     &quot;dv&quot;</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsVarValueToken         &quot;var&quot;</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">#define tsClumpsToken           &quot;clumps&quot;</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsClumpToken            &quot;clump&quot;</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#define tsCallVIToken           &quot;CallVI&quot;</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsCopyOpToken           &quot;Copy&quot;</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsPerchOpToken          &quot;Perch&quot;</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsFireCountOpToken      &quot;FireCount&quot;</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">#define tsExecutionContextType  &quot;ExecutionContext&quot;</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsTypeManagerType       &quot;TypeManager&quot;</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsVIClumpType           &quot;Clump&quot;</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;}  <span class="comment">// namespace Vireo</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">#endif  // TDCodecVia_h</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsEquivalenceTypeToken  &quot;eq&quot;  // for alternate views on the same set of bits.</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsNamedTypeToken        &quot;.&quot;</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor">#define tsParamBlockTypeToken   &quot;p&quot;   // Used for defining param blocks used by native functions.</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsPointerTypeToken      &quot;ptr&quot;</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsRefNumTypeToken       &quot;refnum&quot;</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">#define tsControlReferenceToken &quot;ControlReference&quot;</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsControlRefNumToken    &quot;ControlRefNum&quot;</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor">#define tsEnumTypeToken         &quot;Enum&quot;</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsEnumTypeTokenLen      4     // strlen of above</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">#define tsDefaultValueToken     &quot;dv&quot;</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsVarValueToken         &quot;var&quot;</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">#define tsClumpsToken           &quot;clumps&quot;</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsClumpToken            &quot;clump&quot;</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">#define tsCallVIToken           &quot;CallVI&quot;</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsCopyOpToken           &quot;Copy&quot;</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsPerchOpToken          &quot;Perch&quot;</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsFireCountOpToken      &quot;FireCount&quot;</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">#define tsExecutionContextType  &quot;ExecutionContext&quot;</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsTypeManagerType       &quot;TypeManager&quot;</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define tsVIClumpType           &quot;Clump&quot;</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;}  <span class="comment">// namespace Vireo</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">#endif  // TDCodecVia_h</span></div>
 <div class="ttc" id="class_vireo_1_1_t_d_via_parser_html"><div class="ttname"><a href="class_vireo_1_1_t_d_via_parser.html">Vireo::TDViaParser</a></div><div class="ttdoc">The VIA decoder, also includes options for JSON and C style initializers. </div><div class="ttdef"><b>Definition:</b> TDCodecVia.h:91</div></div>
 <div class="ttc" id="struct_vireo_1_1_error_cluster_html"><div class="ttname"><a href="struct_vireo_1_1_error_cluster.html">Vireo::ErrorCluster</a></div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:1225</div></div>
 <div class="ttc" id="class_vireo_1_1_v_i_clump_html"><div class="ttname"><a href="class_vireo_1_1_v_i_clump.html">Vireo::VIClump</a></div><div class="ttdoc">A Clump owns an instruction list its execution state. </div><div class="ttdef"><b>Definition:</b> VirtualInstrument.h:142</div></div>

@@ -176,6 +176,16 @@ Enumerations</h2></td></tr>
 <b>kAppEventOracleIdx</b> = 0
  }</td></tr>
 <tr class="separator:a201836723811d659de29134c1518b870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1196e59daff89bb1d85bff733507997a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>EventRegFlags</b> { <br/>
+&#160;&#160;<b>kEventRegFlagsNone</b> = 0L, 
+<b>kEventRegFlagsLocksUI</b> = 1, 
+<b>kEventRegFlagsCallback</b> = 2, 
+<b>kEventRegFlagsHasLossyLimit</b> = 4, 
+<br/>
+&#160;&#160;<b>kEventRegFlagsPolyData</b> = 8
+<br/>
+ }</td></tr>
+<tr class="separator:a1196e59daff89bb1d85bff733507997a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -206,6 +216,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::CleanUp
 <tr class="memitem:a4d4fbb0914c952b5898d9468be23050d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d4fbb0914c952b5898d9468be23050d"></a>
 static InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::ReturnRegForEventsFatalError</b> (const char *errorMessage, Int32 refInput)</td></tr>
 <tr class="separator:a4d4fbb0914c952b5898d9468be23050d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd55303214cc568e5f8e4ca489d25a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecd55303214cc568e5f8e4ca489d25a0"></a>
+LVError&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::RegisterForEventsCore</b> (EventQueueID qID, DynamicEventRegInfo *regInfo, Int32 refInput, TypeRef refType, EventSource eSource, EventType eventType, void *pData, void *pOldData)</td></tr>
+<tr class="separator:aecd55303214cc568e5f8e4ca489d25a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adec8098cf699c6ebec9a43d8945bcede"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adec8098cf699c6ebec9a43d8945bcede"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATUREV</b> (RegisterForEvents, RegisterForEventsParamBlock)</td></tr>
 <tr class="separator:adec8098cf699c6ebec9a43d8945bcede"><td class="memSeparator" colspan="2">&#160;</td></tr>

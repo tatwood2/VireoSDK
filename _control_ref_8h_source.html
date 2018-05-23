@@ -103,10 +103,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">typedef</span> RefNum ControlRefNum;  <span class="comment">// RefNum to be used with Control Ref Num API (or underlying RefNumManager class)</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// Control RefNum API: create, lookup, and destroy control refnums</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;ControlRefNum ControlReferenceCreate(VirtualInstrument *vi, <span class="keyword">const</span> SubString &amp;controlTag);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;ControlRefNum ControlReferenceCreate(VirtualInstrument *vi, <span class="keyword">const</span> StringRef &amp;controlTag);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;ControlRefNum ControlReferenceCreate(RefNumVal *pRefNumVal, VirtualInstrument *vi, <span class="keyword">const</span> SubString &amp;controlTag);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;NIError ControlReferenceLookup(ControlRefNum refnum, VirtualInstrument **pVI, SubString *pControlTag);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;NIError ControlReferenceLookup(ControlRefNum refnum, VirtualInstrument **pVI, StringRef *pControlTag);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;NIError ControlReferenceDestroy(ControlRefNum refnum);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;NIError ControlReferenceAppendDescription(StringRef str, ControlRefNum refnum);</div>

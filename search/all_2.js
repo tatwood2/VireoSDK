@@ -12,5 +12,6 @@ var searchData=
   ['blockitr',['BlockItr',['../class_vireo_1_1_block_itr.html',1,'Vireo']]],
   ['blockitr',['BlockItr',['../class_vireo_1_1_block_itr.html#a75448e961e66388cbfaa40056acc354b',1,'Vireo::BlockItr']]],
   ['buildclusterarrayparamblock',['BuildClusterArrayParamBlock',['../struct_vireo_1_1_build_cluster_array_param_block.html',1,'Vireo']]],
-  ['buildconfig_2eh',['BuildConfig.h',['../_build_config_8h.html',1,'']]]
+  ['buildconfig_2eh',['BuildConfig.h',['../_build_config_8h.html',1,'']]],
+  ['bytearraytostringparamblock',['ByteArrayToStringParamBlock',['../struct_vireo_1_1_byte_array_to_string_param_block.html',1,'Vireo']]]
 ];

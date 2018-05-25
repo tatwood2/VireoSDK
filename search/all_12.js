@@ -20,6 +20,7 @@ var searchData=
   ['stringlength',['StringLength',['../class_vireo_1_1_sub_string.html#af1c0f904fd789351543321a43fe9a91e',1,'Vireo::SubString']]],
   ['stringrefcmp',['StringRefCmp',['../struct_vireo_1_1_queue_ref_num_manager_1_1_string_ref_cmp.html',1,'Vireo::QueueRefNumManager']]],
   ['stringscanparamblock',['StringScanParamBlock',['../struct_vireo_1_1_string_scan_param_block.html',1,'Vireo']]],
+  ['stringtobytearrayparamblock',['StringToByteArrayParamBlock',['../struct_vireo_1_1_string_to_byte_array_param_block.html',1,'Vireo']]],
   ['stringutilities_2ecpp',['StringUtilities.cpp',['../_string_utilities_8cpp.html',1,'']]],
   ['stringutilities_2eh',['StringUtilities.h',['../_string_utilities_8h.html',1,'']]],
   ['subbinarybuffer',['SubBinaryBuffer',['../class_vireo_1_1_sub_binary_buffer.html',1,'Vireo']]],

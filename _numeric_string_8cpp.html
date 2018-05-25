@@ -107,6 +107,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="_execution_context_8h_source.html">ExecutionContext.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_string_utilities_8h_source.html">StringUtilities.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_t_d_codec_via_8h_source.html">TDCodecVia.h</a>&quot;</code><br/>
+<code>#include &quot;../../ThirdParty/utfcpp/source/utf8.h&quot;</code><br/>
 <code>#include &lt;math.h&gt;</code><br/>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -116,6 +117,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vireo_1_1_string_format_param_block.html">Vireo::StringFormatParamBlock</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vireo_1_1_string_scan_param_block.html">Vireo::StringScanParamBlock</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vireo_1_1_byte_array_to_string_param_block.html">Vireo::ByteArrayToStringParamBlock</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vireo_1_1_string_to_byte_array_param_block.html">Vireo::StringToByteArrayParamBlock</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -213,6 +218,18 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::MakeFor
 <tr class="memitem:ae5e1e45bd562cf1a6fc197a60f80299b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5e1e45bd562cf1a6fc197a60f80299b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATUREV</b> (StringScan, StringScanParamBlock)</td></tr>
 <tr class="separator:ae5e1e45bd562cf1a6fc197a60f80299b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab2078949d7f53fcee4e4fc051be761"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ab2078949d7f53fcee4e4fc051be761"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::CheckUnsupportedEncodingError</b> (ErrorCluster *errorCluster, UInt16 stringEncoding, TypedArrayCoreRef outputArray)</td></tr>
+<tr class="separator:a2ab2078949d7f53fcee4e4fc051be761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b3fdff64b5fa19717676b701057343"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36b3fdff64b5fa19717676b701057343"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::CheckValidUTF8Error</b> (UInt8 *begin, UInt8 *end, ErrorCluster *errorCluster)</td></tr>
+<tr class="separator:a36b3fdff64b5fa19717676b701057343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5105175846affda555d847546a0d2c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5105175846affda555d847546a0d2c0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURET</b> (ByteArrayToString, ByteArrayToStringParamBlock)</td></tr>
+<tr class="separator:ae5105175846affda555d847546a0d2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8fcb69e4bf7d16f377d72d50a82ec4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd8fcb69e4bf7d16f377d72d50a82ec4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURET</b> (StringToByteArray, StringToByteArrayParamBlock)</td></tr>
+<tr class="separator:acd8fcb69e4bf7d16f377d72d50a82ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e386d0a817f90e7277a1ce6367d91a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59e386d0a817f90e7277a1ce6367d91a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (StringFormatValue,&quot;p(o(String) i(String) i(StaticTypeAndData))&quot;) DEFINE_VIREO_FUNCTION(StringFormat</td></tr>
 <tr class="separator:a59e386d0a817f90e7277a1ce6367d91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,6 +239,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::MakeFor
 <tr class="memitem:af00375292b929899addbdb47452465e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af00375292b929899addbdb47452465e1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(String) o(String) i(String) o(StaticTypeAndData))&quot;) DEFINE_VIREO_FUNCTION(StringScan</td></tr>
 <tr class="separator:af00375292b929899addbdb47452465e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02a553dbe64967acfb554b913543762"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad02a553dbe64967acfb554b913543762"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(VarArgCount) i(String) o(String) i(String) i(UInt32) o(UInt32) io(ErrorCluster err) o(StaticTypeAndData))&quot;) DEFINE_VIREO_FUNCTION(ByteArrayToString</td></tr>
+<tr class="separator:ad02a553dbe64967acfb554b913543762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad073ad5fbdb06d3543f7310fb628273c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad073ad5fbdb06d3543f7310fb628273c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(Array) i(UInt16) o(String) io(ErrorCluster err))&quot;) DEFINE_VIREO_FUNCTION(StringToByteArray</td></tr>
+<tr class="separator:ad073ad5fbdb06d3543f7310fb628273c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

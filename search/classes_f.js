@@ -11,6 +11,7 @@ var searchData=
   ['stringformatparamblock',['StringFormatParamBlock',['../struct_vireo_1_1_string_format_param_block.html',1,'Vireo']]],
   ['stringrefcmp',['StringRefCmp',['../struct_vireo_1_1_queue_ref_num_manager_1_1_string_ref_cmp.html',1,'Vireo::QueueRefNumManager']]],
   ['stringscanparamblock',['StringScanParamBlock',['../struct_vireo_1_1_string_scan_param_block.html',1,'Vireo']]],
+  ['stringtobytearrayparamblock',['StringToByteArrayParamBlock',['../struct_vireo_1_1_string_to_byte_array_param_block.html',1,'Vireo']]],
   ['subbinarybuffer',['SubBinaryBuffer',['../class_vireo_1_1_sub_binary_buffer.html',1,'Vireo']]],
   ['substring',['SubString',['../class_vireo_1_1_sub_string.html',1,'Vireo']]],
   ['subvector',['SubVector',['../class_vireo_1_1_sub_vector.html',1,'Vireo']]],

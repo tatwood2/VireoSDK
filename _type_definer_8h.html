@@ -127,7 +127,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a10d17b4296169af2949261ad527de379"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>DEFINE_VIREO_BEGIN</b>(_module_)</td></tr>
 <tr class="separator:a10d17b4296169af2949261ad527de379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee62954d9c921543f6eaf9082c2a209"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ee62954d9c921543f6eaf9082c2a209"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>DEFINE_VIREO_END</b>()&#160;&#160;&#160;return <a class="el" href="_data_types_8h.html#ac97b8ee753e4405397a42ad5799b0f9e">null</a>; }</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DEFINE_VIREO_END</b>()&#160;&#160;&#160;return nullptr; }</td></tr>
 <tr class="separator:a9ee62954d9c921543f6eaf9082c2a209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade9458588f7170c95c738505bf90d5a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><b>DEFINE_VIREO_REQUIRE</b>(_module_)</td></tr>
 <tr class="separator:ade9458588f7170c95c738505bf90d5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,7 +176,7 @@ typedef <a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e4
 <div class="line">      static TypeDefiner TOKENPASTE2(TheTypeDefiner, _module_, __LINE__) ( \</div>
 <div class="line">        TOKENPASTE2(DefineTypes, _module_, __LINE__), #_module_, kVireoABIVersion); \</div>
 <div class="line">      static <a class="code" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a> TOKENPASTE2(DefineTypes, _module_, __LINE__) (TypeDefiner* _this, TypeManagerRef tm) {</div>
-<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only null terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
+<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only nullptr terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -198,7 +198,7 @@ typedef <a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e4
 <div class="line">    static TypeDefiner TOKENPASTE2(TheTypeDefiner, _module_, __LINE__) ( \</div>
 <div class="line">        TOKENPASTE2(DefineTypes, _module_, __LINE__), #_module_, kVireoABIVersion); \</div>
 <div class="line">    static <a class="code" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a> TOKENPASTE2(DefineTypes, _module_, __LINE__) (TypeDefiner* _this, TypeManagerRef tm) {</div>
-<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only null terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
+<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only nullptr terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -313,7 +313,7 @@ typedef <a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e4
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ <a class="code" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a> moduleName = #_module_;   \</div>
 <div class="line">      if (!TypeDefiner::HasRequiredModule(_this, moduleName)) { <span class="keywordflow">return</span> moduleName; } }</div>
-<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only null terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
+<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only nullptr terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
 </div><!-- fragment -->
 </div>
 </div>

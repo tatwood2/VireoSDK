@@ -127,9 +127,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> getDate(<a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> timestamp, Int64* secondsOfYearPtr, Int32* yearPtr,</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        Int32* monthPtr = NULL, Int32* dayPtr = NULL, Int32* hourPtr = NULL,</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        Int32* minutePtr = NULL, Int32* secondPtr = NULL, Double* fractionPtr = NULL,</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        Int32* weekPtr = NULL, Int32* weekOfFirstDay = NULL, <span class="keywordtype">char</span>** timeZoneString = NULL);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        Int32* monthPtr = <span class="keyword">nullptr</span>, Int32* dayPtr = <span class="keyword">nullptr</span>, Int32* hourPtr = <span class="keyword">nullptr</span>,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        Int32* minutePtr = <span class="keyword">nullptr</span>, Int32* secondPtr = <span class="keyword">nullptr</span>, Double* fractionPtr = <span class="keyword">nullptr</span>,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        Int32* weekPtr = <span class="keyword">nullptr</span>, Int32* weekOfFirstDay = <span class="keyword">nullptr</span>, <span class="keywordtype">char</span>** timeZoneString = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="class_vireo_1_1_date.html">Date</a>(<a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> timestamp, Int32 timeZoneOffset);  <span class="comment">// this API is conceptually wrong;</span></div>
@@ -162,7 +162,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="_data_types_8h_html"><div class="ttname"><a href="_data_types_8h.html">DataTypes.h</a></div><div class="ttdoc">Core types (Int32,...) and ifdefs to work around a few platform collisions. </div></div>
 <div class="ttc" id="class_vireo_1_1_string_html"><div class="ttname"><a href="class_vireo_1_1_string.html">Vireo::String</a></div><div class="ttdoc">Vireo string type. Must be allocated by TypeManager not raw C++. </div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:1196</div></div>
 <div class="ttc" id="class_vireo_1_1_date_html"><div class="ttname"><a href="class_vireo_1_1_date.html">Vireo::Date</a></div><div class="ttdef"><b>Definition:</b> Date.h:30</div></div>
-<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only null terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
+<div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only nullptr terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
 <div class="ttc" id="_timestamp_8h_html"><div class="ttname"><a href="_timestamp_8h.html">Timestamp.h</a></div><div class="ttdoc">Timestamp class definition. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

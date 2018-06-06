@@ -6,7 +6,7 @@ var searchData=
   ['readfile',['ReadFile',['../class_vireo_1_1_platform_i_o.html#a4b192adfc40e588427773825ead96d82',1,'Vireo::PlatformIO']]],
   ['readgraphemecluster',['ReadGraphemeCluster',['../class_vireo_1_1_sub_string.html#aa4f20c2fc5aafaf62b2a230cf8d69b19',1,'Vireo::SubString']]],
   ['readhex2',['ReadHex2',['../class_vireo_1_1_sub_string.html#a0bb7d0df642f9d0ca6d77bb375fa5232',1,'Vireo::SubString']]],
-  ['readint',['ReadInt',['../class_vireo_1_1_sub_string.html#a4b21559aa91845e63fc783aacc13e4e0',1,'Vireo::SubString']]],
+  ['readint',['ReadInt',['../class_vireo_1_1_sub_string.html#a87b9226c8d1dcef9a2d3cc403437fb74',1,'Vireo::SubString']]],
   ['readintdim',['ReadIntDim',['../class_vireo_1_1_sub_string.html#ababb49877ff361ee792d141d01f224df',1,'Vireo::SubString']]],
   ['readintwithbase',['ReadIntWithBase',['../class_vireo_1_1_sub_string.html#a0c0d9a6d3cd0cdc9d56a6e35a1711c0f',1,'Vireo::SubString']]],
   ['readline',['ReadLine',['../class_vireo_1_1_sub_string.html#a1137edf63e1cfda8f28eb2a8fc625ed0',1,'Vireo::SubString']]],

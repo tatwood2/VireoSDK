@@ -121,10 +121,10 @@ Public Member Functions</h2></td></tr>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_bit_cluster_type.html#a0492df427a255f3670074fd29d462feb">Accept</a> (<a class="el" href="class_vireo_1_1_type_visitor.html">TypeVisitor</a> *tv)</td></tr>
 <tr class="memdesc:a0492df427a255f3670074fd29d462feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accept a <a class="el" href="class_vireo_1_1_type_visitor.html" title="Visitor class for types. ">TypeVisitor</a> algorithm. <br/></td></tr>
 <tr class="separator:a0492df427a255f3670074fd29d462feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a162271826d23f3d0af2b65c5db96f91e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a162271826d23f3d0af2b65c5db96f91e"></a>
-virtual NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_bit_cluster_type.html#a162271826d23f3d0af2b65c5db96f91e">InitData</a> (void *pData, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> pattern=<a class="el" href="_data_types_8h.html#ac97b8ee753e4405397a42ad5799b0f9e">null</a>)</td></tr>
-<tr class="memdesc:a162271826d23f3d0af2b65c5db96f91e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize (re)initialize a value to the default value for the Type. Buffer must be well formed. <br/></td></tr>
-<tr class="separator:a162271826d23f3d0af2b65c5db96f91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b936210ca724c5c46e0bb1e48a8347"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64b936210ca724c5c46e0bb1e48a8347"></a>
+virtual NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_bit_cluster_type.html#a64b936210ca724c5c46e0bb1e48a8347">InitData</a> (void *pData, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> pattern=nullptr)</td></tr>
+<tr class="memdesc:a64b936210ca724c5c46e0bb1e48a8347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize (re)initialize a value to the default value for the Type. Buffer must be well formed. <br/></td></tr>
+<tr class="separator:a64b936210ca724c5c46e0bb1e48a8347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78a985b8884345382455525f3ac30b6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78a985b8884345382455525f3ac30b6e"></a>
 virtual IntIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_bit_cluster_type.html#a78a985b8884345382455525f3ac30b6e">BitLength</a> ()</td></tr>
 <tr class="memdesc:a78a985b8884345382455525f3ac30b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the type in bits including padding. If the type is bit level it's the raw bit size with no padding. <br/></td></tr>
@@ -240,7 +240,7 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="separator:a46ef97d610c0758996321091b972a880 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d3dec43816221f72dd3d4b8e1f3d79e inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d3dec43816221f72dd3d4b8e1f3d79e"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a6d3dec43816221f72dd3d4b8e1f3d79e">IsOptionalParam</a> ()</td></tr>
-<tr class="memdesc:a6d3dec43816221f72dd3d4b8e1f3d79e inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the parameter is not required. For non flat values null may be passed in. <br/></td></tr>
+<tr class="memdesc:a6d3dec43816221f72dd3d4b8e1f3d79e inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the parameter is not required. For non flat values nullptr may be passed in. <br/></td></tr>
 <tr class="separator:a6d3dec43816221f72dd3d4b8e1f3d79e inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb148df6ef09c0b7acb8f76fee4031f5 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb148df6ef09c0b7acb8f76fee4031f5"></a>
 UsageTypeEnum&#160;</td><td class="memItemRight" valign="bottom"><b>ElementUsageType</b> ()</td></tr>
@@ -251,7 +251,7 @@ PointerTypeEnum&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="separator:a36b9e1f82d6c3b14c7af694ba198f72e inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f0b5d8ac7df9addb449db289daac5f inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57f0b5d8ac7df9addb449db289daac5f"></a>
 virtual <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a57f0b5d8ac7df9addb449db289daac5f">BaseType</a> ()</td></tr>
-<tr class="memdesc:a57f0b5d8ac7df9addb449db289daac5f inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">For a wrapped type, return the type that was wrapped, null otherwise. <br/></td></tr>
+<tr class="memdesc:a57f0b5d8ac7df9addb449db289daac5f inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">For a wrapped type, return the type that was wrapped, nullptr otherwise. <br/></td></tr>
 <tr class="separator:a57f0b5d8ac7df9addb449db289daac5f inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a874afdc6bdc7dbceee11a24d445c09cb inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a874afdc6bdc7dbceee11a24d445c09cb"></a>
 virtual <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a874afdc6bdc7dbceee11a24d445c09cb">Name</a> ()</td></tr>
@@ -282,7 +282,7 @@ virtual NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 <tr class="separator:a1f3eeaaba690de16fa19a3f307785c50 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a212acaacb165a723b27db73ecfdf3595 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a212acaacb165a723b27db73ecfdf3595"></a>
 virtual NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a212acaacb165a723b27db73ecfdf3595">ClearData</a> (void *pData)</td></tr>
-<tr class="memdesc:a212acaacb165a723b27db73ecfdf3595 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free up any storage and put value to null/zero state. <br/></td></tr>
+<tr class="memdesc:a212acaacb165a723b27db73ecfdf3595 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free up any storage and put value to nullptr/zero state. <br/></td></tr>
 <tr class="separator:a212acaacb165a723b27db73ecfdf3595 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38a2574fad098bde3c9a4d87b4cafda7 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38a2574fad098bde3c9a4d87b4cafda7"></a>
 virtual <a class="el" href="class_vireo_1_1_string.html">StringRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetEnumItemName</b> (IntIndex index)</td></tr>
@@ -300,7 +300,7 @@ NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="separator:a9af5d8346e154064e948242acdf607ec inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af10e2aa00c4f3f5b32930f4221f51683 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af10e2aa00c4f3f5b32930f4221f51683"></a>
 NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#af10e2aa00c4f3f5b32930f4221f51683">ClearData</a> (void *pData, IntIndex count)</td></tr>
-<tr class="memdesc:af10e2aa00c4f3f5b32930f4221f51683 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate and null out a linear block of value of the type. <br/></td></tr>
+<tr class="memdesc:af10e2aa00c4f3f5b32930f4221f51683 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate and nullptr out a linear block of value of the type. <br/></td></tr>
 <tr class="separator:af10e2aa00c4f3f5b32930f4221f51683 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada725049fb162d39611d44ff02a914fa inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada725049fb162d39611d44ff02a914fa"></a>
 NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#ada725049fb162d39611d44ff02a914fa">MultiCopyData</a> (const void *pSingleData, void *pDataCopy, IntIndex count)</td></tr>

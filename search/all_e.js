@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['observablecore',['ObservableCore',['../class_vireo_1_1_observable_core.html',1,'Vireo']]],
-  ['observer',['Observer',['../class_vireo_1_1_observer.html',1,'Vireo']]],
-  ['observestatechange',['ObserveStateChange',['../class_vireo_1_1_observable_core.html#a88539cefd3a610ff1fa3633004350179',1,'Vireo::ObservableCore']]],
-  ['occurrencecore',['OccurrenceCore',['../class_vireo_1_1_occurrence_core.html',1,'Vireo']]],
-  ['operator_2b',['operator+',['../class_vireo_1_1_timestamp.html#a691d0eabc50f5794285cfd928b64098a',1,'Vireo::Timestamp::operator+(const Timestamp &amp;value)'],['../class_vireo_1_1_timestamp.html#a4ed4792b37f06074c6baf2f1b9e867b0',1,'Vireo::Timestamp::operator+(const Int64 &amp;value)']]],
-  ['operator_2d',['operator-',['../class_vireo_1_1_timestamp.html#ab5260a8d145c1c7582c986d594047c4f',1,'Vireo::Timestamp']]],
-  ['operator_5b_5d',['operator[]',['../class_vireo_1_1_fixed_c_array.html#ac638c3a376b750179a9d51261a32beee',1,'Vireo::FixedCArray']]],
-  ['ownsdefdefdata',['OwnsDefDefData',['../class_vireo_1_1_type_common.html#a4feb5f6cca4e9c87045c6e9f1592e218',1,'Vireo::TypeCommon']]]
+  ['name',['Name',['../class_vireo_1_1_type_common.html#a874afdc6bdc7dbceee11a24d445c09cb',1,'Vireo::TypeCommon::Name()'],['../class_vireo_1_1_wrapped_type.html#a6e09edd8e33b7419d67e2b1c83e55a2c',1,'Vireo::WrappedType::Name()'],['../class_vireo_1_1_named_type.html#a50eabac6cf1f1e8a2d27a1f58b632eb0',1,'Vireo::NamedType::Name()'],['../class_vireo_1_1_array_type.html#ac5571eb35d1632ba1d592d6119c843cf',1,'Vireo::ArrayType::Name()']]],
+  ['namedtype',['NamedType',['../class_vireo_1_1_named_type.html',1,'Vireo']]],
+  ['new',['New',['../class_vireo_1_1_type_manager.html#aeaf1d521bb2f104a8396275bc3f2e95f',1,'Vireo::TypeManager::New()'],['../class_vireo_1_1_default_value_type.html#a5c105d2461f9b70a659620bcb21cad15',1,'Vireo::DefaultValueType::New()']]],
+  ['newnamedtype',['NewNamedType',['../class_vireo_1_1_type_manager.html#a2089d0a30cf6b504ddd724656d7268a2',1,'Vireo::TypeManager']]],
+  ['newrefnum',['NewRefNum',['../class_vireo_1_1_ref_num_storage_base.html#a1d1363318421c29d29c1a1d46e4e531b',1,'Vireo::RefNumStorageBase']]],
+  ['nipath',['NIPath',['../struct_vireo_1_1_n_i_path.html',1,'Vireo']]],
+  ['null',['null',['../_data_types_8h.html#ac97b8ee753e4405397a42ad5799b0f9e',1,'DataTypes.h']]],
+  ['numericstring_2ecpp',['NumericString.cpp',['../_numeric_string_8cpp.html',1,'']]],
+  ['numeric_20functions',['Numeric Functions',['../group___v_i_a___numeric___functions.html',1,'']]]
 ];

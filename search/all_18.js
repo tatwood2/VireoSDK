@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7estackvar',['~StackVar',['../class_vireo_1_1_stack_var.html#a13512c8fd2406125b727630ae1c89ebf',1,'Vireo::StackVar']]]
+  ['zeroouttop',['ZeroOutTop',['../class_vireo_1_1_type_common.html#af73ae655e97974cd19ebaf2b1a1f2495',1,'Vireo::TypeCommon']]]
 ];

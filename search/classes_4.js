@@ -6,8 +6,9 @@ var searchData=
   ['equivalencetype',['EquivalenceType',['../class_vireo_1_1_equivalence_type.html',1,'Vireo']]],
   ['errorcluster',['ErrorCluster',['../struct_vireo_1_1_error_cluster.html',1,'Vireo']]],
   ['eventcommondata',['EventCommonData',['../struct_vireo_1_1_event_common_data.html',1,'Vireo']]],
+  ['eventcontrolinfo',['EventControlInfo',['../struct_vireo_1_1_event_control_info.html',1,'Vireo']]],
   ['eventdata',['EventData',['../struct_vireo_1_1_event_data.html',1,'Vireo']]],
-  ['eventinfo',['EventInfo',['../class_vireo_1_1_event_info.html',1,'Vireo']]],
+  ['eventinfo',['EventInfo',['../struct_vireo_1_1_event_info.html',1,'Vireo']]],
   ['eventlog',['EventLog',['../class_vireo_1_1_event_log.html',1,'Vireo']]],
   ['eventoracle',['EventOracle',['../class_vireo_1_1_event_oracle.html',1,'Vireo']]],
   ['eventoracleobj',['EventOracleObj',['../class_vireo_1_1_event_oracle_obj.html',1,'Vireo']]],
@@ -16,5 +17,6 @@ var searchData=
   ['eventregistrationrefnummanager',['EventRegistrationRefNumManager',['../class_vireo_1_1_event_registration_ref_num_manager.html',1,'Vireo']]],
   ['eventregqueueid',['EventRegQueueID',['../class_vireo_1_1_event_reg_queue_i_d.html',1,'Vireo']]],
   ['eventspec',['EventSpec',['../struct_vireo_1_1_event_spec.html',1,'Vireo']]],
+  ['eventstructinfo',['EventStructInfo',['../struct_vireo_1_1_event_struct_info.html',1,'Vireo']]],
   ['executioncontext',['ExecutionContext',['../class_vireo_1_1_execution_context.html',1,'Vireo']]]
 ];

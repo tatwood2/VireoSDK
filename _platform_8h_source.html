@@ -153,31 +153,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    PlatformTickType TickCount();</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    PlatformTickType MicrosecondsToTickCount(Int64 microseconds);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    PlatformTickType SecondsToTickCount(Double seconds);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    Int64 TickCountToMilliseconds(PlatformTickType);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    Int64 TickCountToMicroseconds(PlatformTickType);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    PlatformTickType MillisecondsFromNowToTickCount(Int64 milliseconds);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    PlatformTickType MicrosecondsFromNowToTickCount(Int64 microseconds);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#if !kVireoOS_emscripten</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">void</span> SleepMilliseconds(Int64 milliseconds);  <span class="comment">// Cannot sleep in emscripten code without using interpreter, must sleep in caller on JS side</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor"></span>};</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">//------------------------------------------------------------</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="class_vireo_1_1_platform.html">   90</a></span>&#160;<span class="comment"></span><span class="keyword">class </span><a class="code" href="class_vireo_1_1_platform.html">Platform</a> {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> Setup();</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">void</span> Shutdown();</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="class_vireo_1_1_platform_memory.html">PlatformMemory</a>  Mem;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="class_vireo_1_1_platform_i_o.html">PlatformIO</a>      IO;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="class_vireo_1_1_platform_timer.html">PlatformTimer</a>   <a class="code" href="class_vireo_1_1_timer.html">Timer</a>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;};</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">extern</span> <a class="code" href="class_vireo_1_1_platform.html">Platform</a> gPlatform;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}  <span class="comment">// namespace Vireo</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#endif  // Platform_h</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    Int64 TickCountToMilliseconds(PlatformTickType);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    Int64 TickCountToMicroseconds(PlatformTickType);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    PlatformTickType MillisecondsFromNowToTickCount(Int64 milliseconds);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    PlatformTickType MicrosecondsFromNowToTickCount(Int64 microseconds);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#if !kVireoOS_emscripten</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">void</span> SleepMilliseconds(Int64 milliseconds);  <span class="comment">// Cannot sleep in emscripten code without using interpreter, must sleep in caller on JS side</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span>};</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">//------------------------------------------------------------</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="class_vireo_1_1_platform.html">   89</a></span>&#160;<span class="comment"></span><span class="keyword">class </span><a class="code" href="class_vireo_1_1_platform.html">Platform</a> {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> Setup();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> Shutdown();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="class_vireo_1_1_platform_memory.html">PlatformMemory</a>  Mem;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="class_vireo_1_1_platform_i_o.html">PlatformIO</a>      IO;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="class_vireo_1_1_platform_timer.html">PlatformTimer</a>   <a class="code" href="class_vireo_1_1_timer.html">Timer</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keyword">extern</span> <a class="code" href="class_vireo_1_1_platform.html">Platform</a> gPlatform;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}  <span class="comment">// namespace Vireo</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif  // Platform_h</span></div>
 <div class="ttc" id="class_vireo_1_1_platform_timer_html"><div class="ttname"><a href="class_vireo_1_1_platform_timer.html">Vireo::PlatformTimer</a></div><div class="ttdef"><b>Definition:</b> Platform.h:74</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_i_o_html_a7efafc13a393a4e5d9606cd2a9802863"><div class="ttname"><a href="class_vireo_1_1_platform_i_o.html#a7efafc13a393a4e5d9606cd2a9802863">Vireo::PlatformIO::Print</a></div><div class="ttdeci">void Print(Int32 len, ConstCStr str)</div><div class="ttdoc">Static memory deallocator used for all TM memory management. </div><div class="ttdef"><b>Definition:</b> Platform.cpp:235</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_memory_html_af4963e09189ef8412fe56bc3dcafafc2"><div class="ttname"><a href="class_vireo_1_1_platform_memory.html#af4963e09189ef8412fe56bc3dcafafc2">Vireo::PlatformMemory::Realloc</a></div><div class="ttdeci">void * Realloc(void *pBuffer, size_t countAQ)</div><div class="ttdoc">Static memory deallocator used primarily by the TM. </div><div class="ttdef"><b>Definition:</b> Platform.cpp:156</div></div>
@@ -187,12 +186,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="class_vireo_1_1_timer_html"><div class="ttname"><a href="class_vireo_1_1_timer.html">Vireo::Timer</a></div><div class="ttdoc">Timer object that clumps can wait on. </div><div class="ttdef"><b>Definition:</b> Synchronization.h:78</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_memory_html"><div class="ttname"><a href="class_vireo_1_1_platform_memory.html">Vireo::PlatformMemory</a></div><div class="ttdoc">Process level functions for memory allocation. </div><div class="ttdef"><b>Definition:</b> Platform.h:35</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_memory_html_acebd7d3a98efa19b25e5112893fd97b2"><div class="ttname"><a href="class_vireo_1_1_platform_memory.html#acebd7d3a98efa19b25e5112893fd97b2">Vireo::PlatformMemory::Free</a></div><div class="ttdeci">void Free(void *pBuffer)</div><div class="ttdoc">Static memory deallocator used primarily by the TM. </div><div class="ttdef"><b>Definition:</b> Platform.cpp:190</div></div>
-<div class="ttc" id="class_vireo_1_1_string_html"><div class="ttname"><a href="class_vireo_1_1_string.html">Vireo::String</a></div><div class="ttdoc">Vireo string type. Must be allocated by TypeManager not raw C++. </div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:1196</div></div>
+<div class="ttc" id="class_vireo_1_1_string_html"><div class="ttname"><a href="class_vireo_1_1_string.html">Vireo::String</a></div><div class="ttdoc">Vireo string type. Must be allocated by TypeManager not raw C++. </div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:1198</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_i_o_html_a4b192adfc40e588427773825ead96d82"><div class="ttname"><a href="class_vireo_1_1_platform_i_o.html#a4b192adfc40e588427773825ead96d82">Vireo::PlatformIO::ReadFile</a></div><div class="ttdeci">void ReadFile(SubString *name, StringRef buffer)</div><div class="ttdoc">Static memory deallocator used for all TM memory management. </div><div class="ttdef"><b>Definition:</b> Platform.cpp:256</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_i_o_html_a80fd6b70cf0e4febc156ad0b5bc1ee03"><div class="ttname"><a href="class_vireo_1_1_platform_i_o.html#a80fd6b70cf0e4febc156ad0b5bc1ee03">Vireo::PlatformIO::Printf</a></div><div class="ttdeci">void Printf(ConstCStr format,...)</div><div class="ttdoc">Static memory deallocator used for all TM memory management. </div><div class="ttdef"><b>Definition:</b> Platform.cpp:244</div></div>
 <div class="ttc" id="class_vireo_1_1_platform_i_o_html"><div class="ttname"><a href="class_vireo_1_1_platform_i_o.html">Vireo::PlatformIO</a></div><div class="ttdoc">Process level functions for stdio. </div><div class="ttdef"><b>Definition:</b> Platform.h:55</div></div>
 <div class="ttc" id="_data_types_8h_html_a6fdb272e5b24c0df146840a4a93f3e49"><div class="ttname"><a href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a></div><div class="ttdeci">const char * ConstCStr</div><div class="ttdoc">Pointer to read only nullptr terminated strings. </div><div class="ttdef"><b>Definition:</b> DataTypes.h:59</div></div>
-<div class="ttc" id="class_vireo_1_1_platform_html"><div class="ttname"><a href="class_vireo_1_1_platform.html">Vireo::Platform</a></div><div class="ttdoc">Single class to gather platform classes. </div><div class="ttdef"><b>Definition:</b> Platform.h:90</div></div>
+<div class="ttc" id="class_vireo_1_1_platform_html"><div class="ttname"><a href="class_vireo_1_1_platform.html">Vireo::Platform</a></div><div class="ttdoc">Single class to gather platform classes. </div><div class="ttdef"><b>Definition:</b> Platform.h:89</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

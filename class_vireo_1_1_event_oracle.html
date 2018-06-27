@@ -108,6 +108,9 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> (EventQueu
 <tr class="memitem:aefe15cd2a50af46a74c1514fc1220b61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefe15cd2a50af46a74c1514fc1220b61"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OccurEvent</b> (EventOracleIndex eventOracleIdx, const <a class="el" href="struct_vireo_1_1_event_data.html">EventData</a> &amp;eData)</td></tr>
 <tr class="separator:aefe15cd2a50af46a74c1514fc1220b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352bdec498ac1daebaf701555d4c9794"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a352bdec498ac1daebaf701555d4c9794"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetControlInfoForEventOracleIndex</b> (EventOracleIndex eventOracleIdx, EventControlUID *controlID, RefNum *controlRef)</td></tr>
+<tr class="separator:a352bdec498ac1daebaf701555d4c9794"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69cb901b5982f8426507e77471fa42bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69cb901b5982f8426507e77471fa42bd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ObserveQueue</b> (EventQueueID qID, <a class="el" href="class_vireo_1_1_occurrence_core.html">OccurrenceCore</a> *occ)</td></tr>
 <tr class="separator:a69cb901b5982f8426507e77471fa42bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,9 +129,9 @@ Int32&#160;</td><td class="memItemRight" valign="bottom"><b>GetPendingEventInfo<
 <tr class="memitem:ae5e5d647e9846812c2e4b57348d13508"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5e5d647e9846812c2e4b57348d13508"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterForEvent</b> (EventQueueID qID, EventSource eSource, EventType eType, EventControlUID controlUID, RefNum ref, EventOracleIndex *oracleIdxPtr=nullptr)</td></tr>
 <tr class="separator:ae5e5d647e9846812c2e4b57348d13508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359021918c11d040a3220f058a6c77c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a359021918c11d040a3220f058a6c77c4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>UnregisterForEvent</b> (EventQueueID qID, EventSource eSource, EventType eType, EventControlUID controlUID, RefNum ref)</td></tr>
-<tr class="separator:a359021918c11d040a3220f058a6c77c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f6a717db160bb77f836919efe066fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4f6a717db160bb77f836919efe066fe"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>UnregisterForEvent</b> (EventQueueID qID, EventSource eSource, EventType eType, EventOracleIndex eventOracleIndex, RefNum ref)</td></tr>
+<tr class="separator:aa4f6a717db160bb77f836919efe066fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb6035176d48565298b7d30dfc456f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebb6035176d48565298b7d30dfc456f6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>EventListInsert</b> (EventOracleIndex eventOracleIndex, <a class="el" href="class_vireo_1_1_event_reg_queue_i_d.html">EventRegQueueID</a> eventRegQueueID, EventSource eSource, EventType eType)</td></tr>
 <tr class="separator:aebb6035176d48565298b7d30dfc456f6"><td class="memSeparator" colspan="2">&#160;</td></tr>

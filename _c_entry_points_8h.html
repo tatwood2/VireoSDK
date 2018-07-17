@@ -111,7 +111,11 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>kEggShellResult_UnableToCreateReturnBuffer</b> = 4, 
 <b>kEggShellResult_InvalidTypeRef</b> = 5, 
 <b>kEggShellResult_MismatchedArrayRank</b> = 6, 
-<b>kEggShellResult_UnableToParseData</b> = 7
+<b>kEggShellResult_UnableToParseData</b> = 7, 
+<br/>
+&#160;&#160;<b>kEggShellResult_UnableToAllocateData</b> = 8, 
+<b>kEggShellResult_UnableToDeallocateData</b> = 9, 
+<b>kEggShellResult_InvalidDataPointer</b> = 10
 <br/>
  }</td></tr>
 <tr class="separator:a1becdd2d92f4aa728834198796b69118"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +150,12 @@ VIREO_EXPORT Int32&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::
 <tr class="memitem:a09e986236bb7c6fffc423c8d9d374995"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09e986236bb7c6fffc423c8d9d374995"></a>
 VIREO_EXPORT Int32&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_PokeMemory</b> (TypeManagerRef tm, const char *viName, const char *eltName, Int32 bufferSize, char *buffer)</td></tr>
 <tr class="separator:a09e986236bb7c6fffc423c8d9d374995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15562a7ac9dc7b6b5b5c2a017b455bb9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15562a7ac9dc7b6b5b5c2a017b455bb9"></a>
+VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_AllocateData</b> (TypeManagerRef tm, const TypeRef typeRef, void **dataRefLocation)</td></tr>
+<tr class="separator:a15562a7ac9dc7b6b5b5c2a017b455bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e04123cc8683e372ab9fa5938e8f4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4e04123cc8683e372ab9fa5938e8f4e"></a>
+VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_DeallocateData</b> (TypeManagerRef tm, const TypeRef typeRef, void *dataRef)</td></tr>
+<tr class="separator:ab4e04123cc8683e372ab9fa5938e8f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6c6dfa5a646724a065f5b4c57716650"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6c6dfa5a646724a065f5b4c57716650"></a>
 VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_FindValue</b> (TypeManagerRef tm, const char *viName, const char *eltName, TypeRef *typeRefLocation, void **dataRefLocation)</td></tr>
 <tr class="separator:aa6c6dfa5a646724a065f5b4c57716650"><td class="memSeparator" colspan="2">&#160;</td></tr>

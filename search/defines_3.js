@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['null',['null',['../_data_types_8h.html#ac97b8ee753e4405397a42ad5799b0f9e',1,'DataTypes.h']]]
+  ['stack_5fvar',['STACK_VAR',['../_type_and_data_manager_8h.html#a0163e3c887c070011f2310685936f3c0',1,'TypeAndDataManager.h']]]
 ];

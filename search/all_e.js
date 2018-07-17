@@ -6,7 +6,6 @@ var searchData=
   ['newnamedtype',['NewNamedType',['../class_vireo_1_1_type_manager.html#a2089d0a30cf6b504ddd724656d7268a2',1,'Vireo::TypeManager']]],
   ['newrefnum',['NewRefNum',['../class_vireo_1_1_ref_num_storage_base.html#a1d1363318421c29d29c1a1d46e4e531b',1,'Vireo::RefNumStorageBase']]],
   ['nipath',['NIPath',['../struct_vireo_1_1_n_i_path.html',1,'Vireo']]],
-  ['null',['null',['../_data_types_8h.html#ac97b8ee753e4405397a42ad5799b0f9e',1,'DataTypes.h']]],
   ['numericstring_2ecpp',['NumericString.cpp',['../_numeric_string_8cpp.html',1,'']]],
   ['numeric_20functions',['Numeric Functions',['../group___v_i_a___numeric___functions.html',1,'']]]
 ];

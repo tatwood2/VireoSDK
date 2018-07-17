@@ -15,7 +15,7 @@ var indexSectionsWithContent =
   5: "cdisu",
   6: "e",
   7: "k",
-  8: "cfknstv",
+  8: "cfkstv",
   9: "acemnprstuv",
   10: "aceimt"
 };

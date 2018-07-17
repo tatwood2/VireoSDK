@@ -155,12 +155,12 @@ Boolean, AQBlock1, AQBlock1 &gt;&#160;</td><td class="memItemRight" valign="bott
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af7fa72605d3e395c0f6b13232c24c92a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7fa72605d3e395c0f6b13232c24c92a"></a>
-<a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::CopyProcName</b> (void *pSource, void *pDest, TypeRef elemType)</td></tr>
-<tr class="separator:af7fa72605d3e395c0f6b13232c24c92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0a3c5531d6d92f6ea816a81e97668d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0a3c5531d6d92f6ea816a81e97668d5"></a>
-<a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::CopyEnumProcName</b> (Int32 aqSize)</td></tr>
-<tr class="separator:ac0a3c5531d6d92f6ea816a81e97668d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac388453c7c50e02c34e4de279fe4b33e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac388453c7c50e02c34e4de279fe4b33e"></a>
+<a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::GetCopyOpName</b> (void *pSource, void *pDest, TypeRef elemType)</td></tr>
+<tr class="separator:ac388453c7c50e02c34e4de279fe4b33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9689483df439039b98af04d800bd4abe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9689483df439039b98af04d800bd4abe"></a>
+<a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::GetCopyEnumOpName</b> (Int32 aqSize)</td></tr>
+<tr class="separator:a9689483df439039b98af04d800bd4abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7679ad58ece87a4d7942ecdb6d2afe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d7679ad58ece87a4d7942ecdb6d2afe"></a>
 InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EmitGenericCopyInstruction</b> (ClumpParseState *pInstructionBuilder)</td></tr>
 <tr class="separator:a3d7679ad58ece87a4d7942ecdb6d2afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,9 +185,9 @@ InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::E
 <tr class="memitem:abf48c6dcc66a27ce207fddce52953e43"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf48c6dcc66a27ce207fddce52953e43"></a>
 InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EmitGenericUnOpInstruction</b> (ClumpParseState *pInstructionBuilder)</td></tr>
 <tr class="separator:abf48c6dcc66a27ce207fddce52953e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3eb959590b0ceecd9450d5412ecf03a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3eb959590b0ceecd9450d5412ecf03a"></a>
-InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EmitMaxMinEltsInstruction</b> (ClumpParseState *pInstructionBuilder)</td></tr>
-<tr class="separator:ac3eb959590b0ceecd9450d5412ecf03a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4868919d98f7391cd7cd83b9d1eaf23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4868919d98f7391cd7cd83b9d1eaf23"></a>
+InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EmitMaxMinElementsInstruction</b> (ClumpParseState *pInstructionBuilder)</td></tr>
+<tr class="separator:af4868919d98f7391cd7cd83b9d1eaf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ab5de8b8bb9f7150b8c6d8196b35e73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ab5de8b8bb9f7150b8c6d8196b35e73"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::GetMinimumArrayDimensions</b> (std::vector&lt; TypedArrayCoreRef &gt; arrays, ArrayDimensionVector *newDimensionLengths, IntIndex *newRank)</td></tr>
 <tr class="separator:a9ab5de8b8bb9f7150b8c6d8196b35e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -653,9 +653,9 @@ static Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::Upda
 <tr class="memitem:a1addc6b9107aa6fb7a19e737d2b4b9d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1addc6b9107aa6fb7a19e737d2b4b9d9"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_GENERIC</b> (StringToLower,&quot;GenericUnOp&quot;, EmitGenericUnOpInstruction)</td></tr>
 <tr class="separator:a1addc6b9107aa6fb7a19e737d2b4b9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c1074acadbb00c439a068d7838e6c5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c1074acadbb00c439a068d7838e6c5a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_GENERIC</b> (MaxAndMinElts,&quot;p(i(*) i(*) o(*) o(*) s(Instruction))&quot;, EmitMaxMinEltsInstruction)</td></tr>
-<tr class="separator:a8c1074acadbb00c439a068d7838e6c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9629fb54b4397a351155af38eaba9569"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9629fb54b4397a351155af38eaba9569"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_GENERIC</b> (MaxAndMinElts,&quot;p(i(*) i(*) o(*) o(*) s(Instruction))&quot;, EmitMaxMinElementsInstruction)</td></tr>
+<tr class="separator:a9629fb54b4397a351155af38eaba9569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0751a83968470251119267568c03468"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0751a83968470251119267568c03468"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (VectorMaxMinOp,&quot;p(i(Array) i(Array) o(Array) o(Array) s(Instruction))&quot;) DEFINE_VIREO_FUNCTION(ScalarVectorMaxMinOp</td></tr>
 <tr class="separator:af0751a83968470251119267568c03468"><td class="memSeparator" colspan="2">&#160;</td></tr>

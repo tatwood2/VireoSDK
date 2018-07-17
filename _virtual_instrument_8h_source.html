@@ -133,12 +133,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="struct_vireo_1_1_event_control_info.html">   54</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_vireo_1_1_event_control_info.html">EventControlInfo</a> {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    EventOracleIndex eventOracleIndex;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    RefNum refnum;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="struct_vireo_1_1_event_control_info.html">EventControlInfo</a>(EventOracleIndex eoIdx = 0, RefNum ref = 0) : eventOracleIndex(eoIdx), refnum(ref) { }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    EventControlUID controlID;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="struct_vireo_1_1_event_control_info.html">EventControlInfo</a>(EventOracleIndex eoIdx = 0, EventControlUID ctlID = 0) : eventOracleIndex(eoIdx), controlID(ctlID) { }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="struct_vireo_1_1_event_info.html">   60</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_vireo_1_1_event_info.html">EventInfo</a> {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">typedef</span> std::map&lt;EventControlUID, EventControlInfo&gt; ControlIDInfoMap;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">typedef</span> std::map&lt;RefNum, EventControlInfo&gt; ControlIDInfoMap;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="struct_vireo_1_1_event_struct_info.html">EventStructInfo</a> *eventStructInfo;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    ControlIDInfoMap controlIDInfoMap;</div>

@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -100,6 +101,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ad474b3d14acecbbb2afe8bf0057fc15d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>EventInsertStatus</b> { <b>kNewRegistration</b>, 
+<b>kAddedToNewQueue</b>, 
+<b>kNoChange</b>
+ }</td></tr>
+<tr class="separator:ad474b3d14acecbbb2afe8bf0057fc15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d8aed6f027421ae06528d5e99066cba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d8aed6f027421ae06528d5e99066cba"></a>
@@ -126,15 +135,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteEventQueue</b> 
 <tr class="memitem:a05ab4c57447cae282feac61764543a48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05ab4c57447cae282feac61764543a48"></a>
 Int32&#160;</td><td class="memItemRight" valign="bottom"><b>GetPendingEventInfo</b> (EventQueueID *pActiveQID, Int32 nQueues, <a class="el" href="class_vireo_1_1_ref_num_val.html">RefNumVal</a> *dynRegRefs, Int32 *dynIndexBase)</td></tr>
 <tr class="separator:a05ab4c57447cae282feac61764543a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5e5d647e9846812c2e4b57348d13508"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5e5d647e9846812c2e4b57348d13508"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterForEvent</b> (EventQueueID qID, EventSource eSource, EventType eType, EventControlUID controlUID, RefNum ref, EventOracleIndex *oracleIdxPtr=nullptr)</td></tr>
-<tr class="separator:ae5e5d647e9846812c2e4b57348d13508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2692784bd9b031386e0aae2616c202bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2692784bd9b031386e0aae2616c202bc"></a>
+EventInsertStatus&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterForEvent</b> (EventQueueID qID, EventSource eSource, EventType eType, EventControlUID controlUID, RefNum ref, EventOracleIndex *oracleIdxPtr=nullptr)</td></tr>
+<tr class="separator:a2692784bd9b031386e0aae2616c202bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4f6a717db160bb77f836919efe066fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4f6a717db160bb77f836919efe066fe"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>UnregisterForEvent</b> (EventQueueID qID, EventSource eSource, EventType eType, EventOracleIndex eventOracleIndex, RefNum ref)</td></tr>
 <tr class="separator:aa4f6a717db160bb77f836919efe066fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebb6035176d48565298b7d30dfc456f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebb6035176d48565298b7d30dfc456f6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>EventListInsert</b> (EventOracleIndex eventOracleIndex, <a class="el" href="class_vireo_1_1_event_reg_queue_i_d.html">EventRegQueueID</a> eventRegQueueID, EventSource eSource, EventType eType)</td></tr>
-<tr class="separator:aebb6035176d48565298b7d30dfc456f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eaa50f692d3652b620494421f37709c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eaa50f692d3652b620494421f37709c"></a>
+EventInsertStatus&#160;</td><td class="memItemRight" valign="bottom"><b>EventListInsert</b> (EventOracleIndex eventOracleIndex, <a class="el" href="class_vireo_1_1_event_reg_queue_i_d.html">EventRegQueueID</a> eventRegQueueID, EventSource eSource, EventType eType)</td></tr>
+<tr class="separator:a7eaa50f692d3652b620494421f37709c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76b93106f589f8e302215eb5d8977436"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76b93106f589f8e302215eb5d8977436"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>EventListRemove</b> (EventOracleIndex eventOracleIndex, <a class="el" href="class_vireo_1_1_event_reg_queue_i_d.html">EventRegQueueID</a> eventRegQueueID, EventSource eSource, EventType eType)</td></tr>
 <tr class="separator:a76b93106f589f8e302215eb5d8977436"><td class="memSeparator" colspan="2">&#160;</td></tr>

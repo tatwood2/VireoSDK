@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Native Verio VIA functions.  
+<p>Native Vireo VIA functions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdarg.h&gt;</code><br/>
 <code>#include &lt;stdlib.h&gt;</code><br/>
@@ -180,6 +180,12 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::BelongsToCh
 <tr class="memitem:ad405d7fb909a2a56e61c14f624b65387"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad405d7fb909a2a56e61c14f624b65387"></a>
 <a class="el" href="_data_types_8h.html#ab83f9c3ddee76be16122c8c07c84a280">IntMax</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::ScanIntValues</b> (char formatChar, char *beginPointer, char **endPointer)</td></tr>
 <tr class="separator:ad405d7fb909a2a56e61c14f624b65387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ae79c35401458ae2b33f20c552d676"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0ae79c35401458ae2b33f20c552d676"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::ScanBooleanValue</b> (char *beginPointer, char **endPointer)</td></tr>
+<tr class="separator:ab0ae79c35401458ae2b33f20c552d676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1734a0895a1b7b5e5096c55c156105"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace1734a0895a1b7b5e5096c55c156105"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::BooleanScanString</b> (StaticTypeAndData *argument, TypeRef argumentType, char *beginPointer, char **endPointer)</td></tr>
+<tr class="separator:ace1734a0895a1b7b5e5096c55c156105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd4f1bdc8f798b43b18f7e75935da30d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd4f1bdc8f798b43b18f7e75935da30d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::IntScanString</b> (StaticTypeAndData *argument, TypeRef argumentType, char formatChar, char *beginPointer, char **endPointer)</td></tr>
 <tr class="separator:abd4f1bdc8f798b43b18f7e75935da30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,9 +257,15 @@ Variables</h2></td></tr>
 <tr class="memitem:a580064be257aabf3796a2fc3cfffbf1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a580064be257aabf3796a2fc3cfffbf1f"></a>
 static char&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::gSIPrefixesTable</b> [] = {'y', 'z', 'a', 'f', 'p', 'n', 'u', 'm', '0', 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y'}</td></tr>
 <tr class="separator:a580064be257aabf3796a2fc3cfffbf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01003cf4797662cfea8e3426fe099747"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01003cf4797662cfea8e3426fe099747"></a>
+static const char *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::validTrueValues</b> [] = { &quot;y&quot;, &quot;t&quot;, &quot;true&quot;, &quot;on&quot;, &quot;yes&quot; }</td></tr>
+<tr class="separator:a01003cf4797662cfea8e3426fe099747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd09217e2909d69c5e5dc7b2bcaf882"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adcd09217e2909d69c5e5dc7b2bcaf882"></a>
+static const char *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::validFalseValues</b> [] = { &quot;n&quot;, &quot;f&quot;, &quot;false&quot;, &quot;off&quot;, &quot;no&quot; }</td></tr>
+<tr class="separator:adcd09217e2909d69c5e5dc7b2bcaf882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Native Verio VIA functions. </p>
+<div class="textblock"><p>Native Vireo VIA functions. </p>
 <p>Copyright (c) 2014-2015 National Instruments Corp.</p>
 <p>This software is subject to the terms described in the LICENSE.TXT file</p>
 <p>SDG </p>

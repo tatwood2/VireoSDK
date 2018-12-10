@@ -222,6 +222,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_stack_var.html">Vireo::StackVar&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template class to dynamically create an instance of a Vireo typed variable.  <a href="class_vireo_1_1_stack_var.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vireo_1_1_string_ref_cmp.html">Vireo::StringRefCmp</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -253,6 +255,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a70d8ffba90b0c8e35928a46f990489dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70d8ffba90b0c8e35928a46f990489dd"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>tsStringType</b>&#160;&#160;&#160;&quot;String&quot;</td></tr>
 <tr class="separator:a70d8ffba90b0c8e35928a46f990489dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356b993d1de230b11f10db70507515d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a356b993d1de230b11f10db70507515d1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>tsVariantType</b>&#160;&#160;&#160;&quot;Variant&quot;</td></tr>
+<tr class="separator:a356b993d1de230b11f10db70507515d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b760fe5d046dd9ebbaf77fd662804b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b760fe5d046dd9ebbaf77fd662804b9"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>tsTypeType</b>&#160;&#160;&#160;&quot;Type&quot;</td></tr>
 <tr class="separator:a8b760fe5d046dd9ebbaf77fd662804b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +313,9 @@ typedef TypedArrayCore&#160;</td><td class="memItemRight" valign="bottom"><b>Vir
 <tr class="memitem:a9abe03e1f88365bb09d4f761ef3cdc51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9abe03e1f88365bb09d4f761ef3cdc51"></a>
 typedef TypedBlock *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypedBlockRef</b></td></tr>
 <tr class="separator:a9abe03e1f88365bb09d4f761ef3cdc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423cb2428d4fa3e45a730b7162a37ef1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a423cb2428d4fa3e45a730b7162a37ef1"></a>
+typedef StaticTypeAndData *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::StaticTypeAndDataRef</b></td></tr>
+<tr class="separator:a423cb2428d4fa3e45a730b7162a37ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13bc802efaabef953bc9bd33475ce6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac13bc802efaabef953bc9bd33475ce6f"></a>
 typedef UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::RefNum</b></td></tr>
 <tr class="separator:ac13bc802efaabef953bc9bd33475ce6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -439,6 +447,9 @@ AQBlock1 *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::ArrayToA
 TypeRef&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::InstantiateTypeTemplate</b> (TypeManagerRef tm, TypeRef typeTemplate, SubVector&lt; TypeRef &gt; *)</td></tr>
 <tr class="memdesc:a0d0186c1b39ec6d9c3ffd55f6668b74e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a specialization of a template type. <br/></td></tr>
 <tr class="separator:a0d0186c1b39ec6d9c3ffd55f6668b74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab120e456a4fe28913980448a6ecbaf72"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab120e456a4fe28913980448a6ecbaf72"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::IsStringEmpty</b> (StringRef str)</td></tr>
+<tr class="separator:ab120e456a4fe28913980448a6ecbaf72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tools to define data types, manage their data, and a TypeManager to manage those types. </p>

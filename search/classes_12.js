@@ -1,8 +1,6 @@
 var searchData=
 [
   ['vararginstruction',['VarArgInstruction',['../struct_vireo_1_1_var_arg_instruction.html',1,'Vireo']]],
-  ['variantattributemanager',['VariantAttributeManager',['../class_vireo_1_1_variant_attribute_manager.html',1,'Vireo']]],
-  ['varianttodataparamblock',['VariantToDataParamBlock',['../struct_vireo_1_1_variant_to_data_param_block.html',1,'Vireo']]],
   ['vectoropinstruction',['VectorOpInstruction',['../struct_vireo_1_1_vector_op_instruction.html',1,'Vireo']]],
   ['viaformatchars',['ViaFormatChars',['../struct_vireo_1_1_via_format_chars.html',1,'Vireo']]],
   ['viaformatoptions',['ViaFormatOptions',['../struct_vireo_1_1_via_format_options.html',1,'Vireo']]],

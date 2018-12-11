@@ -274,7 +274,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::nullptr</b></t
 <div class="line">        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (n &lt; 0 &amp;&amp; ::isinf(x)) { \</div>
 <div class="line">            return x &gt; 0 ? std::numeric_limits&lt;TYPE&gt;::infinity() : -std::numeric_limits&lt;TYPE&gt;::infinity(); \</div>
 <div class="line">        } <span class="keywordflow">else</span> { \</div>
-<div class="line">            return TYPE(x * pow(2.0, n));  \</div>
+<div class="line">            return x * pow(2.0, ScaleRoundToInt_##TYPE(n));  \</div>
 <div class="line">        } \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -297,7 +297,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::nullptr</b></t
 <div class="line">        if (x == 0) { \</div>
 <div class="line">            return 0; \</div>
 <div class="line">        } <span class="keywordflow">else</span> { \</div>
-<div class="line">            return TYPE(x * pow(2.0, n));  \</div>
+<div class="line">            return x * pow(2.0, n);  \</div>
 <div class="line">        } \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -320,15 +320,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::nullptr</b></t
 <div class="line">        if (::isnan(x) || ::isnan(n)) { \</div>
 <div class="line">            return std::numeric_limits&lt;TYPE&gt;::quiet_NaN(); \</div>
 <div class="line">        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (x == 0.0) { \</div>
-<div class="line">            return (n &gt; 0 &amp;&amp; ::isinf(n)) ? std::numeric_limits&lt;TYPE&gt;::quiet_NaN() : TYPE(0.0); \</div>
+<div class="line">            return (n &gt; 0 &amp;&amp; ::isinf(n)) ? std::numeric_limits&lt;TYPE&gt;::quiet_NaN() : 0.0; \</div>
 <div class="line">        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (n &lt; 0 &amp;&amp; ::isinf(n)) { \</div>
-<div class="line">            return ::isinf(x) ? std::numeric_limits&lt;TYPE&gt;::quiet_NaN() : TYPE(0.0); \</div>
+<div class="line">            return ::isinf(x) ? std::numeric_limits&lt;TYPE&gt;::quiet_NaN() : 0.0; \</div>
 <div class="line">        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (n &gt; 0 &amp;&amp; ::isinf(n)) { \</div>
 <div class="line">            return x &gt; 0 ? std::numeric_limits&lt;TYPE&gt;::infinity() : -std::numeric_limits&lt;TYPE&gt;::infinity(); \</div>
 <div class="line">        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (n &lt; 0 &amp;&amp; ::isinf(x)) { \</div>
 <div class="line">            return x &gt; 0 ? std::numeric_limits&lt;TYPE&gt;::infinity() : -std::numeric_limits&lt;TYPE&gt;::infinity(); \</div>
 <div class="line">        } <span class="keywordflow">else</span> { \</div>
-<div class="line">            return TYPE(x * pow(2.0, ScaleRoundToInt_##TYPE(n)));  \</div>
+<div class="line">            return x * pow(2.0, ScaleRoundToInt_##TYPE(n));  \</div>
 <div class="line">        } \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
@@ -373,8 +373,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::nullptr</b></t
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">DECLARE_VIREO_PRIMITIVE2(IsLT0##TYPE, TYPE, Boolean, (_Param(1) = _Param(0) &lt;  0)) \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE2(IsGE0##TYPE, TYPE, Boolean, (_Param(1) = _Param(0) &gt;= 0)) \</div>
-<div class="line">    DECLARE_VIREO_PRIMITIVE2(IsLE0##TYPE, TYPE, Boolean, (_Param(1) = _Param(0) &lt;= 0)) \</div>
-<div class="line">    DECLARE_VIREO_PRIMITIVE2(IsGT0##TYPE, TYPE, Boolean, (_Param(1) = _Param(0) &gt;  0)) \</div>
 <div class="line">    DECLARE_VIREO_COMPARISON_PRIMITIVES_BASE(TYPE)</div>
 </div><!-- fragment -->
 </div>
@@ -393,8 +391,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::nullptr</b></t
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">DECLARE_VIREO_PRIMITIVE2(IsLT0Boolean, Boolean, Boolean, (_Param(1) = <span class="keyword">false</span>)) \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE2(IsGE0Boolean, Boolean, Boolean, (_Param(1) = <span class="keyword">true</span>)) \</div>
-<div class="line">    DECLARE_VIREO_PRIMITIVE2(IsLE0Boolean, Boolean, Boolean, (_Param(1) = (_Param(0) ? 1 : 0) &lt;= 0)) \</div>
-<div class="line">    DECLARE_VIREO_PRIMITIVE2(IsGT0Boolean, Boolean, Boolean, (_Param(1) = (_Param(0) ? 1 : 0) &gt;  0)) \</div>
 <div class="line">    DECLARE_VIREO_COMPARISON_PRIMITIVES_BASE(Boolean)</div>
 </div><!-- fragment -->
 </div>
@@ -545,7 +541,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::nullptr</b></t
 <b>Value:</b><div class="fragment"><div class="line">DECLARE_VIREO_PRIMITIVE3(Add##TYPE, TYPE, TYPE, TYPE, (_Param(2) = _Param(0) + _Param(1))) \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE3(Sub##TYPE, TYPE, TYPE, TYPE, (_Param(2) = _Param(0) - _Param(1))) \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE3(Mul##TYPE, TYPE, TYPE, TYPE, (_Param(2) = _Param(0) * _Param(1))) \</div>
-<div class="line">    DECLARE_VIREO_PRIMITIVE2(Sign##TYPE, TYPE, TYPE, (_Param(1) = TYPE((_Param(0) &gt; 0) - (_Param(0) &lt; 0)))) \</div>
+<div class="line">    DECLARE_VIREO_PRIMITIVE2(Sign##TYPE, TYPE, TYPE, (_Param(1) = (_Param(0) &gt; 0) - (_Param(0) &lt; 0))) \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE2(Negate##TYPE, TYPE, TYPE, (_Param(1) = 0 - _Param(0)))    \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE2(Increment##TYPE, TYPE, TYPE, (_Param(1) = _Param(0) + 1))    \</div>
 <div class="line">    DECLARE_VIREO_PRIMITIVE2(Decrement##TYPE, TYPE, TYPE, (_Param(1) = _Param(0) - 1))    \</div>

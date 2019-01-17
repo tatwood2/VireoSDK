@@ -164,11 +164,11 @@ NIError&#160;</td><td class="memItemRight" valign="bottom"><b>GetRefNumData</b> 
 <tr class="memitem:ae6f58ea1cd550caa6bf391ee85c32136"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6f58ea1cd550caa6bf391ee85c32136"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>AcquireRefNumRights</b> (const RefNum &amp;refnum, RefNumDataPtr info)</td></tr>
 <tr class="separator:ae6f58ea1cd550caa6bf391ee85c32136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77ecc37773435b50394643810c7c1cc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vireo_1_1_ref_num_storage_base_1_1_ref_num_header_and_data.html">RefNumHeaderAndData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_ref_num_storage_base.html#a77ecc37773435b50394643810c7c1cc9">ValidateRefNumIndex</a> (RefNum cookie)</td></tr>
-<tr class="separator:a77ecc37773435b50394643810c7c1cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0f1bf9d157ab5589adff26268a53490"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0f1bf9d157ab5589adff26268a53490"></a>
-<a class="el" href="struct_vireo_1_1_ref_num_storage_base_1_1_ref_num_header_and_data.html">RefNumHeaderAndData</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>CreateRefNumIndex</b> (RefNum cookie)</td></tr>
-<tr class="separator:af0f1bf9d157ab5589adff26268a53490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4888578c4f612c0c57bd31c91a8e8683"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vireo_1_1_ref_num_storage_base_1_1_ref_num_header_and_data.html">RefNumHeaderAndData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_ref_num_storage_base.html#a4888578c4f612c0c57bd31c91a8e8683">ValidateRefNumIndex</a> (RefNum refnum)</td></tr>
+<tr class="separator:a4888578c4f612c0c57bd31c91a8e8683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad086ed00eedae396f012eed8777c4703"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad086ed00eedae396f012eed8777c4703"></a>
+<a class="el" href="struct_vireo_1_1_ref_num_storage_base_1_1_ref_num_header_and_data.html">RefNumHeaderAndData</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>CreateRefNumIndex</b> (RefNum refnum)</td></tr>
+<tr class="separator:ad086ed00eedae396f012eed8777c4703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1024d143977dac09c96e1c81cf192184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1024d143977dac09c96e1c81cf192184"></a>
 virtual <a class="el" href="struct_vireo_1_1_ref_num_storage_base_1_1_ref_num_header_and_data.html">RefNumHeaderAndData</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ValidateRefNumIndexT</b> (RefNum cookie)=0</td></tr>
 <tr class="separator:a1024d143977dac09c96e1c81cf192184"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,22 +182,22 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()=
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a9efe5e68ca0e66beeff93b41df867e40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9efe5e68ca0e66beeff93b41df867e40"></a>
-UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>_nextMagicNum</b></td></tr>
+UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>_nextMagicNum</b> = 0</td></tr>
 <tr class="separator:a9efe5e68ca0e66beeff93b41df867e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbc763658b11f37b01a697af88016b45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbc763658b11f37b01a697af88016b45"></a>
-UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>_dataSize</b></td></tr>
+UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>_dataSize</b> = 0</td></tr>
 <tr class="separator:acbc763658b11f37b01a697af88016b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9619bba4247043456be7aac1f54dcff0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9619bba4247043456be7aac1f54dcff0"></a>
-UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>_cookieSize</b></td></tr>
+UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>_cookieSize</b> = 0</td></tr>
 <tr class="separator:a9619bba4247043456be7aac1f54dcff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3809ce8c411d8542b87a47f1f90f6891"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3809ce8c411d8542b87a47f1f90f6891"></a>
-Int32&#160;</td><td class="memItemRight" valign="bottom"><b>_firstFree</b></td></tr>
+Int32&#160;</td><td class="memItemRight" valign="bottom"><b>_firstFree</b> = 0</td></tr>
 <tr class="separator:a3809ce8c411d8542b87a47f1f90f6891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e947c14f6bf8ab47b496373387ddf80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e947c14f6bf8ab47b496373387ddf80"></a>
-Int32&#160;</td><td class="memItemRight" valign="bottom"><b>_numUsed</b></td></tr>
+Int32&#160;</td><td class="memItemRight" valign="bottom"><b>_numUsed</b> = 0</td></tr>
 <tr class="separator:a3e947c14f6bf8ab47b496373387ddf80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c04e8c78163f89dfb0334fddea6b2da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c04e8c78163f89dfb0334fddea6b2da"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRefCounted</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRefCounted</b> = false</td></tr>
 <tr class="separator:a6c04e8c78163f89dfb0334fddea6b2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,7 +243,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRefCounted</b></td
 
 </div>
 </div>
-<a class="anchor" id="a77ecc37773435b50394643810c7c1cc9"></a>
+<a class="anchor" id="a4888578c4f612c0c57bd31c91a8e8683"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">

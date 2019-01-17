@@ -178,6 +178,9 @@ static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&
 <tr class="memitem:ab67e4222e4b873d6f1bcb63af1c4104a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab67e4222e4b873d6f1bcb63af1c4104a"></a>
 static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TypeString</b> = <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>(tsStringType)</td></tr>
 <tr class="separator:ab67e4222e4b873d6f1bcb63af1c4104a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe74206cc2e4d12c3cdb0c1d84c7b90e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe74206cc2e4d12c3cdb0c1d84c7b90e"></a>
+static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TypeVariant</b> = <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>(tsVariantType)</td></tr>
+<tr class="separator:abe74206cc2e4d12c3cdb0c1d84c7b90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5cdebf50c3fafd1def80f608911e323"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5cdebf50c3fafd1def80f608911e323"></a>
 static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TypeTimestamp</b> = <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>(&quot;Timestamp&quot;)</td></tr>
 <tr class="separator:ac5cdebf50c3fafd1def80f608911e323"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -384,9 +387,9 @@ virtual Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 virtual <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a6feb2c9071de68d24143c936bb8c20ae">GetSubElement</a> (Int32 index)</td></tr>
 <tr class="memdesc:a6feb2c9071de68d24143c936bb8c20ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element of an Aggregate using it index. <br/></td></tr>
 <tr class="separator:a6feb2c9071de68d24143c936bb8c20ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d8ff941f6ab7b479767828c712bf74d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a6d8ff941f6ab7b479767828c712bf74d">GetSubElementAddressFromPath</a> (<a class="el" href="class_vireo_1_1_sub_string.html">SubString</a> *name, void *start, void **end, Boolean allowDynamic)</td></tr>
-<tr class="memdesc:a6d8ff941f6ab7b479767828c712bf74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse through a path, digging through Aggregate element names. Calculates the cumulative offset.  <a href="#a6d8ff941f6ab7b479767828c712bf74d">More...</a><br/></td></tr>
-<tr class="separator:a6d8ff941f6ab7b479767828c712bf74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16be712afe7d1d3a1848c2efdfc871f8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a16be712afe7d1d3a1848c2efdfc871f8">GetSubElementAddressFromPath</a> (<a class="el" href="class_vireo_1_1_sub_string.html">SubString</a> *path, void *start, void **end, Boolean allowDynamic)</td></tr>
+<tr class="memdesc:a16be712afe7d1d3a1848c2efdfc871f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse through a path, digging through Aggregate element names. Calculates the cumulative offset.  <a href="#a16be712afe7d1d3a1848c2efdfc871f8">More...</a><br/></td></tr>
+<tr class="separator:a16be712afe7d1d3a1848c2efdfc871f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a874afdc6bdc7dbceee11a24d445c09cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a874afdc6bdc7dbceee11a24d445c09cb"></a>
 virtual <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a874afdc6bdc7dbceee11a24d445c09cb">Name</a> ()</td></tr>
 <tr class="memdesc:a874afdc6bdc7dbceee11a24d445c09cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_vireo_1_1_sub_string.html" title="The core class for working with strings. The SubString never owns the data it points to...">SubString</a> to the name if the type is not anonymous. <br/></td></tr>
@@ -428,22 +431,22 @@ virtual <a class="el" href="class_vireo_1_1_string.html">StringRef</a>&#160;</td
 <tr class="memitem:a66422945b3eb032c3fc51f31ff64d0f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66422945b3eb032c3fc51f31ff64d0f1"></a>
 virtual IntIndex&#160;</td><td class="memItemRight" valign="bottom"><b>GetEnumItemCount</b> ()</td></tr>
 <tr class="separator:a66422945b3eb032c3fc51f31ff64d0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb441bb3248ca8131a96bce11a94c135"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb441bb3248ca8131a96bce11a94c135"></a>
-NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#aeb441bb3248ca8131a96bce11a94c135">InitData</a> (void *pData, IntIndex count)</td></tr>
-<tr class="memdesc:aeb441bb3248ca8131a96bce11a94c135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a linear block to the default value for the type. <br/></td></tr>
-<tr class="separator:aeb441bb3248ca8131a96bce11a94c135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9af5d8346e154064e948242acdf607ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9af5d8346e154064e948242acdf607ec"></a>
-NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a9af5d8346e154064e948242acdf607ec">CopyData</a> (const void *pData, void *pDataCopy, IntIndex count)</td></tr>
-<tr class="memdesc:a9af5d8346e154064e948242acdf607ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deep copy a linear block of values from one locatio to another. <br/></td></tr>
-<tr class="separator:a9af5d8346e154064e948242acdf607ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af10e2aa00c4f3f5b32930f4221f51683"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af10e2aa00c4f3f5b32930f4221f51683"></a>
-NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#af10e2aa00c4f3f5b32930f4221f51683">ClearData</a> (void *pData, IntIndex count)</td></tr>
-<tr class="memdesc:af10e2aa00c4f3f5b32930f4221f51683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate and nullptr out a linear block of value of the type. <br/></td></tr>
-<tr class="separator:af10e2aa00c4f3f5b32930f4221f51683"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada725049fb162d39611d44ff02a914fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada725049fb162d39611d44ff02a914fa"></a>
-NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#ada725049fb162d39611d44ff02a914fa">MultiCopyData</a> (const void *pSingleData, void *pDataCopy, IntIndex count)</td></tr>
-<tr class="memdesc:ada725049fb162d39611d44ff02a914fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make multiple copies of a single instance to a linear block. <br/></td></tr>
-<tr class="separator:ada725049fb162d39611d44ff02a914fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04ff44d4561f7c574acad5fff4344f7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04ff44d4561f7c574acad5fff4344f7c"></a>
+NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a04ff44d4561f7c574acad5fff4344f7c">InitData</a> (void *pTarget, IntIndex count)</td></tr>
+<tr class="memdesc:a04ff44d4561f7c574acad5fff4344f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a linear block to the default value for the type. <br/></td></tr>
+<tr class="separator:a04ff44d4561f7c574acad5fff4344f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c189429954c0c71b340f4abe985b23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68c189429954c0c71b340f4abe985b23"></a>
+NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a68c189429954c0c71b340f4abe985b23">CopyData</a> (const void *pSource, void *pDest, IntIndex count)</td></tr>
+<tr class="memdesc:a68c189429954c0c71b340f4abe985b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deep copy a linear block of values from one locatio to another. <br/></td></tr>
+<tr class="separator:a68c189429954c0c71b340f4abe985b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa54175f9cff37753ee6c59bc53e4b7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa54175f9cff37753ee6c59bc53e4b7e"></a>
+NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#aaa54175f9cff37753ee6c59bc53e4b7e">ClearData</a> (void *pTarget, IntIndex count)</td></tr>
+<tr class="memdesc:aaa54175f9cff37753ee6c59bc53e4b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate and nullptr out a linear block of value of the type. <br/></td></tr>
+<tr class="separator:aaa54175f9cff37753ee6c59bc53e4b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b0c0ca71476ece490028f3b63e397c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00b0c0ca71476ece490028f3b63e397c"></a>
+NIError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a00b0c0ca71476ece490028f3b63e397c">MultiCopyData</a> (const void *pSource, void *pDest, IntIndex count)</td></tr>
+<tr class="memdesc:a00b0c0ca71476ece490028f3b63e397c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make multiple copies of a single instance to a linear block. <br/></td></tr>
+<tr class="separator:a00b0c0ca71476ece490028f3b63e397c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bedd2f0f876c0ab9c385101354afe9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bedd2f0f876c0ab9c385101354afe9a"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>CompareType</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> otherType)</td></tr>
 <tr class="separator:a4bedd2f0f876c0ab9c385101354afe9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -456,9 +459,9 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsA</b> (<a class=
 <tr class="memitem:a408fef51459e99f4a765f33275053af5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a408fef51459e99f4a765f33275053af5"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsA</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> otherType)</td></tr>
 <tr class="separator:a408fef51459e99f4a765f33275053af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23f249f10ff942628afc37a262457d99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23f249f10ff942628afc37a262457d99"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsA</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> otherType, Boolean compatibleArrays)</td></tr>
-<tr class="separator:a23f249f10ff942628afc37a262457d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c2d4098af7193d05fc03c93a8c8ebf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6c2d4098af7193d05fc03c93a8c8ebf"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsA</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> otherType, Boolean compatibleStructure)</td></tr>
+<tr class="separator:ad6c2d4098af7193d05fc03c93a8c8ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a760f72f80b069b23af19c82ec270461c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a760f72f80b069b23af19c82ec270461c"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsNumeric</b> ()</td></tr>
 <tr class="separator:a760f72f80b069b23af19c82ec270461c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,7 +516,7 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for all type definition types. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a6d8ff941f6ab7b479767828c712bf74d"></a>
+<a class="anchor" id="a16be712afe7d1d3a1848c2efdfc871f8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -560,7 +563,7 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p>Parse through a path, digging through Aggregate element names. Calculates the cumulative offset. </p>
 <p>Parse an element path by name. Base class only knows about structural attributes. </p>
 
-<p>Reimplemented in <a class="el" href="class_vireo_1_1_custom_data_proc_type.html#aab26dd2657ea79182822bb2f7fa5b74b">Vireo::CustomDataProcType</a>, <a class="el" href="class_vireo_1_1_array_type.html#a1a8d743457debab02bd95a559c3c0db9">Vireo::ArrayType</a>, <a class="el" href="class_vireo_1_1_aggregate_type.html#a6a17022a2d7eab59a86391686ba8614d">Vireo::AggregateType</a>, and <a class="el" href="class_vireo_1_1_wrapped_type.html#a8e2c0f1edcd7e3e4764801b3b6190b33">Vireo::WrappedType</a>.</p>
+<p>Reimplemented in <a class="el" href="class_vireo_1_1_custom_data_proc_type.html#aeca9f81197b45943f0d867e4706d2f44">Vireo::CustomDataProcType</a>, <a class="el" href="class_vireo_1_1_array_type.html#a1a8d743457debab02bd95a559c3c0db9">Vireo::ArrayType</a>, <a class="el" href="class_vireo_1_1_aggregate_type.html#aebc1501e2ba54cee3da0f0028ea16033">Vireo::AggregateType</a>, and <a class="el" href="class_vireo_1_1_wrapped_type.html#afb7b93f118691ea0380218e71bcea613">Vireo::WrappedType</a>.</p>
 
 </div>
 </div>

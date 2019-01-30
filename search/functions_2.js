@@ -4,6 +4,6 @@ var searchData=
   ['begin',['Begin',['../class_vireo_1_1_sub_vector.html#af614cfc0784dc880aa475f798dd0a1d5',1,'Vireo::SubVector']]],
   ['begincstr',['BeginCStr',['../class_vireo_1_1_temp_stack_c_string.html#a7696fd337e51778e6ce840fcfa570993',1,'Vireo::TempStackCString']]],
   ['bitencoding',['BitEncoding',['../class_vireo_1_1_type_common.html#ae917c0dcca34491c6092e7b8f3fb8915',1,'Vireo::TypeCommon']]],
-  ['bitlength',['BitLength',['../class_vireo_1_1_type_common.html#a080bbc0c8b5208700d60744cbb467bb9',1,'Vireo::TypeCommon::BitLength()'],['../class_vireo_1_1_wrapped_type.html#a1b1756b2d31cd7f190de1eda229fd903',1,'Vireo::WrappedType::BitLength()'],['../class_vireo_1_1_bit_block_type.html#a2bf71853982d84352c125128e822aafb',1,'Vireo::BitBlockType::BitLength()'],['../class_vireo_1_1_bit_cluster_type.html#aa0eb536ce776f2e90e8ab00366c00471',1,'Vireo::BitClusterType::BitLength()']]],
+  ['bitlength',['BitLength',['../class_vireo_1_1_type_common.html#a080bbc0c8b5208700d60744cbb467bb9',1,'Vireo::TypeCommon::BitLength()'],['../class_vireo_1_1_wrapped_type.html#a1b1756b2d31cd7f190de1eda229fd903',1,'Vireo::WrappedType::BitLength()'],['../class_vireo_1_1_bit_block_type.html#ab619ebdd6e36856b3624ad5d5f7ece3d',1,'Vireo::BitBlockType::BitLength()'],['../class_vireo_1_1_bit_cluster_type.html#aa0eb536ce776f2e90e8ab00366c00471',1,'Vireo::BitClusterType::BitLength()']]],
   ['blockitr',['BlockItr',['../class_vireo_1_1_block_itr.html#a75448e961e66388cbfaa40056acc354b',1,'Vireo::BlockItr']]]
 ];

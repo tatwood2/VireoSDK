@@ -3,7 +3,7 @@ var searchData=
   ['parseandbuildtype',['ParseAndBuildType',['../class_vireo_1_1_type_definer.html#a5e2cdc0f231cde3235f0d726df0f47dd',1,'Vireo::TypeDefiner']]],
   ['parsecontext',['ParseContext',['../class_vireo_1_1_t_d_via_parser.html#a7f4cfb55c7aa2926bcd98f72fae39268',1,'Vireo::TDViaParser']]],
   ['parsedata',['ParseData',['../class_vireo_1_1_type_definer.html#ae6903824371ff2741537189eb38e7a7c',1,'Vireo::TypeDefiner']]],
-  ['parsedouble',['ParseDouble',['../class_vireo_1_1_sub_string.html#a2871641ac2819c359dad9c8edf4b4f52',1,'Vireo::SubString']]],
+  ['parsedouble',['ParseDouble',['../class_vireo_1_1_sub_string.html#ae6c69f1b508543039cc21414d5e68c5f',1,'Vireo::SubString']]],
   ['parseenqueue',['ParseEnqueue',['../class_vireo_1_1_t_d_via_parser.html#a80aff7a61d8696128efa763f53849957',1,'Vireo::TDViaParser']]],
   ['parseliteral',['ParseLiteral',['../class_vireo_1_1_type_definer.html#ac81751240de383c769b24def5a53dd1b',1,'Vireo::TypeDefiner']]],
   ['parserequire',['ParseRequire',['../class_vireo_1_1_t_d_via_parser.html#a0547304ceabbb2277602f8c5c8daf31e',1,'Vireo::TDViaParser']]],

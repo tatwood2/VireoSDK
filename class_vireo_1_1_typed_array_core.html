@@ -140,9 +140,9 @@ AQBlock1 *&#160;</td><td class="memItemRight" valign="bottom"><b>BeginAt</b> (In
 <tr class="memitem:ab097736f3a660bb49826bd25babad1ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab097736f3a660bb49826bd25babad1ac"></a>
 AQBlock1 *&#160;</td><td class="memItemRight" valign="bottom"><b>BeginAtND</b> (Int32, IntIndex *)</td></tr>
 <tr class="separator:ab097736f3a660bb49826bd25babad1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab56e7da3df1addb1ace4e191e5bc7a5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab56e7da3df1addb1ace4e191e5bc7a5b"></a>
-AQBlock1 *&#160;</td><td class="memItemRight" valign="bottom"><b>BeginAtNDIndirect</b> (Int32 rank, IntIndex *ppDimIndexes[])</td></tr>
-<tr class="separator:ab56e7da3df1addb1ace4e191e5bc7a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3247ea0aebed57fb29dedc50fb79cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc3247ea0aebed57fb29dedc50fb79cf"></a>
+AQBlock1 *&#160;</td><td class="memItemRight" valign="bottom"><b>BeginAtNDIndirect</b> (Int32 rank, IntIndex *pDimIndexes[])</td></tr>
+<tr class="separator:abc3247ea0aebed57fb29dedc50fb79cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedd4a7c42675b7bf5a17c945ceaeb72"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaedd4a7c42675b7bf5a17c945ceaeb72"></a>
 void *&#160;</td><td class="memItemRight" valign="bottom"><b>RawObj</b> ()</td></tr>
 <tr class="separator:aaedd4a7c42675b7bf5a17c945ceaeb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,10 +188,10 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 IntIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_typed_array_core.html#a7eaeb38ec9c5b5e9c7ffe04af26993ee">AQBlockLength</a> (IntIndex count)</td></tr>
 <tr class="memdesc:a7eaeb38ec9c5b5e9c7ffe04af26993ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the length of a contiguous chunk of elements. <br/></td></tr>
 <tr class="separator:a7eaeb38ec9c5b5e9c7ffe04af26993ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cd427e6abc4d10db30a5ca2c14c8fd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1cd427e6abc4d10db30a5ca2c14c8fd4"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_typed_array_core.html#a1cd427e6abc4d10db30a5ca2c14c8fd4">ResizeDimensions</a> (Int32 rank, IntIndex *dimensionLengths, Boolean preserveElements, Boolean noInit=false)</td></tr>
-<tr class="memdesc:a1cd427e6abc4d10db30a5ca2c14c8fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize for multi dim arrays. <br/></td></tr>
-<tr class="separator:a1cd427e6abc4d10db30a5ca2c14c8fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc9bf3aedc7786c91282e4a37ec47e26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc9bf3aedc7786c91282e4a37ec47e26"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_typed_array_core.html#acc9bf3aedc7786c91282e4a37ec47e26">ResizeDimensions</a> (Int32 rank, IntIndex *dimensionLengths, Boolean preserveOld, Boolean noInit=false)</td></tr>
+<tr class="memdesc:acc9bf3aedc7786c91282e4a37ec47e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize for multi dim arrays. <br/></td></tr>
+<tr class="separator:acc9bf3aedc7786c91282e4a37ec47e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ffb7e8d994d14760de2037df1e7b01c"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_typed_array_core.html#a8ffb7e8d994d14760de2037df1e7b01c">ResizeToMatchOrEmpty</a> (<a class="el" href="class_vireo_1_1_typed_array_core.html">TypedArrayCoreRef</a> pReference)</td></tr>
 <tr class="memdesc:a8ffb7e8d994d14760de2037df1e7b01c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make this array match the shape of the reference type.  <a href="#a8ffb7e8d994d14760de2037df1e7b01c">More...</a><br/></td></tr>
 <tr class="separator:a8ffb7e8d994d14760de2037df1e7b01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,10 +274,10 @@ IntIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a5bd55a25d5ce6f9fa06d09c47480bf1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5bd55a25d5ce6f9fa06d09c47480bf1a"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_typed_array_core.html#a5bd55a25d5ce6f9fa06d09c47480bf1a">ResizeCapacity</a> (IntIndex countAQ, IntIndex currentCapacity, IntIndex newCapacity, Boolean reserveExists)</td></tr>
-<tr class="memdesc:a5bd55a25d5ce6f9fa06d09c47480bf1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize the underlying block of memory. It DOES NOT update any dimension information. Returns true if success. <br/></td></tr>
-<tr class="separator:a5bd55a25d5ce6f9fa06d09c47480bf1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa051975e7a9b53a2b5e7c9e117a2075b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa051975e7a9b53a2b5e7c9e117a2075b"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_typed_array_core.html#aa051975e7a9b53a2b5e7c9e117a2075b">ResizeCapacity</a> (IntIndex aqLength, IntIndex currentLength, IntIndex length, Boolean reserveExists)</td></tr>
+<tr class="memdesc:aa051975e7a9b53a2b5e7c9e117a2075b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize the underlying block of memory. It DOES NOT update any dimension information. Returns true if success. <br/></td></tr>
+<tr class="separator:aa051975e7a9b53a2b5e7c9e117a2075b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>

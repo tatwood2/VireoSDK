@@ -117,12 +117,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    Int64 Integer()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> _integer; }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    UInt64 Fraction()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> _fraction; }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> <a class="code" href="class_vireo_1_1_timestamp.html#a6c04568838d17147dd04a20d7429076e">operator+</a>(<span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> &amp; value);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> <span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html#a691d0eabc50f5794285cfd928b64098a">operator+</a>(<span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> &amp; value);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> <a class="code" href="class_vireo_1_1_timestamp.html#a6c04568838d17147dd04a20d7429076e">operator+</a>(<span class="keyword">const</span> Int64 &amp; value);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> operator-(<span class="keyword">const</span> Int64 &amp; value);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> <span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html#a691d0eabc50f5794285cfd928b64098a">operator+</a>(<span class="keyword">const</span> Int64 &amp; value);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> <span class="keyword">const</span> operator-(<span class="keyword">const</span> Int64 &amp; value);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> operator-(<span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> &amp; value);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> <span class="keyword">const</span> operator-(<span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> &amp; value);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    Boolean operator==(<span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> &amp; value)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> ((_integer == value._integer) &amp;&amp; (_fraction == value._fraction));</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
@@ -138,14 +138,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    Boolean operator&lt;=(<span class="keyword">const</span> <a class="code" href="class_vireo_1_1_timestamp.html">Timestamp</a> &amp; value)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> (*<span class="keyword">this</span> &lt; value) || (value == *<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Double ToDouble() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Double ToDouble(<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;};</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}  <span class="comment">// namespace Vireo</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif  // Timestamp_h</span></div>
 <div class="ttc" id="class_vireo_1_1_timestamp_html"><div class="ttname"><a href="class_vireo_1_1_timestamp.html">Vireo::Timestamp</a></div><div class="ttdoc">A 64.64 bit fixed point use to represent seconds since Jan 1, 1904 GMT. </div><div class="ttdef"><b>Definition:</b> Timestamp.h:22</div></div>
 <div class="ttc" id="_data_types_8h_html"><div class="ttname"><a href="_data_types_8h.html">DataTypes.h</a></div><div class="ttdoc">Core types (Int32,...) and ifdefs to work around a few platform collisions. </div></div>
-<div class="ttc" id="class_vireo_1_1_timestamp_html_a6c04568838d17147dd04a20d7429076e"><div class="ttname"><a href="class_vireo_1_1_timestamp.html#a6c04568838d17147dd04a20d7429076e">Vireo::Timestamp::operator+</a></div><div class="ttdeci">Timestamp operator+(const Timestamp &amp;value)</div><div class="ttdoc">Add two timestamps, one operand should be relative. </div></div>
+<div class="ttc" id="class_vireo_1_1_timestamp_html_a691d0eabc50f5794285cfd928b64098a"><div class="ttname"><a href="class_vireo_1_1_timestamp.html#a691d0eabc50f5794285cfd928b64098a">Vireo::Timestamp::operator+</a></div><div class="ttdeci">Timestamp const operator+(const Timestamp &amp;value)</div><div class="ttdoc">Add two timestamps, one operand should be relative. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

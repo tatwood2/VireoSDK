@@ -106,6 +106,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="_ref_num_8h_source.html">RefNum.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_events_8h_source.html">Events.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="_control_ref_8h_source.html">ControlRef.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="_java_script_ref_8h_source.html">JavaScriptRef.h</a>&quot;</code><br/>
 <code>#include &lt;deque&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;list&gt;</code><br/>
@@ -180,9 +181,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ae58cc8efc864f6ace0ef797bdc4b1fa5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae58cc8efc864f6ace0ef797bdc4b1fa5"></a>
 static EventSource&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::GetEventSourceForEventType</b> (EventType eType)</td></tr>
 <tr class="separator:ae58cc8efc864f6ace0ef797bdc4b1fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace35a88fe762e5bf13407fc705adc877"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace35a88fe762e5bf13407fc705adc877"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::GetVIName</b> (VirtualInstrument *vi, StringRef viName)</td></tr>
+<tr class="separator:ace35a88fe762e5bf13407fc705adc877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a144b612d0f4b947f8ce666a73c6f38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a144b612d0f4b947f8ce666a73c6f38"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::RegisterForControlEvent</b> (EventInfo *eventInfo, EventSpec eventSpec, StringRef viName, EventQueueID qID, UInt32 controlID, RefNum reference, bool registerControlEvent)</td></tr>
+<tr class="separator:a9a144b612d0f4b947f8ce666a73c6f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a913cab2a068c36919740f24f9a753462"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a913cab2a068c36919740f24f9a753462"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::RegisterForStaticEvents</b> (VirtualInstrument *vi)</td></tr>
 <tr class="separator:a913cab2a068c36919740f24f9a753462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa372d7df13e629fadaa5f7ce58384486"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa372d7df13e629fadaa5f7ce58384486"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::ConfigureEventSpecForJSRef</b> (VirtualInstrument *vi, Int32 eventStructIndex, Int32 eventSpecIndex, JavaScriptRefNum jsReference)</td></tr>
+<tr class="separator:aa372d7df13e629fadaa5f7ce58384486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3522edd8f437b67aafa7aaa4b8ec8b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3522edd8f437b67aafa7aaa4b8ec8b8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::UnregisterForStaticEvents</b> (VirtualInstrument *vi)</td></tr>
 <tr class="separator:ac3522edd8f437b67aafa7aaa4b8ec8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,6 +244,12 @@ VIREO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::O
 <tr class="memitem:accebc729183a2a3bc8e0d442cecf6b9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accebc729183a2a3bc8e0d442cecf6b9b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE3</b> (_OccurEvent, RefNumVal, UInt32, UInt32)</td></tr>
 <tr class="separator:accebc729183a2a3bc8e0d442cecf6b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af95a18198c3bd4de6ed504b7abb5fe8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af95a18198c3bd4de6ed504b7abb5fe8b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE3</b> (ConfigureEventSpecJSRef, Int32, Int32, JavaScriptRefNum)</td></tr>
+<tr class="separator:af95a18198c3bd4de6ed504b7abb5fe8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb3a6d869e2ff0f3ce47683a70afdcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7bb3a6d869e2ff0f3ce47683a70afdcf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE2</b> (RegisterForJSEvent, JavaScriptRefNum, UInt32)</td></tr>
+<tr class="separator:a7bb3a6d869e2ff0f3ce47683a70afdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82005afaaeaca90404b6f22feb42901c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82005afaaeaca90404b6f22feb42901c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE2</b> (IsNotAUserEventRefnum, RefNumVal, Boolean)</td></tr>
 <tr class="separator:a82005afaaeaca90404b6f22feb42901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,13 +282,19 @@ VIREO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::O
 <tr class="memitem:ab0b704a002be9e720799e16d3a427a5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0b704a002be9e720799e16d3a427a5b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(EventRegRefNum ref) io(ErrorCluster err))&quot;) DEFINE_VIREO_FUNCTION(WaitForEventsAndDispatch</td></tr>
 <tr class="separator:ab0b704a002be9e720799e16d3a427a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa86ec31fe63917539100ba159ab925df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa86ec31fe63917539100ba159ab925df"></a>
+<tr class="memitem:ab1e34bcd92382852c030b49b7ed5ecff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1e34bcd92382852c030b49b7ed5ecff"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(VarArgCount) i(Int32 timeOut) i(StaticTypeAndData ref) i(Int32 esIndex)&quot;
-                          &quot;i(VarArgRepeat) i(Int32 specIndex) i(StaticTypeAndData) i(BranchTarget))&quot;) DEFINE_VIREO_FUNCTION(_OccurEvent</td></tr>
-<tr class="separator:aa86ec31fe63917539100ba159ab925df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67a4288c067cd65ca961ed35e1d4f15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae67a4288c067cd65ca961ed35e1d4f15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(ControlRefNum controlRef) i(UInt32 eSource) i(UInt32 eType))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(IsNotANumPathRefnum</td></tr>
-<tr class="separator:ae67a4288c067cd65ca961ed35e1d4f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+                          &quot;i(VarArgRepeat) i(Int32 specIndex) i(StaticTypeAndData) i(BranchTarget))&quot;)  DEFINE_VIREO_FUNCTION(_OccurEvent</td></tr>
+<tr class="separator:ab1e34bcd92382852c030b49b7ed5ecff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d960bb1a8b18fea440517aeb2f0c38f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d960bb1a8b18fea440517aeb2f0c38f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(ControlRefNum controlRef) i(UInt32 eSource) i(UInt32 eType))&quot;) DEFINE_VIREO_FUNCTION(_OccurEvent</td></tr>
+<tr class="separator:a1d960bb1a8b18fea440517aeb2f0c38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3ed050c3884f2f0d4622a28e69a51a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee3ed050c3884f2f0d4622a28e69a51a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(Int32 eStructIndex) i(Int32 eSpecIndex) i(JavaScriptRefNum jsReference))&quot;) DEFINE_VIREO_FUNCTION(RegisterForJSEvent</td></tr>
+<tr class="separator:aee3ed050c3884f2f0d4622a28e69a51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac68a783d5d92f696bd7ecfdce6dffe6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac68a783d5d92f696bd7ecfdce6dffe6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(JavaScriptRefNum jsReference) i(UInt32 eType))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(IsNotANumPathRefnum</td></tr>
+<tr class="separator:aac68a783d5d92f696bd7ecfdce6dffe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92798d988b4c93a487b00d127d3e52aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92798d988b4c93a487b00d127d3e52aa"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(UserEventRefNum) o(Boolean))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(IsEQ</td></tr>
 <tr class="separator:a92798d988b4c93a487b00d127d3e52aa"><td class="memSeparator" colspan="2">&#160;</td></tr>

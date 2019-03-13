@@ -9,6 +9,7 @@ var searchData=
   ['comparesubstring',['CompareSubString',['../class_vireo_1_1_compare_sub_string.html',1,'Vireo']]],
   ['controlrefinfo',['ControlRefInfo',['../struct_vireo_1_1_control_ref_info.html',1,'Vireo']]],
   ['controlrefnummanager',['ControlRefNumManager',['../class_vireo_1_1_control_ref_num_manager.html',1,'Vireo']]],
+  ['copyvariantparamblock',['CopyVariantParamBlock',['../struct_vireo_1_1_copy_variant_param_block.html',1,'Vireo']]],
   ['cprimtitiveinfo',['CPrimtitiveInfo',['../struct_vireo_1_1_type_manager_1_1_c_primtitive_info.html',1,'Vireo::TypeManager']]],
   ['customdataproctype',['CustomDataProcType',['../class_vireo_1_1_custom_data_proc_type.html',1,'Vireo']]]
 ];

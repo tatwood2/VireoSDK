@@ -23,7 +23,7 @@ var searchData=
   ['pointertype',['PointerType',['../class_vireo_1_1_type_common.html#a64976140ddc3ec3128ee8823ea7d22bb',1,'Vireo::TypeCommon']]],
   ['pointertype',['PointerType',['../class_vireo_1_1_pointer_type.html',1,'Vireo']]],
   ['print',['Print',['../class_vireo_1_1_platform_i_o.html#a7efafc13a393a4e5d9606cd2a9802863',1,'Vireo::PlatformIO::Print(Int32 len, ConstCStr str)'],['../class_vireo_1_1_platform_i_o.html#a4bd0092bb9e2f1c37ca1394d91ddc6d3',1,'Vireo::PlatformIO::Print(ConstCStr str)']]],
-  ['printf',['Printf',['../class_vireo_1_1_platform_i_o.html#a80fd6b70cf0e4febc156ad0b5bc1ee03',1,'Vireo::PlatformIO']]],
+  ['printf',['Printf',['../class_vireo_1_1_platform_i_o.html#a5c1ab5dc31a948f65c4787605b03dbcc',1,'Vireo::PlatformIO']]],
   ['polar',['Polar',['../group___v_i_a___a_p_i___polar__to___complex.html',1,'']]],
   ['polartoreorim',['PolarToReOrIm',['../group___v_i_a___a_p_i___polar__to___real___imaginary.html',1,'']]]
 ];

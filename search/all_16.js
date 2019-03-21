@@ -8,6 +8,7 @@ var searchData=
   ['vararginstruction',['VarArgInstruction',['../struct_vireo_1_1_var_arg_instruction.html',1,'Vireo']]],
   ['variantattributemanager',['VariantAttributeManager',['../class_vireo_1_1_variant_attribute_manager.html',1,'Vireo']]],
   ['variants_2ecpp',['Variants.cpp',['../_variants_8cpp.html',1,'']]],
+  ['variants_2eh',['Variants.h',['../_variants_8h.html',1,'']]],
   ['varianttodataparamblock',['VariantToDataParamBlock',['../struct_vireo_1_1_variant_to_data_param_block.html',1,'Vireo']]],
   ['vectoropinstruction',['VectorOpInstruction',['../struct_vireo_1_1_vector_op_instruction.html',1,'Vireo']]],
   ['vi_5ftypestring',['VI_TypeString',['../_virtual_instrument_8h.html#ae2372810b34604b091734a6b1a7ba247',1,'VirtualInstrument.h']]],

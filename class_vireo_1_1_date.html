@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_vireo_1_1_date-members.html">List of all members</a>  </div>
@@ -145,9 +145,6 @@ Int32&#160;</td><td class="memItemRight" valign="bottom"><b>TimeZoneOffset</b> (
 <tr class="memitem:a49f509206b2abc8ab20bcfa1e8bf1b20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49f509206b2abc8ab20bcfa1e8bf1b20"></a>
 Int32&#160;</td><td class="memItemRight" valign="bottom"><b>DaylightSavingTime</b> () const </td></tr>
 <tr class="separator:a49f509206b2abc8ab20bcfa1e8bf1b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43eb92f0a9102ad61fab1be6907387e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43eb92f0a9102ad61fab1be6907387e0"></a>
-Int32&#160;</td><td class="memItemRight" valign="bottom"><b>isDaylightSavingTime</b> ()</td></tr>
-<tr class="separator:a43eb92f0a9102ad61fab1be6907387e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c809dd7b9943a6e5bc4826bb7a8a31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91c809dd7b9943a6e5bc4826bb7a8a31"></a>
 Double&#160;</td><td class="memItemRight" valign="bottom"><b>FractionalSecond</b> () const </td></tr>
 <tr class="separator:a91c809dd7b9943a6e5bc4826bb7a8a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,12 +160,15 @@ static Int32&#160;</td><td class="memItemRight" valign="bottom"><b>getYear</b> (
 <tr class="memitem:a947fb624d285408fec77bfcf3c44f4f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a947fb624d285408fec77bfcf3c44f4f3"></a>
 static <a class="el" href="class_vireo_1_1_timestamp.html">Timestamp</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DateUTCToTimestamp</b> (Int32 year, Int32 month, Int32 day, Int32 hour, Int32 minute, Int32 second, Double fracSecs)</td></tr>
 <tr class="separator:a947fb624d285408fec77bfcf3c44f4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad57b343e9f33b057edc99a8d2de808cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad57b343e9f33b057edc99a8d2de808cb"></a>
+static Int32&#160;</td><td class="memItemRight" valign="bottom"><b>isDaylightSavingTime</b> ()</td></tr>
+<tr class="separator:ad57b343e9f33b057edc99a8d2de808cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a8a0c027eedd20a643c4b6464cd684303"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a0c027eedd20a643c4b6464cd684303"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>getDate</b> (<a class="el" href="class_vireo_1_1_timestamp.html">Timestamp</a> timestamp, Int64 *secondsOfYearPtr, Int32 *yearPtr, Int32 *monthPtr=nullptr, Int32 *dayPtr=nullptr, Int32 *hourPtr=nullptr, Int32 *minutePtr=nullptr, Int32 *secondPtr=nullptr, Double *fractionPtr=nullptr, Int32 *weekDayPtr=nullptr, Int32 *weekOfFirstDay=nullptr, char **timeZoneString=nullptr)</td></tr>
-<tr class="separator:a8a0c027eedd20a643c4b6464cd684303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a2de9d0ef0b4ceae34782586690d769c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2de9d0ef0b4ceae34782586690d769c5"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>getDate</b> (<a class="el" href="class_vireo_1_1_timestamp.html">Timestamp</a> timestamp, Int64 *secondsOfYearPtr, Int32 *yearPtr, Int32 *monthPtr=nullptr, Int32 *dayPtr=nullptr, Int32 *hourPtr=nullptr, Int32 *minutePtr=nullptr, Int32 *secondPtr=nullptr, Double *fractionPtr=nullptr, Int32 *weekDayPtr=nullptr, Int32 *weekOfFirstDay=nullptr, char **timeZoneString=nullptr)</td></tr>
+<tr class="separator:a2de9d0ef0b4ceae34782586690d769c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>

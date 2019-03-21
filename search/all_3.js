@@ -1,7 +1,7 @@
 var searchData=
 [
   ['callviinstruction',['CallVIInstruction',['../struct_vireo_1_1_call_v_i_instruction.html',1,'Vireo']]],
-  ['capacity',['Capacity',['../class_vireo_1_1_fixed_c_array.html#a683ac7ebbf239d25c78e7333613bfffb',1,'Vireo::FixedCArray::Capacity()'],['../class_vireo_1_1_typed_array_core.html#adbf80c10ea727fb4880495b2de0c81c1',1,'Vireo::TypedArrayCore::Capacity()']]],
+  ['capacity',['Capacity',['../class_vireo_1_1_fixed_c_array.html#ab2037b6080b1703e9f8bfd2852780b88',1,'Vireo::FixedCArray::Capacity()'],['../class_vireo_1_1_typed_array_core.html#adbf80c10ea727fb4880495b2de0c81c1',1,'Vireo::TypedArrayCore::Capacity()']]],
   ['centrypoints_2ecpp',['CEntryPoints.cpp',['../_c_entry_points_8cpp.html',1,'']]],
   ['centrypoints_2eh',['CEntryPoints.h',['../_c_entry_points_8h.html',1,'']]],
   ['charlength',['CharLength',['../class_vireo_1_1_sub_string.html#acd463dbfe6e7a71618356cb06707ca13',1,'Vireo::SubString']]],
@@ -18,7 +18,7 @@ var searchData=
   ['comparator',['comparator',['../struct_vireo_1_1comparator.html',1,'Vireo']]],
   ['compare',['Compare',['../class_vireo_1_1_sub_vector.html#af72bc7236f0029cd9c4f6146071a11b7',1,'Vireo::SubVector::Compare(const T *begin2, IntIndex length2)'],['../class_vireo_1_1_sub_vector.html#a6e15f0c6c57c52a6d36b695d7cd1cc3d',1,'Vireo::SubVector::Compare(const SubVector *subVector)'],['../class_vireo_1_1_sub_string.html#a0db9ce70d013572da384a38d6ca6d494',1,'Vireo::SubString::Compare()']]],
   ['comparesubstring',['CompareSubString',['../class_vireo_1_1_compare_sub_string.html',1,'Vireo']]],
-  ['compareviaencodedstring',['CompareViaEncodedString',['../class_vireo_1_1_sub_string.html#a68ccd513e40beaa948ffe50d2a19f675',1,'Vireo::SubString']]],
+  ['compareviaencodedstring',['CompareViaEncodedString',['../class_vireo_1_1_sub_string.html#a7e16b1df1892f65d0a833254ae673560',1,'Vireo::SubString']]],
   ['constcstr',['ConstCStr',['../_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49',1,'DataTypes.h']]],
   ['controlref_2ecpp',['ControlRef.cpp',['../_control_ref_8cpp.html',1,'']]],
   ['controlref_2eh',['ControlRef.h',['../_control_ref_8h.html',1,'']]],
@@ -27,7 +27,7 @@ var searchData=
   ['copydata',['CopyData',['../class_vireo_1_1_type_common.html#a1f3eeaaba690de16fa19a3f307785c50',1,'Vireo::TypeCommon::CopyData(const void *pData, void *pDataCopy)'],['../class_vireo_1_1_type_common.html#a68c189429954c0c71b340f4abe985b23',1,'Vireo::TypeCommon::CopyData(const void *pSource, void *pDest, IntIndex count)'],['../class_vireo_1_1_wrapped_type.html#ae69c2968f3ae57b49795e122433b8747',1,'Vireo::WrappedType::CopyData()'],['../class_vireo_1_1_equivalence_type.html#a81f639d00a1c55dfc22b8a96deea387c',1,'Vireo::EquivalenceType::CopyData()'],['../class_vireo_1_1_cluster_type.html#a76e6bec6b25b254d60afc8f0c5b93bd5',1,'Vireo::ClusterType::CopyData()'],['../class_vireo_1_1_param_block_type.html#a2b33621f12dfb560ac10cd4cbcfedb74',1,'Vireo::ParamBlockType::CopyData()'],['../class_vireo_1_1_array_type.html#a9bc69855205d0f1834c431dd10204b57',1,'Vireo::ArrayType::CopyData()'],['../class_vireo_1_1_ref_num_val_type.html#aca81552bc7cb1e4be1d2aef7a0bcc2aa',1,'Vireo::RefNumValType::CopyData()'],['../class_vireo_1_1_custom_data_proc_type.html#a50dd6718cd8fb5c21ecba125daa0472d',1,'Vireo::CustomDataProcType::CopyData()']]],
   ['copytoboundedbuffer',['CopyToBoundedBuffer',['../class_vireo_1_1_sub_vector.html#a9d89f7cff3de7908ba18955e8ec27495',1,'Vireo::SubVector']]],
   ['copyvariantparamblock',['CopyVariantParamBlock',['../struct_vireo_1_1_copy_variant_param_block.html',1,'Vireo']]],
-  ['countmatches',['CountMatches',['../class_vireo_1_1_sub_string.html#a653c15a2d0a522db38e1912a9e48104e',1,'Vireo::SubString']]],
+  ['countmatches',['CountMatches',['../class_vireo_1_1_sub_string.html#a6b22befaeeb929e91e7e42c395495213',1,'Vireo::SubString']]],
   ['cprimtitiveinfo',['CPrimtitiveInfo',['../struct_vireo_1_1_type_manager_1_1_c_primtitive_info.html',1,'Vireo::TypeManager']]],
   ['createrefnumindext',['CreateRefNumIndexT',['../class_vireo_1_1_typed_ref_num.html#a1fde5e9faec3ee73696a0862b59a6a78',1,'Vireo::TypedRefNum']]],
   ['customdataproctype',['CustomDataProcType',['../class_vireo_1_1_custom_data_proc_type.html',1,'Vireo']]],

@@ -121,23 +121,23 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a077de5e96f97274cde9af4c41aa1b9b1"><td class="memItemLeft" align="right" valign="top">RefNum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_ref_num_storage_base.html#a077de5e96f97274cde9af4c41aa1b9b1">CloneRefNum</a> (RefNum refnum)</td></tr>
-<tr class="separator:a077de5e96f97274cde9af4c41aa1b9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bcf372a7e01ad7a9b3fcd2c5076c856"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8bcf372a7e01ad7a9b3fcd2c5076c856"></a>
 Int32&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseRefNumRights</b> (const RefNum &amp;refnum)</td></tr>
 <tr class="separator:a8bcf372a7e01ad7a9b3fcd2c5076c856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3414b45a7e43d30fb7074d4a1d49ad8e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3414b45a7e43d30fb7074d4a1d49ad8e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsARefNum</b> (const RefNum &amp;refnum)</td></tr>
 <tr class="separator:a3414b45a7e43d30fb7074d4a1d49ad8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5b493658d235be2637f4a0d9bb8be11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5b493658d235be2637f4a0d9bb8be11"></a>
-Int32&#160;</td><td class="memItemRight" valign="bottom"><b>GetRefNumCount</b> ()</td></tr>
-<tr class="separator:ad5b493658d235be2637f4a0d9bb8be11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b9742c467cd5253985d23296f4cf5ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b9742c467cd5253985d23296f4cf5ea"></a>
-NIError&#160;</td><td class="memItemRight" valign="bottom"><b>GetRefNumList</b> (RefNumList *list)</td></tr>
-<tr class="separator:a2b9742c467cd5253985d23296f4cf5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d4ee3f4f5ae4e1923c82fc7d59b1013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d4ee3f4f5ae4e1923c82fc7d59b1013"></a>
+Int32&#160;</td><td class="memItemRight" valign="bottom"><b>GetRefNumCount</b> () const </td></tr>
+<tr class="separator:a7d4ee3f4f5ae4e1923c82fc7d59b1013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a077de5e96f97274cde9af4c41aa1b9b1"><td class="memItemLeft" align="right" valign="top">static RefNum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_ref_num_storage_base.html#a077de5e96f97274cde9af4c41aa1b9b1">CloneRefNum</a> (RefNum refnum)</td></tr>
+<tr class="separator:a077de5e96f97274cde9af4c41aa1b9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9742c467cd5253985d23296f4cf5ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b9742c467cd5253985d23296f4cf5ea"></a>
+static NIError&#160;</td><td class="memItemRight" valign="bottom"><b>GetRefNumList</b> (RefNumList *list)</td></tr>
+<tr class="separator:a2b9742c467cd5253985d23296f4cf5ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca396e1ef50e09ab053abf314d10ae9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca396e1ef50e09ab053abf314d10ae9c"></a>
 static RefNum&#160;</td><td class="memItemRight" valign="bottom"><b>RefNumFromIndexAndExistingHeader</b> (UInt32 index, const <a class="el" href="struct_vireo_1_1_ref_num_common_header.html">RefNumCommonHeader</a> &amp;header)</td></tr>
 <tr class="separator:aca396e1ef50e09ab053abf314d10ae9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +204,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRefCounted</b> = f
 <a class="anchor" id="a077de5e96f97274cde9af4c41aa1b9b1"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">RefNum Vireo::RefNumStorageBase::CloneRefNum </td>
@@ -213,6 +216,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isRefCounted</b> = f
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Clone a refnum, but with a different magic number. Resulting refnum is not valid to look up storage but can be used by an outside manager to maintain refnum alias (e.g. for named Queues). s </p>
 

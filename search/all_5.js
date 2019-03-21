@@ -9,7 +9,7 @@ var searchData=
   ['eatwhitespaces',['EatWhiteSpaces',['../class_vireo_1_1_sub_string.html#a6d9fe27c1c256c6d443110d9d95e5868',1,'Vireo::SubString']]],
   ['elementname',['ElementName',['../class_vireo_1_1_type_common.html#a1e28c0917e62d59f50e6070057572a34',1,'Vireo::TypeCommon::ElementName()'],['../class_vireo_1_1_named_type.html#a9e0f106caeca31ddb31b967ca6986c37',1,'Vireo::NamedType::ElementName()'],['../class_vireo_1_1_element_type.html#a194fee96bd5aaabe5d0b91f4345689e3',1,'Vireo::ElementType::ElementName()']]],
   ['elementoffset',['ElementOffset',['../class_vireo_1_1_type_common.html#a8c4eaefdbd80f4928d45b23a4b5f6f05',1,'Vireo::TypeCommon::ElementOffset()'],['../class_vireo_1_1_element_type.html#a49811759448fe373dec72b1187ba2fdb',1,'Vireo::ElementType::ElementOffset()']]],
-  ['elementtype',['ElementType',['../class_vireo_1_1_typed_array_core.html#a3d78f3a88d74f266484964156e71b1f8',1,'Vireo::TypedArrayCore']]],
+  ['elementtype',['ElementType',['../class_vireo_1_1_typed_array_core.html#a25d30ea68b4367f04989f4a605bf5bd6',1,'Vireo::TypedArrayCore']]],
   ['elementtype',['ElementType',['../class_vireo_1_1_element_type.html',1,'Vireo']]],
   ['emitinstruction',['EmitInstruction',['../class_vireo_1_1_clump_parse_state.html#ab5a58dbbf2c801f745b724f2cbda0834',1,'Vireo::ClumpParseState::EmitInstruction()'],['../class_vireo_1_1_clump_parse_state.html#a7b580c467fdebc61dbddf062b8306424',1,'Vireo::ClumpParseState::EmitInstruction(SubString *opName, Int32 argCount,...)']]],
   ['end',['End',['../class_vireo_1_1_sub_vector.html#aade27138403e52ae249973cc660d11c7',1,'Vireo::SubVector']]],

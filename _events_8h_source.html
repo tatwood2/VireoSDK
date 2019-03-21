@@ -200,7 +200,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        pEventData = pData;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">void</span> Destroy() {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">void</span> Destroy()<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">if</span> (eventDataType &amp;&amp; pEventData) {</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            eventDataType-&gt;<a class="code" href="class_vireo_1_1_type_common.html#a212acaacb165a723b27db73ecfdf3595">ClearData</a>(pEventData);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            THREAD_TADM()-&gt;Free(pEventData);</div>
@@ -227,11 +227,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">#endif  // Events_h</span></div>
 <div class="ttc" id="struct_vireo_1_1_event_data_html"><div class="ttname"><a href="struct_vireo_1_1_event_data.html">Vireo::EventData</a></div><div class="ttdef"><b>Definition:</b> Events.h:98</div></div>
 <div class="ttc" id="_type_and_data_manager_8h_html"><div class="ttname"><a href="_type_and_data_manager_8h.html">TypeAndDataManager.h</a></div><div class="ttdoc">Tools to define data types, manage their data, and a TypeManager to manage those types. </div></div>
-<div class="ttc" id="class_vireo_1_1_ref_num_val_html"><div class="ttname"><a href="class_vireo_1_1_ref_num_val.html">Vireo::RefNumVal</a></div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:963</div></div>
+<div class="ttc" id="class_vireo_1_1_ref_num_val_html"><div class="ttname"><a href="class_vireo_1_1_ref_num_val.html">Vireo::RefNumVal</a></div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:964</div></div>
 <div class="ttc" id="class_vireo_1_1_virtual_instrument_html"><div class="ttname"><a href="class_vireo_1_1_virtual_instrument.html">Vireo::VirtualInstrument</a></div><div class="ttdef"><b>Definition:</b> VirtualInstrument.h:75</div></div>
 <div class="ttc" id="class_vireo_1_1_type_common_html"><div class="ttname"><a href="class_vireo_1_1_type_common.html">Vireo::TypeCommon</a></div><div class="ttdoc">Base class for all type definition types. </div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.h:441</div></div>
 <div class="ttc" id="struct_vireo_1_1_event_common_data_html"><div class="ttname"><a href="struct_vireo_1_1_event_common_data.html">Vireo::EventCommonData</a></div><div class="ttdef"><b>Definition:</b> Events.h:69</div></div>
-<div class="ttc" id="class_vireo_1_1_type_common_html_a212acaacb165a723b27db73ecfdf3595"><div class="ttname"><a href="class_vireo_1_1_type_common.html#a212acaacb165a723b27db73ecfdf3595">Vireo::TypeCommon::ClearData</a></div><div class="ttdeci">virtual NIError ClearData(void *pData)</div><div class="ttdoc">Free up any storage and put value to nullptr/zero state. </div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.cpp:722</div></div>
+<div class="ttc" id="class_vireo_1_1_type_common_html_a212acaacb165a723b27db73ecfdf3595"><div class="ttname"><a href="class_vireo_1_1_type_common.html#a212acaacb165a723b27db73ecfdf3595">Vireo::TypeCommon::ClearData</a></div><div class="ttdeci">virtual NIError ClearData(void *pData)</div><div class="ttdoc">Free up any storage and put value to nullptr/zero state. </div><div class="ttdef"><b>Definition:</b> TypeAndDataManager.cpp:724</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -125,6 +125,7 @@ Inheritance diagram for Vireo::TypeCommon:</div>
 <area href="class_vireo_1_1_named_type.html" title="Gives a type a name ( .e.g &quot;Int32&quot;) " alt="Vireo::NamedType" shape="rect" coords="543,392,714,416"/>
 <area href="class_vireo_1_1_pointer_type.html" title="A type describes a pointer to another type. Initial value will be nullptr. " alt="Vireo::PointerType" shape="rect" coords="543,448,714,472"/>
 <area href="class_vireo_1_1_ref_num_val_type.html" title="A type describes a refnum to another type. " alt="Vireo::RefNumValType" shape="rect" coords="543,504,714,528"/>
+<area href="class_vireo_1_1_variant_type.html" alt="Vireo::VariantType" shape="rect" coords="543,560,714,584"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -202,6 +203,9 @@ static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&
 <tr class="memitem:a6cfd450003a67e650bf25c09021d98e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6cfd450003a67e650bf25c09021d98e9"></a>
 static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TypeStaticTypeAndData</b> = <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>(&quot;StaticTypeAndData&quot;)</td></tr>
 <tr class="separator:a6cfd450003a67e650bf25c09021d98e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff77a545735fbc36133292535bef46c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ff77a545735fbc36133292535bef46c"></a>
+static const <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TypeStaticType</b> = <a class="el" href="class_vireo_1_1_sub_string.html">SubString</a>(&quot;StaticType&quot;)</td></tr>
+<tr class="separator:a7ff77a545735fbc36133292535bef46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -458,6 +462,12 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsA</b> (<a class=
 <tr class="memitem:ad6c2d4098af7193d05fc03c93a8c8ebf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6c2d4098af7193d05fc03c93a8c8ebf"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsA</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> otherType, Boolean compatibleStructure)</td></tr>
 <tr class="separator:ad6c2d4098af7193d05fc03c93a8c8ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823109c3cce089554b32c59d2bdbd393"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a823109c3cce089554b32c59d2bdbd393"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsStaticTypeWildcard</b> ()</td></tr>
+<tr class="separator:a823109c3cce089554b32c59d2bdbd393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77e2c46e9868d25286d6cf232d9af29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab77e2c46e9868d25286d6cf232d9af29"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsStaticTypeAndDataWildcard</b> ()</td></tr>
+<tr class="separator:ab77e2c46e9868d25286d6cf232d9af29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a760f72f80b069b23af19c82ec270461c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a760f72f80b069b23af19c82ec270461c"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsNumeric</b> ()</td></tr>
 <tr class="separator:a760f72f80b069b23af19c82ec270461c"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -127,21 +127,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a16d27bf52db5aa54fb55a45e15fdc15f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16d27bf52db5aa54fb55a45e15fdc15f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURET</b> (DataToVariant, DataToVariantParamBlock)</td></tr>
 <tr class="separator:a16d27bf52db5aa54fb55a45e15fdc15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f2e7abe88ff2ca47c1f51bfebce5085"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f2e7abe88ff2ca47c1f51bfebce5085"></a>
-TypeRef&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::CopyToVariant</b> (TypeRef sourceType)</td></tr>
-<tr class="separator:a3f2e7abe88ff2ca47c1f51bfebce5085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aca6bdeabce1567a2fdc8a2484d4075"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1aca6bdeabce1567a2fdc8a2484d4075"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::IsTypeUnspecifiedOrVariant</b> (TypeRef destType, void *destData)</td></tr>
-<tr class="separator:a1aca6bdeabce1567a2fdc8a2484d4075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1acf7f46860c1633eb57e320d15b925"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1acf7f46860c1633eb57e320d15b925"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::IsTargetTypeSameAsOutput</b> (TypeRef targetType, void *targetData, TypeRef outputType, void *outputData)</td></tr>
-<tr class="separator:ab1acf7f46860c1633eb57e320d15b925"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab4a23fc95b01c4114a388d18aebe10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ab4a23fc95b01c4114a388d18aebe10"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::IsTargetTypeCompatibleWithInput</b> (TypeRef inputType, TypeRef targetType, void *targetData)</td></tr>
-<tr class="separator:a6ab4a23fc95b01c4114a388d18aebe10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33cc35290772e5be5e6993b8632101b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33cc35290772e5be5e6993b8632101b0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::SetVariantToDataTypeError</b> (TypeRef inputType, TypeRef targetType, TypeRef outputType, void *outputData, ErrorCluster *errPtr)</td></tr>
-<tr class="separator:a33cc35290772e5be5e6993b8632101b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29eb606edfa77c3d2c4ac4a36d6c2d73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29eb606edfa77c3d2c4ac4a36d6c2d73"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURET</b> (VariantToData, VariantToDataParamBlock)</td></tr>
 <tr class="separator:a29eb606edfa77c3d2c4ac4a36d6c2d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,12 +145,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::SetVariantToDa
 <tr class="memitem:a36ab9bcdf4b3fad2fc762a2f4840663d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36ab9bcdf4b3fad2fc762a2f4840663d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURET</b> (CopyVariant, CopyVariantParamBlock)</td></tr>
 <tr class="separator:a36ab9bcdf4b3fad2fc762a2f4840663d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b990e24ed97c54140926d284ee7c7f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b990e24ed97c54140926d284ee7c7f4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (VariantToData,&quot;p(i(StaticTypeAndData inputVariant) io(ErrorCluster error)&quot;&quot;i(StaticTypeAndData targetType) o(StaticTypeAndData outputType))&quot;)</td></tr>
-<tr class="separator:a6b990e24ed97c54140926d284ee7c7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58a68ff7549b2a341518c4215f10f4a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58a68ff7549b2a341518c4215f10f4a0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (DataToVariant,&quot;p(i(StaticTypeAndData) o(Variant))&quot;)</td></tr>
 <tr class="separator:a58a68ff7549b2a341518c4215f10f4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0bd6c461be4157ea8d500965dc52305"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0bd6c461be4157ea8d500965dc52305"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (VariantToData,&quot;p(i(StaticTypeAndData inputVariant) io(ErrorCluster error)&quot;&quot;i(StaticType targetType) o(StaticTypeAndData outputType))&quot;)</td></tr>
+<tr class="separator:ab0bd6c461be4157ea8d500965dc52305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2be384fe3f5e8d9c752cd5c015673f87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2be384fe3f5e8d9c752cd5c015673f87"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (SetVariantAttribute,&quot;p(io(Variant inputVariant) i(String name)&quot;&quot; i(StaticTypeAndData value) o(Boolean replaced) io(ErrorCluster error) )&quot;)</td></tr>
 <tr class="separator:a2be384fe3f5e8d9c752cd5c015673f87"><td class="memSeparator" colspan="2">&#160;</td></tr>

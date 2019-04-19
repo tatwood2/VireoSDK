@@ -19,6 +19,15 @@ var searchData=
   ['devnull',['DevNull',['../class_vireo_1_1_event_log.html#a610deb3c854479fdb1534e68a529e6a3',1,'Vireo::EventLog']]],
   ['digitvalue',['DigitValue',['../class_vireo_1_1_sub_string.html#a333d142ae2fd62a158a5bd148c937a52',1,'Vireo::SubString']]],
   ['dimensionlengths',['DimensionLengths',['../class_vireo_1_1_type_common.html#abb7b78cea7048639ea6892ba655a2db9',1,'Vireo::TypeCommon::DimensionLengths()'],['../class_vireo_1_1_wrapped_type.html#a517a2cce577136b762d7af69c7b3529f',1,'Vireo::WrappedType::DimensionLengths()'],['../class_vireo_1_1_array_type.html#a687997f9887d8647a94ba1b845bb1432',1,'Vireo::ArrayType::DimensionLengths()']]],
+  ['dualtypeequal',['DualTypeEqual',['../class_vireo_1_1_dual_type_equal.html',1,'Vireo']]],
+  ['dualtypeequal_2ecpp',['DualTypeEqual.cpp',['../_dual_type_equal_8cpp.html',1,'']]],
+  ['dualtypeequal_2eh',['DualTypeEqual.h',['../_dual_type_equal_8h.html',1,'']]],
+  ['dualtypeoperation',['DualTypeOperation',['../class_vireo_1_1_dual_type_operation.html',1,'Vireo']]],
+  ['dualtypeoperation_2ecpp',['DualTypeOperation.cpp',['../_dual_type_operation_8cpp.html',1,'']]],
+  ['dualtypeoperation_2eh',['DualTypeOperation.h',['../_dual_type_operation_8h.html',1,'']]],
+  ['dualtypevisitor',['DualTypeVisitor',['../class_vireo_1_1_dual_type_visitor.html',1,'Vireo']]],
+  ['dualtypevisitor_2ecpp',['DualTypeVisitor.cpp',['../_dual_type_visitor_8cpp.html',1,'']]],
+  ['dualtypevisitor_2eh',['DualTypeVisitor.h',['../_dual_type_visitor_8h.html',1,'']]],
   ['dynamiceventregentry',['DynamicEventRegEntry',['../class_vireo_1_1_dynamic_event_reg_entry.html',1,'Vireo']]],
   ['dynamiceventreginfo',['DynamicEventRegInfo',['../class_vireo_1_1_dynamic_event_reg_info.html',1,'Vireo']]]
 ];

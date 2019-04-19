@@ -6,6 +6,7 @@ var searchData=
   ['validaterefnumindex',['ValidateRefNumIndex',['../class_vireo_1_1_ref_num_storage_base.html#a4888578c4f612c0c57bd31c91a8e8683',1,'Vireo::RefNumStorageBase']]],
   ['validaterefnumindext',['ValidateRefNumIndexT',['../class_vireo_1_1_typed_ref_num.html#ad3a5155eb4dc1243525cb0275191c642',1,'Vireo::TypedRefNum']]],
   ['vararginstruction',['VarArgInstruction',['../struct_vireo_1_1_var_arg_instruction.html',1,'Vireo']]],
+  ['variantcomparisonparamblock',['VariantComparisonParamBlock',['../struct_vireo_1_1_variant_comparison_param_block.html',1,'Vireo']]],
   ['variants_2ecpp',['Variants.cpp',['../_variants_8cpp.html',1,'']]],
   ['variants_2eh',['Variants.h',['../_variants_8h.html',1,'']]],
   ['varianttodataparamblock',['VariantToDataParamBlock',['../struct_vireo_1_1_variant_to_data_param_block.html',1,'Vireo']]],

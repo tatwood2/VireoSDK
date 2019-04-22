@@ -12,6 +12,7 @@ var searchData=
   ['insert1d',['Insert1D',['../class_vireo_1_1_typed_array_core.html#a83f1763b82ea4492d79e2458c806e1c6',1,'Vireo::TypedArrayCore']]],
   ['insertobserver',['InsertObserver',['../class_vireo_1_1_observable_core.html#ae22bb6737b2c1deaba28c8f41b13cff4',1,'Vireo::ObservableCore']]],
   ['insertpastrequirement',['InsertPastRequirement',['../class_vireo_1_1_type_definer.html#af59de0e91962003672917efd52e287d1',1,'Vireo::TypeDefiner']]],
+  ['instantiatetypetemplate',['InstantiateTypeTemplate',['../_type_templates_8cpp.html#a0d0186c1b39ec6d9c3ffd55f6668b74e',1,'Vireo']]],
   ['instruction_2eh',['Instruction.h',['../_instruction_8h.html',1,'']]],
   ['instruction1',['Instruction1',['../struct_vireo_1_1_instruction1.html',1,'Vireo']]],
   ['instruction10',['Instruction10',['../struct_vireo_1_1_instruction10.html',1,'Vireo']]],
@@ -30,6 +31,7 @@ var searchData=
   ['instructionblockdataprocsclass',['InstructionBlockDataProcsClass',['../class_vireo_1_1_instruction_block_data_procs_class.html',1,'Vireo']]],
   ['instructioncore',['InstructionCore',['../struct_vireo_1_1_instruction_core.html',1,'Vireo']]],
   ['int8',['Int8',['../_data_types_8h.html#a1d6ba23467c5f743eb2b594913650a61',1,'DataTypes.h']]],
+  ['intindex',['IntIndex',['../_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1',1,'Vireo']]],
   ['intmax',['IntMax',['../_data_types_8h.html#ab83f9c3ddee76be16122c8c07c84a280',1,'DataTypes.h']]],
   ['isalias',['IsAlias',['../class_vireo_1_1_type_common.html#a6b99c617c8a1e3fa73257c7541f27886',1,'Vireo::TypeCommon']]],
   ['isarray',['IsArray',['../class_vireo_1_1_type_common.html#a2c0b9114e82f2d09b7cc10c223bf07d7',1,'Vireo::TypeCommon']]],
@@ -45,12 +47,14 @@ var searchData=
   ['isrefnum',['IsRefnum',['../class_vireo_1_1_type_common.html#aac639b31a85474c38136232f7b80aef1',1,'Vireo::TypeCommon']]],
   ['isstaticparam',['IsStaticParam',['../class_vireo_1_1_type_common.html#ac3890c76a4d51b5c9594344b1f821bed',1,'Vireo::TypeCommon']]],
   ['istemplate',['IsTemplate',['../class_vireo_1_1_type_common.html#a97384bfad91e948a8829cf76785f1d0b',1,'Vireo::TypeCommon']]],
+  ['istemplatedim',['IsTemplateDim',['../_data_types_8h.html#a48a9527168daa5524523c52b55c1ba77',1,'Vireo']]],
   ['istempparam',['IsTempParam',['../class_vireo_1_1_type_common.html#ae852c21e8b7daef8b13e6873689679d5',1,'Vireo::TypeCommon']]],
   ['isvalid',['IsValid',['../class_vireo_1_1_type_common.html#a12eb18c0fb2ebea56e11f2cfdabec813',1,'Vireo::TypeCommon']]],
+  ['isvariablelengthdim',['IsVariableLengthDim',['../_data_types_8h.html#a95b1712bf4d01c7c642f6367bc42f71c',1,'Vireo']]],
   ['iszda',['IsZDA',['../class_vireo_1_1_type_common.html#ada4b7e70fdafdab43ab4acd7b5c8393d',1,'Vireo::TypeCommon']]],
   ['itr',['Itr',['../class_vireo_1_1_itr.html',1,'Vireo']]],
   ['itr_3c_20aqblock1_20_3e',['Itr&lt; AQBlock1 &gt;',['../class_vireo_1_1_itr.html',1,'Vireo']]],
-  ['introduction_20to_20arrays',['Introduction to arrays',['../md_dox__intro_array_examples.html',1,'']]],
-  ['introduction_20to_20parallel_20execution',['Introduction to parallel execution',['../md_dox__intro_parallel_clump_examples.html',1,'']]],
-  ['introduction_20to_20types_20and_20functions',['Introduction to types and functions',['../md_dox__intro_type_examples.html',1,'']]]
+  ['introduction_20to_20arrays',['Introduction to arrays',['../md_dox_IntroArrayExamples.html',1,'']]],
+  ['introduction_20to_20parallel_20execution',['Introduction to parallel execution',['../md_dox_IntroParallelClumpExamples.html',1,'']]],
+  ['introduction_20to_20types_20and_20functions',['Introduction to types and functions',['../md_dox_IntroTypeExamples.html',1,'']]]
 ];

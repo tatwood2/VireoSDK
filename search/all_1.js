@@ -28,6 +28,6 @@ var searchData=
   ['arraytype',['ArrayType',['../class_vireo_1_1_array_type.html',1,'Vireo']]],
   ['assert_2ecpp',['Assert.cpp',['../_assert_8cpp.html',1,'']]],
   ['arrays',['Arrays',['../group___internals___arrays.html',1,'']]],
-  ['api',['API',['../md_dox__internals__a_p_i.html',1,'']]],
+  ['api',['API',['../md_dox_Internals_API.html',1,'']]],
   ['arrays',['Arrays',['../group___v_i_a_intro___arrays.html',1,'']]]
 ];

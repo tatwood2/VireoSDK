@@ -2,6 +2,7 @@ var searchData=
 [
   ['eatchar',['EatChar',['../class_vireo_1_1_sub_string.html#a72f7745eda53d16294bb67a72bbf4644',1,'Vireo::SubString']]],
   ['eatcharsbytrait',['EatCharsByTrait',['../class_vireo_1_1_sub_string.html#af17549ca601442e7b457c6e4febcbf0b',1,'Vireo::SubString']]],
+  ['eatjsonitem',['EatJSONItem',['../_t_d_codec_via_8cpp.html#a5da11bb7ec76ca309e1c7965851b26bc',1,'Vireo']]],
   ['eatjsonpath',['EatJSONPath',['../class_vireo_1_1_t_d_via_parser.html#a01469dc930d3011e13c14022e3b8bab2',1,'Vireo::TDViaParser']]],
   ['eatleadingspaces',['EatLeadingSpaces',['../class_vireo_1_1_sub_string.html#a638e6365e8992690c53177a851a69cd6',1,'Vireo::SubString']]],
   ['eatrawchars',['EatRawChars',['../class_vireo_1_1_sub_string.html#ab2eb39d336d00a5b5499621c0a990668',1,'Vireo::SubString']]],
@@ -39,6 +40,7 @@ var searchData=
   ['executioncontext',['ExecutionContext',['../class_vireo_1_1_execution_context.html',1,'Vireo']]],
   ['executioncontext_2ecpp',['ExecutionContext.cpp',['../_execution_context_8cpp.html',1,'']]],
   ['executioncontext_2eh',['ExecutionContext.h',['../_execution_context_8h.html',1,'']]],
+  ['executioncontextref',['ExecutionContextRef',['../_execution_context_8h.html#ae0a5a399bfd331094a7629d04a26e7b4',1,'Vireo']]],
   ['executioncontext',['ExecutionContext',['../group___internals___execution_context.html',1,'']]],
-  ['ebnf_20grammar_20for_20via_20assembly',['EBNF grammar for VIA assembly',['../md_dox__via_e_b_n_f.html',1,'']]]
+  ['ebnf_20grammar_20for_20via_20assembly',['EBNF grammar for VIA assembly',['../md_dox_ViaEBNF.html',1,'']]]
 ];

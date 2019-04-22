@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['modulelayout',['ModuleLayout',['../md_dox__internals__module_layout.html',1,'']]]
+  ['modulelayout',['ModuleLayout',['../md_dox_Internals_ModuleLayout.html',1,'']]]
 ];

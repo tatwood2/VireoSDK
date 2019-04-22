@@ -14,6 +14,7 @@ var searchData=
   ['vectoropinstruction',['VectorOpInstruction',['../struct_vireo_1_1_vector_op_instruction.html',1,'Vireo']]],
   ['vi_5ftypestring',['VI_TypeString',['../_virtual_instrument_8h.html#ae2372810b34604b091734a6b1a7ba247',1,'VirtualInstrument.h']]],
   ['vi_20assembly_20and_20function_20reference',['VI Assembly and Function Reference',['../group___v_i_a___function___reference.html',1,'']]],
+  ['viaformat',['ViaFormat',['../_t_d_codec_via_8h.html#a92cfa16efcbcf12ccc7857a474a1ad8c',1,'Vireo']]],
   ['viaformatchars',['ViaFormatChars',['../struct_vireo_1_1_via_format_chars.html',1,'Vireo']]],
   ['viaformatoptions',['ViaFormatOptions',['../struct_vireo_1_1_via_format_options.html',1,'Vireo']]],
   ['vi_20assembly_20introduction',['VI Assembly Introduction',['../group___v_i_a_intro.html',1,'']]],
@@ -21,8 +22,12 @@ var searchData=
   ['viclump',['VIClump',['../class_vireo_1_1_v_i_clump.html',1,'Vireo']]],
   ['viclumpqueue',['VIClumpQueue',['../class_vireo_1_1_v_i_clump_queue.html',1,'Vireo']]],
   ['vidataprocsclass',['VIDataProcsClass',['../class_vireo_1_1_v_i_data_procs_class.html',1,'Vireo']]],
+  ['vireo_5ffunction_5fsignature4',['VIREO_FUNCTION_SIGNATURE4',['../_type_and_data_manager_8cpp.html#ae029e41cda0d10f794656c691fa007b3',1,'Vireo']]],
+  ['vireo_5ffunction_5fsignature5',['VIREO_FUNCTION_SIGNATURE5',['../_type_and_data_manager_8cpp.html#a72bab0e92b18972040623a1a0c9fbeb0',1,'Vireo']]],
+  ['vireo_5fmaxexecwakeuptime',['Vireo_MaxExecWakeUpTime',['../_c_entry_points_8h.html#a1645a3566b68e74d311bdce5f2317f3e',1,'Vireo']]],
   ['vireounittest',['VireoUnitTest',['../class_vireo_unit_test.html',1,'']]],
   ['virtualinstrument',['VirtualInstrument',['../class_vireo_1_1_virtual_instrument.html',1,'Vireo']]],
   ['virtualinstrument_2ecpp',['VirtualInstrument.cpp',['../_virtual_instrument_8cpp.html',1,'']]],
-  ['virtualinstrument_2eh',['VirtualInstrument.h',['../_virtual_instrument_8h.html',1,'']]]
+  ['virtualinstrument_2eh',['VirtualInstrument.h',['../_virtual_instrument_8h.html',1,'']]],
+  ['virtualinstrumentobjectref',['VirtualInstrumentObjectRef',['../_virtual_instrument_8h.html#a8c56ac28f2af77eb7b6591c919b05684',1,'Vireo']]]
 ];

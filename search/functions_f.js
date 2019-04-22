@@ -2,12 +2,14 @@ var searchData=
 [
   ['rank',['Rank',['../class_vireo_1_1_type_common.html#a09335e8aea25c5f3db17d8cfb89377da',1,'Vireo::TypeCommon']]],
   ['read',['Read',['../class_vireo_1_1_itr.html#af1f830d70b88747af9c4968ec4133c0b',1,'Vireo::Itr']]],
+  ['readdoublefrommemory',['ReadDoubleFromMemory',['../_type_and_data_manager_8cpp.html#ae7e79d7b20930760e1012fe48f129246',1,'Vireo']]],
   ['readescapetoken',['ReadEscapeToken',['../class_vireo_1_1_sub_string.html#a5fef21593598cf6d5c69ad7282d26849',1,'Vireo::SubString']]],
   ['readfile',['ReadFile',['../class_vireo_1_1_platform_i_o.html#a4b192adfc40e588427773825ead96d82',1,'Vireo::PlatformIO']]],
   ['readgraphemecluster',['ReadGraphemeCluster',['../class_vireo_1_1_sub_string.html#aa4f20c2fc5aafaf62b2a230cf8d69b19',1,'Vireo::SubString']]],
   ['readhex2',['ReadHex2',['../class_vireo_1_1_sub_string.html#adff57b7b8bf75b9be6e29c81423140dd',1,'Vireo::SubString']]],
   ['readint',['ReadInt',['../class_vireo_1_1_sub_string.html#ac5d26775afef521417ec5448abd62558',1,'Vireo::SubString']]],
   ['readintdim',['ReadIntDim',['../class_vireo_1_1_sub_string.html#a112cc6ad0c40faf5e3ae8e45353b4799',1,'Vireo::SubString']]],
+  ['readintfrommemory',['ReadIntFromMemory',['../_type_and_data_manager_8cpp.html#a79c2618c0912168971213cfb84a6cd21',1,'Vireo']]],
   ['readintwithbase',['ReadIntWithBase',['../class_vireo_1_1_sub_string.html#a4725df4ca1e3929e90e682677d10ed6d',1,'Vireo::SubString']]],
   ['readline',['ReadLine',['../class_vireo_1_1_sub_string.html#a1137edf63e1cfda8f28eb2a8fc625ed0',1,'Vireo::SubString']]],
   ['readnametoken',['ReadNameToken',['../class_vireo_1_1_sub_string.html#a87305f33b1d3eea50eb9bbda0d82e8bd',1,'Vireo::SubString']]],
@@ -26,5 +28,6 @@ var searchData=
   ['resizecapacity',['ResizeCapacity',['../class_vireo_1_1_typed_array_core.html#a5bd55a25d5ce6f9fa06d09c47480bf1a',1,'Vireo::TypedArrayCore']]],
   ['resizedimensions',['ResizeDimensions',['../class_vireo_1_1_typed_array_core.html#a1cd427e6abc4d10db30a5ca2c14c8fd4',1,'Vireo::TypedArrayCore']]],
   ['resizetomatchorempty',['ResizeToMatchOrEmpty',['../class_vireo_1_1_typed_array_core.html#a8ffb7e8d994d14760de2037df1e7b01c',1,'Vireo::TypedArrayCore']]],
-  ['resolvepackage',['ResolvePackage',['../class_vireo_1_1_type_definer.html#a68d4257ce1a29825b80b2851ea6ceafd',1,'Vireo::TypeDefiner']]]
+  ['resolvepackage',['ResolvePackage',['../class_vireo_1_1_type_definer.html#a68d4257ce1a29825b80b2851ea6ceafd',1,'Vireo::TypeDefiner']]],
+  ['roundtoeven',['RoundToEven',['../_type_and_data_manager_8h.html#ab9f903c814b1c5fa83a1dfd514ba7614',1,'Vireo::RoundToEven(Double value)'],['../_type_and_data_manager_8h.html#abdfa240578d18c86f2d2e61131652127',1,'Vireo::RoundToEven(Single value)']]]
 ];

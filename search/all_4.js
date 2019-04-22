@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data_5frawblocksize',['Data_RawBlockSize',['../_c_entry_points_8h.html#a3e15430aaf2c15bb602aabebdd372c5f',1,'Vireo']]],
   ['datapointer',['DataPointer',['../_data_types_8h.html#ab861c19ba786c3c9ffea28ca06543717',1,'DataTypes.h']]],
   ['datareflectionvisitor',['DataReflectionVisitor',['../class_vireo_1_1_data_reflection_visitor.html',1,'Vireo']]],
   ['datareflectionvisitor_2eh',['DataReflectionVisitor.h',['../_data_reflection_visitor_8h.html',1,'']]],
@@ -7,6 +8,7 @@ var searchData=
   ['datatypes_2eh',['DataTypes.h',['../_data_types_8h.html',1,'']]],
   ['date',['Date',['../class_vireo_1_1_date.html',1,'Vireo']]],
   ['date_2eh',['Date.h',['../_date_8h.html',1,'']]],
+  ['defaultformatvalue',['defaultFormatValue',['../_numeric_string_8cpp.html#ae658b6e8e5bbd5d8ef187a446cd3ad65',1,'Vireo']]],
   ['defaultpointertype',['DefaultPointerType',['../class_vireo_1_1_default_pointer_type.html',1,'Vireo']]],
   ['defaultvaluetype',['DefaultValueType',['../class_vireo_1_1_default_value_type.html',1,'Vireo']]],
   ['define',['Define',['../class_vireo_1_1_type_manager.html#aabde239114630c59d6a263a4a6cc2d8f',1,'Vireo::TypeManager::Define()'],['../class_vireo_1_1_type_definer.html#ab03aac94b2e0d703b2cc22f72ecd6bed',1,'Vireo::TypeDefiner::Define(TypeManagerRef tm, ConstCStr name, ConstCStr typeString)'],['../class_vireo_1_1_type_definer.html#a02378d54b48ab93812a56f0f62fb9d8b',1,'Vireo::TypeDefiner::Define(TypeManagerRef tm, SubString *typeName, SubString *typeString)']]],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['eatchar',['EatChar',['../class_vireo_1_1_sub_string.html#a72f7745eda53d16294bb67a72bbf4644',1,'Vireo::SubString']]],
   ['eatcharsbytrait',['EatCharsByTrait',['../class_vireo_1_1_sub_string.html#af17549ca601442e7b457c6e4febcbf0b',1,'Vireo::SubString']]],
+  ['eatjsonitem',['EatJSONItem',['../_t_d_codec_via_8cpp.html#a5da11bb7ec76ca309e1c7965851b26bc',1,'Vireo']]],
   ['eatjsonpath',['EatJSONPath',['../class_vireo_1_1_t_d_via_parser.html#a01469dc930d3011e13c14022e3b8bab2',1,'Vireo::TDViaParser']]],
   ['eatleadingspaces',['EatLeadingSpaces',['../class_vireo_1_1_sub_string.html#a638e6365e8992690c53177a851a69cd6',1,'Vireo::SubString']]],
   ['eatrawchars',['EatRawChars',['../class_vireo_1_1_sub_string.html#ab2eb39d336d00a5b5499621c0a990668',1,'Vireo::SubString']]],

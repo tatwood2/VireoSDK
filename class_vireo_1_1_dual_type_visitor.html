@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="class_vireo_1_1_dual_type_visitor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Vireo::DualTypeVisitor Class Reference</div>  </div>
@@ -103,51 +104,51 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac1e04f1f1952b2bb8df0b9daa618dfc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1e04f1f1952b2bb8df0b9daa618dfc2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Visit</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:ac1e04f1f1952b2bb8df0b9daa618dfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa32def1979cbc0c0fa54335b0f9698c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa32def1979cbc0c0fa54335b0f9698c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Visit</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:aaa32def1979cbc0c0fa54335b0f9698c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2c0a55db542619d91afe6185c5dda2b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2c0a55db542619d91afe6185c5dda2b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>TypesAreCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:ad2c0a55db542619d91afe6185c5dda2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a34378fe1bc699e3e9ca7f92c1cabae79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34378fe1bc699e3e9ca7f92c1cabae79"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>TypesAreCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a34378fe1bc699e3e9ca7f92c1cabae79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e877ebf40525098435e2513afcc8485"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e877ebf40525098435e2513afcc8485"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>VariantCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a8e877ebf40525098435e2513afcc8485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566cc10db30f3bf307aa4781ddaa1701"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a566cc10db30f3bf307aa4781ddaa1701"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ClusterCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a566cc10db30f3bf307aa4781ddaa1701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb0f098e7ea75c608c7912305405fac0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb0f098e7ea75c608c7912305405fac0"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>EnumCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:aeb0f098e7ea75c608c7912305405fac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cd50bea452cf0f5e51b07f364db22f9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cd50bea452cf0f5e51b07f364db22f9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IntrinsicClustersCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a2cd50bea452cf0f5e51b07f364db22f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a051591ce5cc5b8b0ffcd694d89131160"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a051591ce5cc5b8b0ffcd694d89131160"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>UserDefinedClustersCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a051591ce5cc5b8b0ffcd694d89131160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504700c95874f575b596bcb27fe54ff0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a504700c95874f575b596bcb27fe54ff0"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>VariantCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:a504700c95874f575b596bcb27fe54ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa20f26e32b8163c95de2b2fc47cde4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfa20f26e32b8163c95de2b2fc47cde4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ClusterCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:adfa20f26e32b8163c95de2b2fc47cde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e3297075ad4f5baac7f14479c33be8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9e3297075ad4f5baac7f14479c33be8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>EnumCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:ab9e3297075ad4f5baac7f14479c33be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b44870ae27f9509638c72e8ce3bb00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9b44870ae27f9509638c72e8ce3bb00"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>UserDefinedClustersCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:aa9b44870ae27f9509638c72e8ce3bb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa90477790fcc65ae862c7a1b8adbfa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa90477790fcc65ae862c7a1b8adbfa3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ArrayCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:afa90477790fcc65ae862c7a1b8adbfa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a66bb1b6c659c3bce5720038145aea543"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66bb1b6c659c3bce5720038145aea543"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>StringCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY)</td></tr>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>StringCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY)</td></tr>
 <tr class="separator:a66bb1b6c659c3bce5720038145aea543"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a549df93ae9d9ee42b4f0254bf2bfcc4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a549df93ae9d9ee42b4f0254bf2bfcc4e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ArrayCompatible</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a549df93ae9d9ee42b4f0254bf2bfcc4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addcf1dfcec816e5ccbf2a311d8f2d767"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="addcf1dfcec816e5ccbf2a311d8f2d767"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Apply</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:addcf1dfcec816e5ccbf2a311d8f2d767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73091992f779f215cc894f73ed6fa2ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73091992f779f215cc894f73ed6fa2ee"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyVariant</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a73091992f779f215cc894f73ed6fa2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3830a25ba7918378a33a386458c8ca28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3830a25ba7918378a33a386458c8ca28"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyCluster</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:a3830a25ba7918378a33a386458c8ca28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1269053e97f1a748015284497d01df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc1269053e97f1a748015284497d01df"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyString</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:adc1269053e97f1a748015284497d01df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac175ccd3429cc92f6ac6679d06fb5d06"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac175ccd3429cc92f6ac6679d06fb5d06"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyArray</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> *operation)</td></tr>
-<tr class="separator:ac175ccd3429cc92f6ac6679d06fb5d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79dc30b3c1da0ab4abfed12224fffaba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79dc30b3c1da0ab4abfed12224fffaba"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Apply</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:a79dc30b3c1da0ab4abfed12224fffaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e22ec03399913aae36f25bd3410bf5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29e22ec03399913aae36f25bd3410bf5"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyVariant</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:a29e22ec03399913aae36f25bd3410bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425438638d740a49fac1ae9c42f25cc7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a425438638d740a49fac1ae9c42f25cc7"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyCluster</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:a425438638d740a49fac1ae9c42f25cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb678f973152c1b9fceb95fbfce9aa8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefb678f973152c1b9fceb95fbfce9aa8"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyString</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:aefb678f973152c1b9fceb95fbfce9aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19d373be953ddf6749be1028f3490ee0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19d373be953ddf6749be1028f3490ee0"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyArray</b> (<a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefX, void *pDataX, <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a> typeRefY, void *pDataY, const <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> &amp;operation)</td></tr>
+<tr class="separator:a19d373be953ddf6749be1028f3490ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages the traversal of two similar types as long as they share the same structure Applies the <a class="el" href="class_vireo_1_1_dual_type_operation.html">DualTypeOperation</a> and continues visiting if the operation allows the visitor to continue </p>

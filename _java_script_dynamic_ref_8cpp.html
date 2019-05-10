@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Vireo: include/JavaScriptRef.h File Reference</title>
+<title>Vireo: core/JavaScriptDynamicRef.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,43 +84,46 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">JavaScriptRef.h File Reference</div>  </div>
+<div class="title">JavaScriptDynamicRef.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>JavaScript refnum.  
+<p>JavaScript dynamic reference.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_type_and_data_manager_8h_source.html">TypeAndDataManager.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_type_definer_8h_source.html">TypeDefiner.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_ref_num_8h_source.html">RefNum.h</a>&quot;</code><br />
-</div>
-<p><a href="_java_script_ref_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:aabd356c5c122a2fdc6ed0b58239cf660"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aabd356c5c122a2fdc6ed0b58239cf660"></a>
-typedef RefNum&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::JavaScriptStaticRefNum</b></td></tr>
-<tr class="separator:aabd356c5c122a2fdc6ed0b58239cf660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0045a011289e26cdbd558c65007cef4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0045a011289e26cdbd558c65007cef4d"></a>
-typedef RefNum&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::JavaScriptDynamicRefNum</b></td></tr>
-<tr class="separator:a0045a011289e26cdbd558c65007cef4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<code>#include &quot;<a class="el" href="_java_script_ref_8h_source.html">JavaScriptRef.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a78ca902d3876c9b28c86fd5f9627bf5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78ca902d3876c9b28c86fd5f9627bf5e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE2</b> (IsNotAJavaScriptDynamicRefnum, JavaScriptDynamicRefNum, Boolean)</td></tr>
+<tr class="separator:a78ca902d3876c9b28c86fd5f9627bf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee275dd1530abe9369059f5c4981d766"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee275dd1530abe9369059f5c4981d766"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE3</b> (IsEQRefnum, RefNumVal, RefNumVal, Boolean)</td></tr>
+<tr class="separator:aee275dd1530abe9369059f5c4981d766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78727f87ae856ee08257a6739ce8fad4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78727f87ae856ee08257a6739ce8fad4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE3</b> (IsNERefnum, RefNumVal, RefNumVal, Boolean)</td></tr>
+<tr class="separator:a78727f87ae856ee08257a6739ce8fad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4173457d5774dd0e989649dff810bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d4173457d5774dd0e989649dff810bc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION_CUSTOM</b> (IsNotANumPathRefnum, IsNotAJavaScriptDynamicRefnum,&quot;p(i(JavaScriptDynamicRefNum) o(Boolean))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(IsEQ</td></tr>
+<tr class="separator:a8d4173457d5774dd0e989649dff810bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78acad420a29b532e6229b0524f0a89b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78acad420a29b532e6229b0524f0a89b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(ControlRefNum) i(ControlRefNum) o(Boolean))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(IsNE</td></tr>
+<tr class="separator:a78acad420a29b532e6229b0524f0a89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>JavaScript refnum. </p>
+<div class="textblock"><p>JavaScript dynamic reference. </p>
 <p>Copyright (c) 2018 National Instruments Corp.</p>
 <p>This software is subject to the terms described in the LICENSE.TXT file</p>
-<p>SDG</p>
-<p>JavaScript references are defined in the Params or Locals section of a VI, and define a named, non-statically-bound reference to a JavaScript opaque object.</p>
-<p>Example:</p>
-<p>define(MyVI dv(.VirtualInstrument ( Locals: c( e(JavaScriptStaticRefNum  jsref) // JavaScript ref that is not statically linked ) ...</p>
-<p>The actual Type of jsref is JavaScriptStaticRefNum or JavaScriptDynamicRefNum and stores a refnum (cookie) which opaquely holds onto the javascript object. The refnum is managed on the JS side and does not use the Vireo RefNumManager.</p>
-<p>These can be used in subVIs to refer to a reference passed in by a caller. </p>
+<p>SDG </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

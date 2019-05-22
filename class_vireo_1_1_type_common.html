@@ -113,20 +113,20 @@ Inheritance diagram for Vireo::TypeCommon:</div>
   <map id="Vireo::TypeCommon_map" name="Vireo::TypeCommon_map">
 <area href="class_vireo_1_1_aggregate_type.html" title="A type that is a collection of sub types. " alt="Vireo::AggregateType" shape="rect" coords="0,56,171,80"/>
 <area href="class_vireo_1_1_bit_block_type.html" title="A type that is a raw block of bits in a single encoding. " alt="Vireo::BitBlockType" shape="rect" coords="181,56,352,80"/>
-<area href="class_vireo_1_1_wrapped_type.html" title="Base class for all type definition types that wrap types with some attribute. " alt="Vireo::WrappedType" shape="rect" coords="362,56,533,80"/>
+<area href="class_vireo_1_1_variant_type.html" alt="Vireo::VariantType" shape="rect" coords="362,56,533,80"/>
+<area href="class_vireo_1_1_wrapped_type.html" title="Base class for all type definition types that wrap types with some attribute. " alt="Vireo::WrappedType" shape="rect" coords="543,56,714,80"/>
 <area href="class_vireo_1_1_bit_cluster_type.html" title="A type that is an aggregate of BitBlockTypes. " alt="Vireo::BitClusterType" shape="rect" coords="181,112,352,136"/>
 <area href="class_vireo_1_1_cluster_type.html" title="A type that is an aggregate of other types. " alt="Vireo::ClusterType" shape="rect" coords="181,168,352,192"/>
 <area href="class_vireo_1_1_equivalence_type.html" title="A type that permits its data to be looked at though more than one perspective. " alt="Vireo::EquivalenceType" shape="rect" coords="181,224,352,248"/>
 <area href="class_vireo_1_1_param_block_type.html" title="A type that describes the parameter block used by a native InstructionFunction. " alt="Vireo::ParamBlockType" shape="rect" coords="181,280,352,304"/>
-<area href="class_vireo_1_1_array_type.html" title="A type that is a multi-dimension collection of another type. " alt="Vireo::ArrayType" shape="rect" coords="543,112,714,136"/>
-<area href="class_vireo_1_1_custom_data_proc_type.html" title="A type that has custom Init/Copy/Clear/GetSubElement functions. " alt="Vireo::CustomDataProcType" shape="rect" coords="543,168,714,192"/>
-<area href="class_vireo_1_1_default_value_type.html" title="A type that has a custom ( e.g. non 0) value. Requires a base type. " alt="Vireo::DefaultValueType" shape="rect" coords="543,224,714,248"/>
-<area href="class_vireo_1_1_element_type.html" title="Give a type a field name and offset properties. Used inside an aggregateType. " alt="Vireo::ElementType" shape="rect" coords="543,280,714,304"/>
-<area href="class_vireo_1_1_enum_type.html" title="A type describes a pointer to another type. Initial value will be nullptr. " alt="Vireo::EnumType" shape="rect" coords="543,336,714,360"/>
-<area href="class_vireo_1_1_named_type.html" title="Gives a type a name ( .e.g &quot;Int32&quot;) " alt="Vireo::NamedType" shape="rect" coords="543,392,714,416"/>
-<area href="class_vireo_1_1_pointer_type.html" title="A type describes a pointer to another type. Initial value will be nullptr. " alt="Vireo::PointerType" shape="rect" coords="543,448,714,472"/>
-<area href="class_vireo_1_1_ref_num_val_type.html" title="A type describes a refnum to another type. " alt="Vireo::RefNumValType" shape="rect" coords="543,504,714,528"/>
-<area href="class_vireo_1_1_variant_type.html" alt="Vireo::VariantType" shape="rect" coords="543,560,714,584"/>
+<area href="class_vireo_1_1_array_type.html" title="A type that is a multi-dimension collection of another type. " alt="Vireo::ArrayType" shape="rect" coords="724,112,895,136"/>
+<area href="class_vireo_1_1_custom_data_proc_type.html" title="A type that has custom Init/Copy/Clear/GetSubElement functions. " alt="Vireo::CustomDataProcType" shape="rect" coords="724,168,895,192"/>
+<area href="class_vireo_1_1_default_value_type.html" title="A type that has a custom ( e.g. non 0) value. Requires a base type. " alt="Vireo::DefaultValueType" shape="rect" coords="724,224,895,248"/>
+<area href="class_vireo_1_1_element_type.html" title="Give a type a field name and offset properties. Used inside an aggregateType. " alt="Vireo::ElementType" shape="rect" coords="724,280,895,304"/>
+<area href="class_vireo_1_1_enum_type.html" title="A type describes a pointer to another type. Initial value will be nullptr. " alt="Vireo::EnumType" shape="rect" coords="724,336,895,360"/>
+<area href="class_vireo_1_1_named_type.html" title="Gives a type a name ( .e.g &quot;Int32&quot;) " alt="Vireo::NamedType" shape="rect" coords="724,392,895,416"/>
+<area href="class_vireo_1_1_pointer_type.html" title="A type describes a pointer to another type. Initial value will be nullptr. " alt="Vireo::PointerType" shape="rect" coords="724,448,895,472"/>
+<area href="class_vireo_1_1_ref_num_val_type.html" title="A type describes a refnum to another type. " alt="Vireo::RefNumValType" shape="rect" coords="724,504,895,528"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -517,6 +517,9 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsIntrinsicCluster
 <tr class="memitem:ad2096dfb324b8973addedd2c6541c60b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2096dfb324b8973addedd2c6541c60b"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsVariant</b> ()</td></tr>
 <tr class="separator:ad2096dfb324b8973addedd2c6541c60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64de22860dd812f9beab56ca2ddda759"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64de22860dd812f9beab56ca2ddda759"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsBadType</b> ()</td></tr>
+<tr class="separator:a64de22860dd812f9beab56ca2ddda759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080bbc0c8b5208700d60744cbb467bb9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a080bbc0c8b5208700d60744cbb467bb9"></a>
 virtual <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a080bbc0c8b5208700d60744cbb467bb9">BitLength</a> ()</td></tr>
 <tr class="memdesc:a080bbc0c8b5208700d60744cbb467bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the type in bits including padding. If the type is bit level it's the raw bit size with no padding. <br /></td></tr>

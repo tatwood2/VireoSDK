@@ -154,6 +154,9 @@ VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:ab4e04123cc8683e372ab9fa5938e8f4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4e04123cc8683e372ab9fa5938e8f4e"></a>
 VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_DeallocateData</b> (TypeManagerRef tm, const TypeRef typeRef, void *dataRef)</td></tr>
 <tr class="separator:ab4e04123cc8683e372ab9fa5938e8f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a046bc42121c8f6084344a2feb6679776"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a046bc42121c8f6084344a2feb6679776"></a>
+VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_ReinitializeToDefault</b> (TypeManagerRef tm, const TypeRef typeRef, void *dataRef)</td></tr>
+<tr class="separator:a046bc42121c8f6084344a2feb6679776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6c6dfa5a646724a065f5b4c57716650"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6c6dfa5a646724a065f5b4c57716650"></a>
 VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_FindValue</b> (TypeManagerRef tm, const char *viName, const char *eltName, TypeRef *typeRefLocation, void **dataRefLocation)</td></tr>
 <tr class="separator:aa6c6dfa5a646724a065f5b4c57716650"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,12 +172,18 @@ VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:af93c1338b04e512003cc614b5911fb59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af93c1338b04e512003cc614b5911fb59"></a>
 VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_WriteValueString</b> (TypeManagerRef tm, TypeRef typeRef, void *pData, const char *format, const char *value)</td></tr>
 <tr class="separator:af93c1338b04e512003cc614b5911fb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63b7b13ee0b326813365091e08143480"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63b7b13ee0b326813365091e08143480"></a>
-VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_ReadValueString</b> (TypeManagerRef tm, TypeRef typeRef, void *pData, const char *format, UInt8 **valueString)</td></tr>
-<tr class="separator:a63b7b13ee0b326813365091e08143480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c9ed1c78b8f029c0a722805c33d467c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c9ed1c78b8f029c0a722805c33d467c"></a>
+VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_ReadValueString</b> (TypeManagerRef tm, const TypeRef typeRef, void *pData, const char *format, TypeRef responseJSONTypeRef, void *responseJSONDataRef)</td></tr>
+<tr class="separator:a7c9ed1c78b8f029c0a722805c33d467c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af84f29eb366e11135e87dc54b8a2c2f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af84f29eb366e11135e87dc54b8a2c2f3"></a>
 VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_ResizeArray</b> (TypeManagerRef tm, const TypeRef typeRef, const void *pData, Int32 rank, Int32 dimensionLengths[])</td></tr>
 <tr class="separator:af84f29eb366e11135e87dc54b8a2c2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a784fd5d2ced53dc28762f3d35be84297"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a784fd5d2ced53dc28762f3d35be84297"></a>
+VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_GetVariantAttribute</b> (TypeManagerRef tm, const TypeRef typeRef, void *pData, const char *attributeNameCStr, TypeRef *typeRefLocation, void **dataRefLocation)</td></tr>
+<tr class="separator:a784fd5d2ced53dc28762f3d35be84297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6031670eb85d121082d04d691bd6a94d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6031670eb85d121082d04d691bd6a94d"></a>
+VIREO_EXPORT EggShellResult&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::EggShell_SetVariantAttribute</b> (TypeManagerRef tm, const TypeRef typeRef, void *pData, const char *attributeNameCStr, TypeRef attributeTypeRef, void *attributeDataRef)</td></tr>
+<tr class="separator:a6031670eb85d121082d04d691bd6a94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae25bc40fbbbe936ee01296e39df00eda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae25bc40fbbbe936ee01296e39df00eda"></a>
 VIREO_EXPORT void *&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::Data_GetStringBegin</b> (StringRef stringObject)</td></tr>
 <tr class="separator:ae25bc40fbbbe936ee01296e39df00eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,12 +224,12 @@ VIREO_EXPORT EncodingEnum&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:afe0a852021f6e3855064731d8b2657b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe0a852021f6e3855064731d8b2657b6"></a>
 VIREO_EXPORT Int32&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypeRef_Alignment</b> (TypeRef typeRef)</td></tr>
 <tr class="separator:afe0a852021f6e3855064731d8b2657b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563ac36a44c4b1340d63c668b0be8065"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a563ac36a44c4b1340d63c668b0be8065"></a>
-VIREO_EXPORT StringRef&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypeRef_Name</b> (TypeManagerRef tm, TypeRef typeRef)</td></tr>
-<tr class="separator:a563ac36a44c4b1340d63c668b0be8065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e52d15b5866078e15413e5a56bc88a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e52d15b5866078e15413e5a56bc88a1"></a>
-VIREO_EXPORT StringRef&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypeRef_ElementName</b> (TypeManagerRef tm, TypeRef typeRef)</td></tr>
-<tr class="separator:a3e52d15b5866078e15413e5a56bc88a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b0f344f5906986e750ae25e1acb17e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3b0f344f5906986e750ae25e1acb17e"></a>
+VIREO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypeRef_Name</b> (TypeManagerRef tm, TypeRef typeRef, TypeRef responseTypeRef, void *responseDataRef)</td></tr>
+<tr class="separator:ab3b0f344f5906986e750ae25e1acb17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc825e2de0071fd7f45390356823ca93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc825e2de0071fd7f45390356823ca93"></a>
+VIREO_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypeRef_ElementName</b> (TypeManagerRef tm, TypeRef typeRef, TypeRef responseTypeRef, void *responseDataRef)</td></tr>
+<tr class="separator:adc825e2de0071fd7f45390356823ca93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d7091fd6785670c20ec97b7f129b440"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d7091fd6785670c20ec97b7f129b440"></a>
 VIREO_EXPORT Int32&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::TypeRef_ElementOffset</b> (TypeRef typeRef)</td></tr>
 <tr class="separator:a7d7091fd6785670c20ec97b7f129b440"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -101,14 +101,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a96dcb96208964291a9f79b08990202ab"><td class="memTemplParams" colspan="2"><a class="anchor" id="a96dcb96208964291a9f79b08990202ab"></a>
-template&lt;typename X , typename Y , typename Z &gt; </td></tr>
-<tr class="memitem:a96dcb96208964291a9f79b08990202ab"><td class="memTemplItemLeft" align="right" valign="top">Y&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Vireo::ConvertFromEnum</b> (Z valueX, TypeRef typeRefY)</td></tr>
-<tr class="separator:a96dcb96208964291a9f79b08990202ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75df66042b81861f36ad6112ff55541"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa75df66042b81861f36ad6112ff55541"></a>
+<tr class="memitem:aa9b50fd59f78806ef1d0341ba17fa2d2"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa9b50fd59f78806ef1d0341ba17fa2d2"></a>
+template&lt;typename TSource , typename TDest &gt; </td></tr>
+<tr class="memitem:aa9b50fd59f78806ef1d0341ba17fa2d2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Vireo::ConvertNumericToEnum</b> (TSource srcValue, TypeRef destTypeRef, void *destDataRef)</td></tr>
+<tr class="separator:aa9b50fd59f78806ef1d0341ba17fa2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2738424690e791ebcc986e713f259a8b"><td class="memTemplParams" colspan="2"><a class="anchor" id="a2738424690e791ebcc986e713f259a8b"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa75df66042b81861f36ad6112ff55541"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Vireo::ApplyNumeric</b> (T valueX, TypeRef typeRefY, void *pDataY)</td></tr>
-<tr class="separator:aa75df66042b81861f36ad6112ff55541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2738424690e791ebcc986e713f259a8b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Vireo::ApplyIntegralToNumeric</b> (T srcValue, TypeRef destTypeRef, void *destDataRef)</td></tr>
+<tr class="separator:a2738424690e791ebcc986e713f259a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2dc074ed439a4d9335000c3f061f459"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa2dc074ed439a4d9335000c3f061f459"></a>
+template&lt;typename TSource &gt; </td></tr>
+<tr class="memitem:aa2dc074ed439a4d9335000c3f061f459"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Vireo::ApplyFloatToNumeric</b> (TSource srcValue, TypeRef destTypeRef, void *destDataRef)</td></tr>
+<tr class="separator:aa2dc074ed439a4d9335000c3f061f459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Compares if two types have the same structure and does conversion for numeric values. </p>

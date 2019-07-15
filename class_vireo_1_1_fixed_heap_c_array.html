@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Vireo: Vireo::FixedCArray&lt; T, COUNT &gt; Class Template Reference</title>
+<title>Vireo: Vireo::FixedHeapCArray&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -86,61 +86,69 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>Vireo</b></li><li class="navelem"><a class="el" href="class_vireo_1_1_fixed_c_array.html">FixedCArray</a></li>  </ul>
+<li class="navelem"><b>Vireo</b></li><li class="navelem"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html">FixedHeapCArray</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="class_vireo_1_1_fixed_c_array-members.html">List of all members</a>  </div>
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="class_vireo_1_1_fixed_heap_c_array-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Vireo::FixedCArray&lt; T, COUNT &gt; Class Template Reference</div>  </div>
+<div class="title">Vireo::FixedHeapCArray&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A fixed stack based C array that has and API that looks a bit like Vireo arrays.  
- <a href="class_vireo_1_1_fixed_c_array.html#details">More...</a></p>
+<p>A fixed heap based C array, that has and API that looks a bit like Vireo arrays.  
+ <a href="class_vireo_1_1_fixed_heap_c_array.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_data_types_8h_source.html">DataTypes.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Vireo::FixedCArray&lt; T, COUNT &gt;:</div>
+Inheritance diagram for Vireo::FixedHeapCArray&lt; T &gt;:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_vireo_1_1_fixed_c_array.png" usemap="#Vireo::FixedCArray_3C_20T_2C_20COUNT_20_3E_map" alt=""/>
-  <map id="Vireo::FixedCArray_3C_20T_2C_20COUNT_20_3E_map" name="Vireo::FixedCArray&lt; T, COUNT &gt;_map">
-<area href="class_vireo_1_1_sub_vector.html" title="A wrapper that gives a raw block of elements a Begin(), End(), and Length() method. It does not own the data. " alt="Vireo::SubVector&lt; T &gt;" shape="rect" coords="0,0,205,24"/>
+  <img src="class_vireo_1_1_fixed_heap_c_array.png" usemap="#Vireo::FixedHeapCArray_3C_20T_20_3E_map" alt=""/>
+  <map id="Vireo::FixedHeapCArray_3C_20T_20_3E_map" name="Vireo::FixedHeapCArray&lt; T &gt;_map">
+<area href="class_vireo_1_1_sub_vector.html" title="A wrapper that gives a raw block of elements a Begin(), End(), and Length() method. It does not own the data. " alt="Vireo::SubVector&lt; T &gt;" shape="rect" coords="0,0,183,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7700579a3ec9df3cf47410227bafb9e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7700579a3ec9df3cf47410227bafb9e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#a7700579a3ec9df3cf47410227bafb9e1">Clear</a> ()</td></tr>
-<tr class="memdesc:a7700579a3ec9df3cf47410227bafb9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the array and initialize it as empty. <br /></td></tr>
-<tr class="separator:a7700579a3ec9df3cf47410227bafb9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7c68efe66b4a8c13b5b62d750f25d93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7c68efe66b4a8c13b5b62d750f25d93"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#ad7c68efe66b4a8c13b5b62d750f25d93">FixedCArray</a> (<a class="el" href="class_vireo_1_1_sub_vector.html">SubVector</a>&lt; T &gt; *buffer)</td></tr>
-<tr class="memdesc:ad7c68efe66b4a8c13b5b62d750f25d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the array and initialize it from a <a class="el" href="class_vireo_1_1_sub_vector.html" title="A wrapper that gives a raw block of elements a Begin(), End(), and Length() method. It does not own the data. ">SubVector</a>. <br /></td></tr>
-<tr class="separator:ad7c68efe66b4a8c13b5b62d750f25d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35669f14b06e630ef8c5ded4a515dfb8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35669f14b06e630ef8c5ded4a515dfb8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#a35669f14b06e630ef8c5ded4a515dfb8">FixedCArray</a> (T *begin, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> length)</td></tr>
-<tr class="memdesc:a35669f14b06e630ef8c5ded4a515dfb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the array and initialize it from a block of data. <br /></td></tr>
-<tr class="separator:a35669f14b06e630ef8c5ded4a515dfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac638c3a376b750179a9d51261a32beee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac638c3a376b750179a9d51261a32beee"></a>
-const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#ac638c3a376b750179a9d51261a32beee">operator[]</a> (const int i)</td></tr>
-<tr class="memdesc:ac638c3a376b750179a9d51261a32beee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the indexed element in the vector (no range checking). <br /></td></tr>
-<tr class="separator:ac638c3a376b750179a9d51261a32beee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecd4c1619e71e2399ef01ea7dede1be3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecd4c1619e71e2399ef01ea7dede1be3"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#aecd4c1619e71e2399ef01ea7dede1be3">Append</a> (T element)</td></tr>
-<tr class="memdesc:aecd4c1619e71e2399ef01ea7dede1be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an element to the array if there is room. <br /></td></tr>
-<tr class="separator:aecd4c1619e71e2399ef01ea7dede1be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a472af7409281abd2af909915f8c7d232"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a472af7409281abd2af909915f8c7d232"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#a472af7409281abd2af909915f8c7d232">Append</a> (const T *begin, size_t length)</td></tr>
-<tr class="memdesc:a472af7409281abd2af909915f8c7d232"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a block of elements to the array if there is room. <br /></td></tr>
-<tr class="separator:a472af7409281abd2af909915f8c7d232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e67d8f369c414f9e5286eeb6420724"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80e67d8f369c414f9e5286eeb6420724"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#a80e67d8f369c414f9e5286eeb6420724">Clear</a> ()</td></tr>
+<tr class="memdesc:a80e67d8f369c414f9e5286eeb6420724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the array and initialize it as empty. <br /></td></tr>
+<tr class="separator:a80e67d8f369c414f9e5286eeb6420724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c654e7c88d8fbc3a7a11308dd7edd2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c654e7c88d8fbc3a7a11308dd7edd2d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FixedHeapCArray</b> (<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> capacity)</td></tr>
+<tr class="separator:a2c654e7c88d8fbc3a7a11308dd7edd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45af65c2b52af3665f50850ddfc52b5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45af65c2b52af3665f50850ddfc52b5f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#a45af65c2b52af3665f50850ddfc52b5f">FixedHeapCArray</a> (<a class="el" href="class_vireo_1_1_sub_vector.html">SubVector</a>&lt; T &gt; *buffer, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> capacity)</td></tr>
+<tr class="memdesc:a45af65c2b52af3665f50850ddfc52b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the array and initialize it from a <a class="el" href="class_vireo_1_1_sub_vector.html" title="A wrapper that gives a raw block of elements a Begin(), End(), and Length() method. It does not own the data. ">SubVector</a>. <br /></td></tr>
+<tr class="separator:a45af65c2b52af3665f50850ddfc52b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac71ad8bb0da8cc57477505edf951f63f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac71ad8bb0da8cc57477505edf951f63f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#ac71ad8bb0da8cc57477505edf951f63f">FixedHeapCArray</a> (T *begin, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> length, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> capacity)</td></tr>
+<tr class="memdesc:ac71ad8bb0da8cc57477505edf951f63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the array and initialize it from a block of data. <br /></td></tr>
+<tr class="separator:ac71ad8bb0da8cc57477505edf951f63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aded83c530971d36fdfb8b50a03c523d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aded83c530971d36fdfb8b50a03c523d5"></a>
+<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#aded83c530971d36fdfb8b50a03c523d5">Capacity</a> ()</td></tr>
+<tr class="memdesc:aded83c530971d36fdfb8b50a03c523d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum capacity of the array. <br /></td></tr>
+<tr class="separator:aded83c530971d36fdfb8b50a03c523d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5753f4782a3406620beb3704c060810"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5753f4782a3406620beb3704c060810"></a>
+const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#ae5753f4782a3406620beb3704c060810">operator[]</a> (const int i)</td></tr>
+<tr class="memdesc:ae5753f4782a3406620beb3704c060810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the indexed element in the vector (no range checking). <br /></td></tr>
+<tr class="separator:ae5753f4782a3406620beb3704c060810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3f1693f657ee043c9b7a24e793a9af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b3f1693f657ee043c9b7a24e793a9af"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#a3b3f1693f657ee043c9b7a24e793a9af">Append</a> (T element)</td></tr>
+<tr class="memdesc:a3b3f1693f657ee043c9b7a24e793a9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an element to the array if there is room. <br /></td></tr>
+<tr class="separator:a3b3f1693f657ee043c9b7a24e793a9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9d878b538667772efb1536d957d20e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d9d878b538667772efb1536d957d20e"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_heap_c_array.html#a5d9d878b538667772efb1536d957d20e">Append</a> (const T *begin, size_t length)</td></tr>
+<tr class="memdesc:a5d9d878b538667772efb1536d957d20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a block of elements to the array if there is room. <br /></td></tr>
+<tr class="separator:a5d9d878b538667772efb1536d957d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_vireo_1_1_sub_vector"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_vireo_1_1_sub_vector')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_vireo_1_1_sub_vector.html">Vireo::SubVector&lt; T &gt;</a></td></tr>
 <tr class="memitem:a8d544607d4efadfe9b5f9f0ce153f240 inherit pub_methods_class_vireo_1_1_sub_vector"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d544607d4efadfe9b5f9f0ce153f240"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_sub_vector.html#a8d544607d4efadfe9b5f9f0ce153f240">SubVector</a> ()</td></tr>
@@ -183,24 +191,17 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memdesc:a6e15f0c6c57c52a6d36b695d7cd1cc3d inherit pub_methods_class_vireo_1_1_sub_vector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the blocks are equivalent. <br /></td></tr>
 <tr class="separator:a6e15f0c6c57c52a6d36b695d7cd1cc3d inherit pub_methods_class_vireo_1_1_sub_vector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab2037b6080b1703e9f8bfd2852780b88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2037b6080b1703e9f8bfd2852780b88"></a>
-static <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_fixed_c_array.html#ab2037b6080b1703e9f8bfd2852780b88">Capacity</a> ()</td></tr>
-<tr class="memdesc:ab2037b6080b1703e9f8bfd2852780b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum capacity of the array. <br /></td></tr>
-<tr class="separator:ab2037b6080b1703e9f8bfd2852780b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aaa1da9814a92aeb1d322e8ab4b68cc88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa1da9814a92aeb1d322e8ab4b68cc88"></a>
+<tr class="memitem:ae8e2a36f1035a14eb3dfef13543080f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8e2a36f1035a14eb3dfef13543080f6"></a>
 T *&#160;</td><td class="memItemRight" valign="bottom"><b>NonConstEnd</b> ()</td></tr>
-<tr class="separator:aaa1da9814a92aeb1d322e8ab4b68cc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae8e2a36f1035a14eb3dfef13543080f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa64f01f5cfa0c789f1719803f483754c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa64f01f5cfa0c789f1719803f483754c"></a>
-T&#160;</td><td class="memItemRight" valign="bottom"><b>_buffer</b> [COUNT+1]</td></tr>
-<tr class="separator:aa64f01f5cfa0c789f1719803f483754c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e72782adc070121fd4311c9799ecc5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89e72782adc070121fd4311c9799ecc5"></a>
+T *&#160;</td><td class="memItemRight" valign="bottom"><b>_buffer</b> = nullptr</td></tr>
+<tr class="separator:a89e72782adc070121fd4311c9799ecc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_vireo_1_1_sub_vector"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_vireo_1_1_sub_vector')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_vireo_1_1_sub_vector.html">Vireo::SubVector&lt; T &gt;</a></td></tr>
 <tr class="memitem:aa4bc1e2f871e88c614db82e4b200ba25 inherit pro_attribs_class_vireo_1_1_sub_vector"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4bc1e2f871e88c614db82e4b200ba25"></a>
 const T *&#160;</td><td class="memItemRight" valign="bottom"><b>_begin</b></td></tr>
@@ -208,12 +209,24 @@ const T *&#160;</td><td class="memItemRight" valign="bottom"><b>_begin</b></td><
 <tr class="memitem:a531efdb08ff603e1fd3f6d1885bfb792 inherit pro_attribs_class_vireo_1_1_sub_vector"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a531efdb08ff603e1fd3f6d1885bfb792"></a>
 const T *&#160;</td><td class="memItemRight" valign="bottom"><b>_end</b></td></tr>
 <tr class="separator:a531efdb08ff603e1fd3f6d1885bfb792 inherit pro_attribs_class_vireo_1_1_sub_vector"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2d259f00daa9e8e7560687c6c71011e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d259f00daa9e8e7560687c6c71011e9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AllocateBuffer</b> (<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> capacity)</td></tr>
+<tr class="separator:a2d259f00daa9e8e7560687c6c71011e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4f3538f5d07e8f45281db80ed3f80c00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f3538f5d07e8f45281db80ed3f80c00"></a>
+<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_capacity</b></td></tr>
+<tr class="separator:a4f3538f5d07e8f45281db80ed3f80c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T, IntIndex COUNT&gt;<br />
-class Vireo::FixedCArray&lt; T, COUNT &gt;</h3>
+<div class="textblock"><h3>template&lt;class T&gt;<br />
+class Vireo::FixedHeapCArray&lt; T &gt;</h3>
 
-<p>A fixed stack based C array that has and API that looks a bit like Vireo arrays. </p>
+<p>A fixed heap based C array, that has and API that looks a bit like Vireo arrays. </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/<a class="el" href="_data_types_8h_source.html">DataTypes.h</a></li>
 </ul>

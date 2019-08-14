@@ -8,6 +8,7 @@ var searchData=
   ['datatypes_2eh',['DataTypes.h',['../_data_types_8h.html',1,'']]],
   ['date',['Date',['../class_vireo_1_1_date.html',1,'Vireo']]],
   ['date_2eh',['Date.h',['../_date_8h.html',1,'']]],
+  ['debuggingtoggles_2eh',['DebuggingToggles.h',['../_debugging_toggles_8h.html',1,'']]],
   ['defaultformatvalue',['defaultFormatValue',['../_numeric_string_8cpp.html#ae658b6e8e5bbd5d8ef187a446cd3ad65',1,'Vireo']]],
   ['defaultpointertype',['DefaultPointerType',['../class_vireo_1_1_default_pointer_type.html',1,'Vireo']]],
   ['defaultvaluetype',['DefaultValueType',['../class_vireo_1_1_default_value_type.html',1,'Vireo']]],

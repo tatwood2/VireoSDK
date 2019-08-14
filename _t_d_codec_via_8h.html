@@ -131,6 +131,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ab6ab8ba6c0a4761f93b6bcbb35239965"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6ab8ba6c0a4761f93b6bcbb35239965"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>kCEncoding</b>&#160;&#160;&#160;&quot;C&quot;</td></tr>
 <tr class="separator:ab6ab8ba6c0a4761f93b6bcbb35239965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122c361b388b61869471b880188c2e06"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a122c361b388b61869471b880188c2e06"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>kLabVIEWEncoding</b>&#160;&#160;&#160;&quot;LABVIEW&quot;</td></tr>
+<tr class="separator:a122c361b388b61869471b880188c2e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5180caa3b119f3b26a7926140c46b552"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5180caa3b119f3b26a7926140c46b552"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>tsBoolean</b>&#160;&#160;&#160;&quot;Boolean&quot;</td></tr>
 <tr class="separator:a5180caa3b119f3b26a7926140c46b552"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -326,7 +329,8 @@ Enumerations</h2></td></tr>
 <b>kViaFormat_JSONStrictValidation</b> = 32, 
 <br />
 &#160;&#160;<b>kViaFormat_QuoteInfNanNames</b> = 64, 
-<b>kViaFormat_StopArrayParseOnFirstError</b> = 128
+<b>kViaFormat_StopArrayParseOnFirstError</b> = 128, 
+<b>kViaFormat_UseUppercaseForBooleanValues</b> = 256
 <br />
  }<tr class="memdesc:a92cfa16efcbcf12ccc7857a474a1ad8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Punctuation and options used by the TDViaFormatter. <br /></td></tr>
 </td></tr>
@@ -339,8 +343,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a97010c0f7a6ed1575600180ea159e798"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_numeric_string_8cpp.html#a97010c0f7a6ed1575600180ea159e798">Vireo::Format</a> (SubString *format, Int32 count, StaticTypeAndData arguments[], StringRef buffer, ErrorCluster *errPtr)</td></tr>
-<tr class="separator:a97010c0f7a6ed1575600180ea159e798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db3fa13f5efb80220c415ff2dfb51c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_numeric_string_8cpp.html#a9db3fa13f5efb80220c415ff2dfb51c8">Vireo::Format</a> (SubString *format, Int32 count, StaticTypeAndData arguments[], StringRef buffer, ErrorCluster *errPtr, SubString *formatName)</td></tr>
+<tr class="separator:a9db3fa13f5efb80220c415ff2dfb51c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A Vireo codec for the VIA (VI Assembly) text format. </p>
@@ -348,7 +352,7 @@ Functions</h2></td></tr>
 <p>This software is subject to the terms described in the LICENSE.TXT file</p>
 <p>SDG </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="file_a97010c0f7a6ed1575600180ea159e798"></a>
+<a class="anchor" id="file_a9db3fa13f5efb80220c415ff2dfb51c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -380,7 +384,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_vireo_1_1_error_cluster.html">ErrorCluster</a> *&#160;</td>
-          <td class="paramname"><em>errPtr</em>&#160;</td>
+          <td class="paramname"><em>errPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_vireo_1_1_sub_string.html">SubString</a> *&#160;</td>
+          <td class="paramname"><em>formatName</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

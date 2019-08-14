@@ -8,7 +8,7 @@ var searchData=
   ['fixedheapcarray',['FixedHeapCArray',['../class_vireo_1_1_fixed_heap_c_array.html',1,'Vireo']]],
   ['fixedheapcarray',['FixedHeapCArray',['../class_vireo_1_1_fixed_heap_c_array.html#a45af65c2b52af3665f50850ddfc52b5f',1,'Vireo::FixedHeapCArray::FixedHeapCArray(SubVector&lt; T &gt; *buffer, IntIndex capacity)'],['../class_vireo_1_1_fixed_heap_c_array.html#ac71ad8bb0da8cc57477505edf951f63f',1,'Vireo::FixedHeapCArray::FixedHeapCArray(T *begin, IntIndex length, IntIndex capacity)']]],
   ['fmt_5flen_5fbegin',['FMT_LEN_BEGIN',['../_string_utilities_8h.html#a347de379f6ed6ef61f6589bab116983e',1,'StringUtilities.h']]],
-  ['format',['Format',['../_numeric_string_8cpp.html#a97010c0f7a6ed1575600180ea159e798',1,'Vireo']]],
+  ['format',['Format',['../_numeric_string_8cpp.html#a9db3fa13f5efb80220c415ff2dfb51c8',1,'Vireo']]],
   ['formatoptions',['FormatOptions',['../struct_vireo_1_1_format_options.html',1,'Vireo']]],
   ['free',['Free',['../class_vireo_1_1_platform_memory.html#acebd7d3a98efa19b25e5112893fd97b2',1,'Vireo::PlatformMemory::Free()'],['../class_vireo_1_1_type_manager.html#a2d2c6585aba680234bf7d0dea73421b2',1,'Vireo::TypeManager::Free()']]],
   ['functionclump',['FunctionClump',['../class_vireo_1_1_function_clump.html',1,'Vireo']]]

@@ -8,7 +8,6 @@ var searchData=
   ['_5felttyperef',['_eltTypeRef',['../class_vireo_1_1_typed_array_core.html#a87592ee07b329157147628622331f94b',1,'Vireo::TypedArrayCore']]],
   ['_5ffirecount',['_fireCount',['../class_vireo_1_1_v_i_clump.html#a2dbe0311476cccd4a4780ecd3657f1b9',1,'Vireo::VIClump']]],
   ['_5finfo',['_info',['../class_vireo_1_1_observer.html#ac04d7ca1c74383d4194152c1fb5e1f50',1,'Vireo::Observer']]],
-  ['_5finsert',['_insert',['../class_vireo_1_1_queue_core.html#aa9ce0503f202f420ccff8228c85fb794',1,'Vireo::QueueCore']]],
   ['_5fnext',['_next',['../class_vireo_1_1_observer.html#a79af4665d86603b5fdd216ecbb6b5ea3',1,'Vireo::Observer']]],
   ['_5fobject',['_object',['../class_vireo_1_1_observer.html#a01914279e621bca9ff72240ab6f437ce',1,'Vireo::Observer']]],
   ['_5fobservationcount',['_observationCount',['../class_vireo_1_1_v_i_clump.html#a6de824507e1a4ed5a535bcceebeb9f78',1,'Vireo::VIClump']]],

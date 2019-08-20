@@ -276,15 +276,6 @@ static InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>V
 <tr class="memitem:ab029e56b4888a47f69afa3457ae53c2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab029e56b4888a47f69afa3457ae53c2e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE2</b> (IsNotAQueueRefnum, RefNumVal, Boolean)</td></tr>
 <tr class="separator:ab029e56b4888a47f69afa3457ae53c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2d81fd243955ea9f7bb3596bffa0f5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2d81fd243955ea9f7bb3596bffa0f5f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE2</b> (Queue_Obtain, void, StringRef)</td></tr>
-<tr class="separator:ab2d81fd243955ea9f7bb3596bffa0f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6823808b86a784849ed4c8830bb18f2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6823808b86a784849ed4c8830bb18f2a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE4</b> (Queue_EnqueueElement, QueueRef, void, Int32, Boolean)</td></tr>
-<tr class="separator:a6823808b86a784849ed4c8830bb18f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2396be30b23a341632fac53f5ef5f1c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2396be30b23a341632fac53f5ef5f1c5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURE4</b> (Queue_DequeueElement, QueueRef, void, Int32, Boolean)</td></tr>
-<tr class="separator:a2396be30b23a341632fac53f5ef5f1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d1e1058bea0d2e7eced36065590ac47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d1e1058bea0d2e7eced36065590ac47"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (WaitTickCount,&quot;p(i(UInt32))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(WaitTickCount</td></tr>
 <tr class="separator:a7d1e1058bea0d2e7eced36065590ac47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,9 +306,10 @@ static InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>V
 <tr class="memitem:ab98cf7a33cdac79ce78d18fe51101a46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab98cf7a33cdac79ce78d18fe51101a46"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(Occurrence))&quot;)  DEFINE_VIREO_TYPE(QueueValue</td></tr>
 <tr class="separator:ab98cf7a33cdac79ce78d18fe51101a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cb9e213f59711b97e1ab8a0d67e44c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cb9e213f59711b97e1ab8a0d67e44c3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::c</b> (e(<a class="el" href="_data_types_8h.html#ab861c19ba786c3c9ffea28ca06543717">DataPointer</a> firstState) e(a($0 $1) elements) e(Int32 insert) e(Int32 count) e(Int32 maxSize))&quot;)  DEFINE_VIREO_TYPE(Queue</td></tr>
-<tr class="separator:a7cb9e213f59711b97e1ab8a0d67e44c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfdaa21c03e60749eef4625fe31bc48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbfdaa21c03e60749eef4625fe31bc48"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::c</b> (e(<a class="el" href="_data_types_8h.html#ab861c19ba786c3c9ffea28ca06543717">DataPointer</a> firstState) e(a($0 $1) elements)&quot;
+        &quot;e(Int32 front) e(Int32 back) e(Int32 count) e(Int32 maxSize))&quot;)  DEFINE_VIREO_TYPE(Queue</td></tr>
+<tr class="separator:acbfdaa21c03e60749eef4625fe31bc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7af86e07057bdf514ba295bf74d381aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7af86e07057bdf514ba295bf74d381aa"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::a</b> (QueueValue)&quot;)   DEFINE_VIREO_FUNCTION_CUSTOM(ObtainQueue</td></tr>
 <tr class="separator:a7af86e07057bdf514ba295bf74d381aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,9 +344,6 @@ static InstructionCore *&#160;</td><td class="memItemRight" valign="bottom"><b>V
 <tr class="memitem:a152fb5900e57502bc0a71baec005ca9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a152fb5900e57502bc0a71baec005ca9f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (i(QueueRefNum) i(QueueRefNum) o(Boolean))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(IsNE</td></tr>
 <tr class="separator:a152fb5900e57502bc0a71baec005ca9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fb56e46f9bf2ca04c099023fe605e0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fb56e46f9bf2ca04c099023fe605e0c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::p</b> (io(Queue queue) i(*element) i(Int32 timeOut) o(Boolean timedOut))&quot;) DEFINE_VIREO_FUNCTION_CUSTOM(DequeueElement</td></tr>
-<tr class="separator:a0fb56e46f9bf2ca04c099023fe605e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -433,12 +422,6 @@ Variables</h2></td></tr>
 <tr class="memitem:ac94f5a773e39308352989379d195b646"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac94f5a773e39308352989379d195b646"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::IsNotAQueueRefnum</b></td></tr>
 <tr class="separator:ac94f5a773e39308352989379d195b646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68a19b21a08544b6e4dae2834b32b3e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68a19b21a08544b6e4dae2834b32b3e8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::Queue_EnqueueElement</b></td></tr>
-<tr class="separator:a68a19b21a08544b6e4dae2834b32b3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac0bad4ef4bc524123b2cc4f3eeea15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acac0bad4ef4bc524123b2cc4f3eeea15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::Queue_DequeueElement</b></td></tr>
-<tr class="separator:acac0bad4ef4bc524123b2cc4f3eeea15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Native Vireo clump synchronizations and communication functions. </p>

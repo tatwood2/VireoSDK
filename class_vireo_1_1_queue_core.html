@@ -92,7 +92,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_vireo_1_1_queue_core-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -111,12 +110,6 @@ Inheritance diagram for Vireo::QueueCore:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad68048c11012d1a1c7e5e51926116349"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad68048c11012d1a1c7e5e51926116349"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Compress</b> ()</td></tr>
-<tr class="separator:ad68048c11012d1a1c7e5e51926116349"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54ad2bbb656341d550bf259278d464a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54ad2bbb656341d550bf259278d464a0"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>TryMakeRoom</b> (<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> additionalCount, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> insert)</td></tr>
-<tr class="separator:a54ad2bbb656341d550bf259278d464a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2ef7a8879d0f3498d829791b4d1a0f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2ef7a8879d0f3498d829791b4d1a0f3"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Enqueue</b> (void *pData)</td></tr>
 <tr class="separator:af2ef7a8879d0f3498d829791b4d1a0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,9 +119,15 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>PushFront</b> (voi
 <tr class="memitem:aaf58e389fd954474639d8cd67dc283da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf58e389fd954474639d8cd67dc283da"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Dequeue</b> (void *pData, bool skipObserver=false)</td></tr>
 <tr class="separator:aaf58e389fd954474639d8cd67dc283da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30c51e019b882a021762d1498bc0a582"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30c51e019b882a021762d1498bc0a582"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Peek</b> (void *pData, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> skipCount=0) const </td></tr>
-<tr class="separator:a30c51e019b882a021762d1498bc0a582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d2352892a0f9b86f1ac8b5b6e2e039"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92d2352892a0f9b86f1ac8b5b6e2e039"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>Peek</b> (void *pData, <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> index=0) const </td></tr>
+<tr class="separator:a92d2352892a0f9b86f1ac8b5b6e2e039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a441001a7b4a701c937f6cd98895b2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a441001a7b4a701c937f6cd98895b2f"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>ResizeInternalBufferIfEmpty</b> () const </td></tr>
+<tr class="separator:a7a441001a7b4a701c937f6cd98895b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182bbb2b47e8ae8a93eab2d1dc51d974"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a182bbb2b47e8ae8a93eab2d1dc51d974"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CopyDataToQueueElement</b> (<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> position, void *pData)</td></tr>
+<tr class="separator:a182bbb2b47e8ae8a93eab2d1dc51d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b951f69715c7b9466c5643369de8d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6b951f69715c7b9466c5643369de8d6"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>HasRoom</b> (<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a> additionalCount) const </td></tr>
 <tr class="separator:ad6b951f69715c7b9466c5643369de8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +143,9 @@ IntDim&#160;</td><td class="memItemRight" valign="bottom"><b>MaxSize</b> () cons
 <tr class="memitem:a3404b360ae4095edaed9b56228110cd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3404b360ae4095edaed9b56228110cd7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaxSize</b> (IntDim maxSize)</td></tr>
 <tr class="separator:a3404b360ae4095edaed9b56228110cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a2117ca2f382ac647d8c6529bdf501"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37a2117ca2f382ac647d8c6529bdf501"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> ()</td></tr>
+<tr class="separator:a37a2117ca2f382ac647d8c6529bdf501"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a77c9191e4c4ab4d7ee66a7ad02827c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a77c9191e4c4ab4d7ee66a7ad02827c"></a>
 <a class="el" href="class_vireo_1_1_type_common.html">TypeRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b> () const </td></tr>
 <tr class="separator:a7a77c9191e4c4ab4d7ee66a7ad02827c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,21 +166,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ObserverCount</b> (<a class="el" href="_data_types_8h.html#ab83f9c3ddee76be16122c8c07c84a280">IntMax</a> info) const </td></tr>
 <tr class="separator:ad1804d60038e00713b0c7ee60813e009 inherit pub_methods_class_vireo_1_1_observable_core"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ac42045de94375366daf1cd39122e88f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac42045de94375366daf1cd39122e88f7"></a>
-<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveIndex</b> () const </td></tr>
-<tr class="separator:ac42045de94375366daf1cd39122e88f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a049d66705ce9185bcae864d1924be4d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a049d66705ce9185bcae864d1924be4d9"></a>
 <a class="el" href="class_vireo_1_1_typed_array_core.html">TypedArrayCoreRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_elements</b> = nullptr</td></tr>
 <tr class="separator:a049d66705ce9185bcae864d1924be4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9ce0503f202f420ccff8228c85fb794"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9ce0503f202f420ccff8228c85fb794"></a>
-<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_queue_core.html#aa9ce0503f202f420ccff8228c85fb794">_insert</a> = 0</td></tr>
-<tr class="memdesc:aa9ce0503f202f420ccff8228c85fb794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index where the next element will be stored (may be one past end if full) <br /></td></tr>
-<tr class="separator:aa9ce0503f202f420ccff8228c85fb794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bf32442aef6c2090f858f31c8c3571"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57bf32442aef6c2090f858f31c8c3571"></a>
+<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_front</b> = -1</td></tr>
+<tr class="separator:a57bf32442aef6c2090f858f31c8c3571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d67828aa2ec5d1a6f7307e05e6b7229"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d67828aa2ec5d1a6f7307e05e6b7229"></a>
+<a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_back</b> = -1</td></tr>
+<tr class="separator:a2d67828aa2ec5d1a6f7307e05e6b7229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a729ec5c8aa5f71cf87293e301693ec5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a729ec5c8aa5f71cf87293e301693ec5d"></a>
 <a class="el" href="_data_types_8h.html#ab0424779be4b187e6b1c2afe913d48e1">IntIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_queue_core.html#a729ec5c8aa5f71cf87293e301693ec5d">_count</a> = 0</td></tr>
 <tr class="memdesc:a729ec5c8aa5f71cf87293e301693ec5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many elements are in the queue. <br /></td></tr>

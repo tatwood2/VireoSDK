@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['setneedsupdate',['SetNeedsUpdate',['../class_vireo_1_1_type_common.html#aa43748f231f1ef2a5282fa8858862d8d',1,'Vireo::TypeCommon']]],
   ['splitstring',['SplitString',['../class_vireo_1_1_sub_string.html#a9c8a53dd2922e5131738719384655894',1,'Vireo::SubString']]],
   ['stackvar',['StackVar',['../class_vireo_1_1_stack_var.html#a093e49f74c63aa6bc70cec15e7f15683',1,'Vireo::StackVar']]],
   ['staticrepl',['StaticRepl',['../class_vireo_1_1_t_d_via_parser.html#ae056152c2d3de76c02f59ffdc778296a',1,'Vireo::TDViaParser']]],

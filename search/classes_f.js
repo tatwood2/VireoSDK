@@ -3,6 +3,7 @@ var searchData=
   ['search1darrayinstruction',['Search1DArrayInstruction',['../struct_vireo_1_1_search1_d_array_instruction.html',1,'Vireo']]],
   ['searchandreplacestringstruct',['SearchAndReplaceStringStruct',['../struct_vireo_1_1_search_and_replace_string_struct.html',1,'Vireo']]],
   ['searchsplitstringstruct',['SearchSplitStringStruct',['../struct_vireo_1_1_search_split_string_struct.html',1,'Vireo']]],
+  ['setvalueneedsupdateparamblock',['SetValueNeedsUpdateParamBlock',['../struct_vireo_1_1_set_value_needs_update_param_block.html',1,'Vireo']]],
   ['setvariantattributeparamblock',['SetVariantAttributeParamBlock',['../struct_vireo_1_1_set_variant_attribute_param_block.html',1,'Vireo']]],
   ['sort1darrayinstruction',['Sort1DArrayInstruction',['../struct_vireo_1_1_sort1_d_array_instruction.html',1,'Vireo']]],
   ['stackvar',['StackVar',['../class_vireo_1_1_stack_var.html',1,'Vireo']]],

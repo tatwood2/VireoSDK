@@ -248,8 +248,21 @@ Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memdesc:a97384bfad91e948a8829cf76785f1d0b inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the type contains one or more template parameter types. <br /></td></tr>
 <tr class="separator:a97384bfad91e948a8829cf76785f1d0b inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acddca516bbf7181842f2c5411c575485 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acddca516bbf7181842f2c5411c575485"></a>
-Boolean&#160;</td><td class="memItemRight" valign="bottom"><b>IsOpaqueReference</b> () const </td></tr>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#acddca516bbf7181842f2c5411c575485">IsOpaqueReference</a> () const </td></tr>
+<tr class="memdesc:acddca516bbf7181842f2c5411c575485 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if type is a wrapped type that doens't expose its contained type. <br /></td></tr>
 <tr class="separator:acddca516bbf7181842f2c5411c575485 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d501859dcc8d92cb78c95bff440d96 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39d501859dcc8d92cb78c95bff440d96"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a39d501859dcc8d92cb78c95bff440d96">IsDataItem</a> () const </td></tr>
+<tr class="memdesc:a39d501859dcc8d92cb78c95bff440d96 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if type is a dataItem (keeps track of needsUpdate state on reads/writes) <br /></td></tr>
+<tr class="separator:a39d501859dcc8d92cb78c95bff440d96 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d3b82da9500ebb55a7bbb380a678a37 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d3b82da9500ebb55a7bbb380a678a37"></a>
+Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#a8d3b82da9500ebb55a7bbb380a678a37">NeedsUpdate</a> () const </td></tr>
+<tr class="memdesc:a8d3b82da9500ebb55a7bbb380a678a37 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True (for data items) if value has been written to by Vireo but not read by JS. <br /></td></tr>
+<tr class="separator:a8d3b82da9500ebb55a7bbb380a678a37 inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43748f231f1ef2a5282fa8858862d8d inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa43748f231f1ef2a5282fa8858862d8d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#aa43748f231f1ef2a5282fa8858862d8d">SetNeedsUpdate</a> (Boolean b)</td></tr>
+<tr class="memdesc:aa43748f231f1ef2a5282fa8858862d8d inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set needsUpdate flag for a data item. <br /></td></tr>
+<tr class="separator:aa43748f231f1ef2a5282fa8858862d8d inherit pub_methods_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa78a0dcb34077b4d33043e4a01b4d490 inherit pub_methods_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa78a0dcb34077b4d33043e4a01b4d490"></a>
 Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_type_common.html#aa78a0dcb34077b4d33043e4a01b4d490">IsInputParam</a> () const </td></tr>
 <tr class="memdesc:aa78a0dcb34077b4d33043e4a01b4d490 inherit pub_methods_class_vireo_1_1_type_common"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if aggregate element is used as an input parameter. <br /></td></tr>
@@ -530,6 +543,12 @@ UInt16&#160;</td><td class="memItemRight" valign="bottom"><b>_hasPadding</b>:1</
 <tr class="memitem:a1b190786b82636cfbdfd493962ea3567 inherit pro_attribs_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b190786b82636cfbdfd493962ea3567"></a>
 UInt16&#160;</td><td class="memItemRight" valign="bottom"><b>_elementUsageType</b>:3</td></tr>
 <tr class="separator:a1b190786b82636cfbdfd493962ea3567 inherit pro_attribs_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1aa5249258034042feaedfbdd2c3f1 inherit pro_attribs_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c1aa5249258034042feaedfbdd2c3f1"></a>
+UInt16&#160;</td><td class="memItemRight" valign="bottom"><b>_isDataItem</b>:1</td></tr>
+<tr class="separator:a8c1aa5249258034042feaedfbdd2c3f1 inherit pro_attribs_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170df4aa5ff9db39b7b7ba12e2d88d2d inherit pro_attribs_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a170df4aa5ff9db39b7b7ba12e2d88d2d"></a>
+UInt16&#160;</td><td class="memItemRight" valign="bottom"><b>_needsUpdate</b>:1</td></tr>
+<tr class="separator:a170df4aa5ff9db39b7b7ba12e2d88d2d inherit pro_attribs_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada507aa4f8a49f83bf17ccf25ef84444 inherit pro_attribs_class_vireo_1_1_type_common"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada507aa4f8a49f83bf17ccf25ef84444"></a>
 UInt16&#160;</td><td class="memItemRight" valign="bottom"><b>_pointerType</b>:3</td></tr>
 <tr class="separator:ada507aa4f8a49f83bf17ccf25ef84444 inherit pro_attribs_class_vireo_1_1_type_common"><td class="memSeparator" colspan="2">&#160;</td></tr>

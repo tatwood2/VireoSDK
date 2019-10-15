@@ -3,6 +3,7 @@ var searchData=
   ['callviinstruction',['CallVIInstruction',['../struct_vireo_1_1_call_v_i_instruction.html',1,'Vireo']]],
   ['checkvalueneedsupdateparamblock',['CheckValueNeedsUpdateParamBlock',['../struct_vireo_1_1_check_value_needs_update_param_block.html',1,'Vireo']]],
   ['cleanuprecord',['CleanupRecord',['../struct_vireo_1_1_ref_num_manager_1_1_cleanup_record.html',1,'Vireo::RefNumManager']]],
+  ['closereferenceparamblock',['CloseReferenceParamBlock',['../struct_vireo_1_1_close_reference_param_block.html',1,'Vireo']]],
   ['clumpparsestate',['ClumpParseState',['../class_vireo_1_1_clump_parse_state.html',1,'Vireo']]],
   ['clusteralignmentcalculator',['ClusterAlignmentCalculator',['../class_vireo_1_1_cluster_alignment_calculator.html',1,'Vireo']]],
   ['clustertype',['ClusterType',['../class_vireo_1_1_cluster_type.html',1,'Vireo']]],

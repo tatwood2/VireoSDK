@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Vireo: include/Variants.h File Reference</title>
+<title>Vireo: core/CloseReference.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,53 +84,51 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_4270bfced15e0e73154b13468c7c9ad9.html">core</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Variants.h File Reference</div>  </div>
+<div class="title">CloseReference.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Variant data type.  
+<p>Close Reference.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_type_and_data_manager_8h_source.html">TypeAndDataManager.h</a>&quot;</code><br />
-<code>#include &lt;map&gt;</code><br />
-</div>
-<p><a href="_variants_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="_type_definer_8h_source.html">TypeDefiner.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_ref_num_8h_source.html">RefNum.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_java_script_ref_8h_source.html">JavaScriptRef.h</a>&quot;</code><br />
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_variant_type.html">Vireo::VariantType</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vireo_1_1_close_reference_param_block.html">Vireo::CloseReferenceParamBlock</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vireo_1_1_variant_data.html">Vireo::VariantData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ac323ff0887564dc970cbec2d32ec7e2b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac323ff0887564dc970cbec2d32ec7e2b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VariantTypeRef</b> = VariantType *</td></tr>
-<tr class="separator:ac323ff0887564dc970cbec2d32ec7e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35520503599538eaea08494bb846307b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35520503599538eaea08494bb846307b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VariantDataRef</b> = VariantData *</td></tr>
-<tr class="separator:a35520503599538eaea08494bb846307b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a51f13169d73027009315bf8fbcaf1599"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51f13169d73027009315bf8fbcaf1599"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>kVariantArgErr</b> = 1, 
-<b>kVariantIncompatibleType</b> = 91, 
-<b>kUnsupportedOnTarget</b> = 2304
+<tr class="memitem:a2f1d78b8a3a7382fe3948d9184b53d0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f1d78b8a3a7382fe3948d9184b53d0b"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>kCloseReferenceArgErr</b> = 1
  }</td></tr>
-<tr class="separator:a51f13169d73027009315bf8fbcaf1599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2f1d78b8a3a7382fe3948d9184b53d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad8676c86fc2e83e45cb26613a166db6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8676c86fc2e83e45cb26613a166db6a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::AddCallChainToSourceIfErrorPresent</b> (ErrorCluster *errorCluster, <a class="el" href="_data_types_8h.html#a6fdb272e5b24c0df146840a4a93f3e49">ConstCStr</a> methodName)</td></tr>
+<tr class="separator:ad8676c86fc2e83e45cb26613a166db6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f0807b4df6efa274901fbd3934b68c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98f0807b4df6efa274901fbd3934b68c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::VIREO_FUNCTION_SIGNATURET</b> (CloseReference, CloseReferenceParamBlock)</td></tr>
+<tr class="separator:a98f0807b4df6efa274901fbd3934b68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcc9af73cc8d942da9f0f06f5b07b58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5fcc9af73cc8d942da9f0f06f5b07b58"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::DEFINE_VIREO_FUNCTION</b> (CloseReference,&quot;p(i(StaticTypeAndData reference) io(ErrorCluster error))&quot;)</td></tr>
+<tr class="separator:a5fcc9af73cc8d942da9f0f06f5b07b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Variant data type. </p>
-<p>Copyright (c) 2014-2019 National Instruments Corp.</p>
+<div class="textblock"><p>Close Reference. </p>
+<p>Copyright (c) 2019 National Instruments Corp.</p>
 <p>This software is subject to the terms described in the LICENSE.TXT file</p>
 <p>SDG </p>
 </div></div><!-- contents -->

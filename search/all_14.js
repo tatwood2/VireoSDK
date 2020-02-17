@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['the_20big_20picture',['The Big Picture',['../index.html',1,'']]],
   ['typemanager',['TypeManager',['../group___internals___type_manager.html',1,'']]],
   ['typemanagerinternals',['TypeManagerInternals',['../md_dox_Internals_TypeManagerInternals.html',1,'']]],
-  ['the_20type_20manager',['The Type Manager',['../md_dox_TypeManager.html',1,'']]],
+  ['typemanager',['TypeManager',['../md_dox_TypeManager.html',1,'']]],
   ['tdcodeclvflat_2ecpp',['TDCodecLVFlat.cpp',['../_t_d_codec_l_v_flat_8cpp.html',1,'']]],
   ['tdcodeclvflat_2eh',['TDCodecLVFlat.h',['../_t_d_codec_l_v_flat_8h.html',1,'']]],
   ['tdcodecvia_2ecpp',['TDCodecVia.cpp',['../_t_d_codec_via_8cpp.html',1,'']]],

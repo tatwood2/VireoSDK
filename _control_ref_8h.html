@@ -129,9 +129,6 @@ NIError&#160;</td><td class="memItemRight" valign="bottom"><b>Vireo::ControlRefe
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Control refnum management. </p>
-<p>Copyright (c) 2018 National Instruments Corp.</p>
-<p>This software is subject to the terms described in the LICENSE.TXT file</p>
-<p>SDG</p>
 <p>Control references are defined in the Locals: block of a VI (or inside an EventSpec), and define a named, statically-bound reference to a control on a specific VI.</p>
 <p>Example:</p>
 <p>define(MyVI dv(.VirtualInstrument ( Locals: c( e(ControlReference("controlID1") ctlref1) // static control ref linked to controlID1 -or- e(dv(ControlRefNum ControlReference("controlID2")) ctlref2) // more explicit syntax ) ...</p>

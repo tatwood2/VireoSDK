@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['ebnf_20grammar_20for_20via_20assembly',['EBNF grammar for VIA assembly',['../md_dox_ViaEBNF.html',1,'']]]
+  ['introarrayexamples',['IntroArrayExamples',['../md_dox_IntroArrayExamples.html',1,'']]],
+  ['introparallelclumpexamples',['IntroParallelClumpExamples',['../md_dox_IntroParallelClumpExamples.html',1,'']]],
+  ['introtypeexamples',['IntroTypeExamples',['../md_dox_IntroTypeExamples.html',1,'']]]
 ];

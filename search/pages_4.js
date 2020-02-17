@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['modulelayout',['ModuleLayout',['../md_dox_Internals_ModuleLayout.html',1,'']]]
+  ['typemanagerinternals',['TypeManagerInternals',['../md_dox_Internals_TypeManagerInternals.html',1,'']]],
+  ['typemanager',['TypeManager',['../md_dox_TypeManager.html',1,'']]]
 ];

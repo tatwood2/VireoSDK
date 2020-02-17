@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Vireo: Introduction to types and functions</title>
+<title>Vireo: IntroTypeExamples</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,10 +79,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">Introduction to types and functions </div>  </div>
+<div class="title">IntroTypeExamples </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h3>Example 2: Basic types and functions</h3>
+<div class="textblock"><h2>Introduction to types and functions</h2>
+<h3>Example 2: Basic types and functions</h3>
 <p>LabVIEW's VIs are written using a language called G; a language that is primarily strictly typed. As a result, the VI assembly can be strictly typed, as well. The following VIA file has two VIs; one does 32 bit integer multiplication, and the other uses IEEE754 double precision.</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;// Calculate.via</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;define (CalcUsingIntegers  dv(.VirtualInstrument  (</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    c(</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;        e(dv(Int32 6)  i)</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        e(dv(Int32 7)  j)</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        e(Int32  k)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    )</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    clump(1</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        MulInt32(i j k)</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        Print(k)</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    )</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;) ) )</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;define (CalcUsingDoubles  dv(.VirtualInstrument  (</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    c(</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        e(dv(Double 6)  x)</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        e(dv(Double 7)  y)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        e(Double  z)</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    )</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    clump(1</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        MulDouble(x y z)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        Print(z)</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   )</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;) ) )</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;enqueue (CalcUsingIntegers)</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;enqueue (CalcUsingDoubles)</div></div><!-- fragment --><p>Running the script yields the results of both vis. There is no guarantee one print will execute first. Though the characters will never be interleaved since the print operation is atomic.</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;$esh Calculate.via</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;42</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;42.000000</div></div><!-- fragment --><h3>Example 3: Generic functions</h3>

@@ -41,6 +41,5 @@ var searchData=
   ['executioncontext_2ecpp',['ExecutionContext.cpp',['../_execution_context_8cpp.html',1,'']]],
   ['executioncontext_2eh',['ExecutionContext.h',['../_execution_context_8h.html',1,'']]],
   ['executioncontextref',['ExecutionContextRef',['../_execution_context_8h.html#ae0a5a399bfd331094a7629d04a26e7b4',1,'Vireo']]],
-  ['executioncontext',['ExecutionContext',['../group___internals___execution_context.html',1,'']]],
-  ['ebnf_20grammar_20for_20via_20assembly',['EBNF grammar for VIA assembly',['../md_dox_ViaEBNF.html',1,'']]]
+  ['executioncontext',['ExecutionContext',['../group___internals___execution_context.html',1,'']]]
 ];
